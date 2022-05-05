@@ -1,0 +1,2514 @@
+fileFormatVersion: 2
+guid: d2e48b508225dc748b1a3fd2f878c298
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack_Light_Slash_01
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1335
+        width: 82
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0767a248e21d34ba5effdbcabc21d6
+      internalID: 1648483370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_02
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1335
+        width: 82
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59aed60184039049bca4f7e7ae2831f
+      internalID: 257361300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_03
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1335
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ec76ed2dd19534fb599cc679cca969
+      internalID: -672504099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_04
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1335
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb04e1c6ad67728439d2cab0963e6a08
+      internalID: 285200163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_05
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1335
+        width: 84
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c8c22d6ea152e4f9c8f01b20aea6aa
+      internalID: 1641348477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_06
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1335
+        width: 84
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc3c85d8302ada4da5a6f675e8e7cf4
+      internalID: 1573408382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_07
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1336
+        width: 142
+        height: 113
+      alignment: 9
+      pivot: {x: 0.35211268, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c432dd0d9357248be86ce8a8a097f1
+      internalID: 600267895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_08
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1336
+        width: 142
+        height: 113
+      alignment: 9
+      pivot: {x: 0.35211268, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169d1df2b9a38aa4daf06c7e72ecfef3
+      internalID: 811263504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_09
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1336
+        width: 105
+        height: 113
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6750930ddd1067459b9246f993732de
+      internalID: 56291790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_10
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1336
+        width: 141
+        height: 113
+      alignment: 9
+      pivot: {x: 0.35460994, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a344d94422c116e4e924de1ea448dcd2
+      internalID: 1710721788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1218
+        width: 105
+        height: 113
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b4f8ebf10120c439979b4698141aa3
+      internalID: 791775047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_12
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1218
+        width: 141
+        height: 113
+      alignment: 9
+      pivot: {x: 0.36879432, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8848ddbbcb5d7488261bdc82068be4
+      internalID: -1553920500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1218
+        width: 105
+        height: 113
+      alignment: 9
+      pivot: {x: 0.4952381, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d027fd7a4dec36f4988c8e765a2eaf03
+      internalID: 363884597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_14
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1218
+        width: 118
+        height: 113
+      alignment: 9
+      pivot: {x: 0.45762712, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f681a81ce78731945a4e693935f8666e
+      internalID: 1183459007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_15
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1218
+        width: 105
+        height: 113
+      alignment: 9
+      pivot: {x: 0.4952381, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d71c1f131efeb4ea7a40bee65aab3a
+      internalID: 1144765206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_16
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1218
+        width: 109
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5045872, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50e26001db928f44b6086d47bc38b9d
+      internalID: -216601349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_17
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1218
+        width: 86
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4db1d4adbf0213418b9693b836392af
+      internalID: 150690755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Light_Slash_18
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1217
+        width: 93
+        height: 113
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0369e6cfe92fdd44afe59e67365e7d0
+      internalID: 1678699418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1162
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25568de9fb0ef28478017b87ae25118b
+      internalID: -2049253004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_23
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1164
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a5dba1cfeb03a4b97974d02d2693ba
+      internalID: 297775827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1158
+        width: 65
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3892353b7a820284fbcbb8f34485b457
+      internalID: 1696420855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_25
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1157
+        width: 74
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151094265b373d545b207d449c37ffac
+      internalID: 1944674768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_26
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1153
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d924503554eb742b185091823b5f2a
+      internalID: -974893282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_27
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1170
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b629e0c7d8aac8f44a89f93e67c7c1f2
+      internalID: 588090800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_28
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1164
+        width: 51
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6888fd6a8c2231a48aae286c93e2e6e6
+      internalID: -190203241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_29
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1169
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d1e9195c82069459dedc0a2ba721df
+      internalID: -1977054161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_30
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1168
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764b75c2fd42b664dbfa38ad77f9528b
+      internalID: 170996834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1126
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac072570e8139349803ac944f95090d
+      internalID: 1457486250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1124
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f65c50939555f14da635167aaca8514
+      internalID: 1224488336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1126
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fa480d657ea8645a1a351707a9469d
+      internalID: -940660913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_34
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1126
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b00dc8f4a5e04a4c80ea7995753e85f
+      internalID: -1579254731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_35
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 995
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23eb86ff078d8f543bce84635122f838
+      internalID: -42637928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_36
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 997
+        width: 97
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed189b77b9fe70a4ebb4bb661097a0b0
+      internalID: -1945962278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_37
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 997
+        width: 128
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511b6ee267182ae4e9ccfdca3ba2d5eb
+      internalID: 1560915794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_38
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 997
+        width: 97
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f0e541ec8853346917b204eb0f447c
+      internalID: -366366431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_39
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 995
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92057bb264256f4c9f6358d86ed9b0a
+      internalID: 1249802409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_40
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 996
+        width: 93
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafee02eca19e004da83b3d480efc321
+      internalID: 1722751959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_01
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 854
+        width: 101
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5445545, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a789235f4e000f4296b586297308cd3
+      internalID: 1483223367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_02
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 854
+        width: 88
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37f075b44a8f734bbdf0ae14578d96b
+      internalID: -432501095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_03
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 854
+        width: 88
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea6f1cd2a3a56e47bf0b20557b299e0
+      internalID: 385066998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_04
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 855
+        width: 133
+        height: 92
+      alignment: 9
+      pivot: {x: 0.33082706, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb696857705411e4da176ea06ad4e92d
+      internalID: 239212115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_05
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 855
+        width: 133
+        height: 92
+      alignment: 9
+      pivot: {x: 0.33082706, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654e00f09dc8aad49b8b44dfcf9ce117
+      internalID: -523945594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_06
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 855
+        width: 105
+        height: 92
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf150eb5c132f24438eb1a76df9d731e
+      internalID: -668675831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_07
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 855
+        width: 132
+        height: 92
+      alignment: 9
+      pivot: {x: 0.36363637, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73948e817ee25a9479482a90156df416
+      internalID: 164135678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_08
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 855
+        width: 105
+        height: 92
+      alignment: 9
+      pivot: {x: 0.43809524, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f6bde974c7cdd48b050012b585b5c6
+      internalID: -63198580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_09
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 855
+        width: 133
+        height: 92
+      alignment: 9
+      pivot: {x: 0.36090225, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eab99737b32c9244994e9a5e353475d
+      internalID: 1123448483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 753
+        width: 105
+        height: 92
+      alignment: 9
+      pivot: {x: 0.43809524, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934619d64e56f6e419994bc7a1f9b613
+      internalID: 302668534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 753
+        width: 118
+        height: 92
+      alignment: 9
+      pivot: {x: 0.40677965, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e562a57b23a064409043b5ddebd88b7
+      internalID: 1331549738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 753
+        width: 105
+        height: 92
+      alignment: 9
+      pivot: {x: 0.43809524, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b87dcfbcb7f0542a7b3df65417011e
+      internalID: -1768095091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_13
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 753
+        width: 109
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4587156, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1c682674dce3f4592a85c0de535af9
+      internalID: -25127958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_14
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 753
+        width: 119
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5042017, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e241ccfc4e49748a4d0a470bf90f33
+      internalID: 990719022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 753
+        width: 122
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5081967, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bd716b4786bf94d93aa3a6af1b3eff
+      internalID: -1418162113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_16
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 753
+        width: 90
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77fa3db3b21ce4ca7fe344797144a2
+      internalID: 1414743460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouching_Attack_Light_Slash_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 753
+        width: 84
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574ac44738ebf3647af2a14b4c511647
+      internalID: 1337486669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_70
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 672
+        width: 65
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870e3f738020b3049a223e522ef5ea52
+      internalID: -689317305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_71
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 674
+        width: 74
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eec2d64d147bd342972e82e7d78341f
+      internalID: 1464121637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_72
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 673
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccb10e073dbf1548accd90da25b213a
+      internalID: 287077300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_73
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 673
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084cf7bc1159d8d43a384477872cbec6
+      internalID: -1503084258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_74
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 697
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52cfe1ed25713943b028774e3949aea
+      internalID: -618858562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_75
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 691
+        width: 51
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36612874a9b468646811026392668d90
+      internalID: 1497006042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_76
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 694
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f32e79fdfb5dc64581d0b55d7fb392a
+      internalID: -518444636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_77
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 691
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71e5d3fb4260d84f925dfa227f1406c
+      internalID: -222740147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_78
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 693
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2294c032a3e7440b6ee16a5d26f560
+      internalID: 1842943794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_79
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 635
+        width: 39
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f90b55af6df08488df6d4a6b899df2
+      internalID: 1553290562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_80
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 633
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32d7f70400efe745ba6fda32085a1f7
+      internalID: 1685586270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_81
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 635
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdb457443192a04d98cb4d4f4d07113
+      internalID: -1528267875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_82
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 635
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892ecc6c0f6833e42bd58c7e1be4a0fb
+      internalID: 801675747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_83
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 524
+        width: 101
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909eea52bfcfb824393b0db52ac79bf6
+      internalID: 838909379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_84
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 525
+        width: 97
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0bec4557bbcae4b8a2ae5c6d8cc216
+      internalID: 115184604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_85
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 525
+        width: 128
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651d5d86e95a95e4cad5f7988efe300e
+      internalID: -1875491948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_86
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 525
+        width: 97
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021e4603ecddef04d97ef4d29d7989d7
+      internalID: 739121366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_87
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 524
+        width: 101
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22422717a6d76c248a72e8f2edbb8db7
+      internalID: -463380218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_88
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 500
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b60689e777a24141b5ac9b5552e87e2
+      internalID: 169143935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_89
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 498
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7599fe2dddd71e340ab16a207afdbb56
+      internalID: 1059647265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_90
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 376
+        width: 85
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df59de86cbc6126468304d323a2e6702
+      internalID: -352710824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_91
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 375
+        width: 108
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301bec7d1e2897f4690cfbc7763c12c2
+      internalID: 402759519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_92
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 375
+        width: 133
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c40d6593a27f5c40b4000a18170c371
+      internalID: 1811786138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_93
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 375
+        width: 108
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cd3876f1bf7b343893ad30015e48ec
+      internalID: 1486932924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_94
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 376
+        width: 85
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4c5593ec7c2234fac9c071864d61e6
+      internalID: -144525397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_01
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 229
+        width: 85
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753192b82619fab46a0675984c3a0b05
+      internalID: -394717965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_02
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 229
+        width: 91
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82876fef948af494e91286fe81ad75ac
+      internalID: -198658641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_03
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 229
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516c667930aa3ab4f9a0ead441d62bb1
+      internalID: -2108028187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_04
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 229
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b841afb073010cc4299e6974d1e7df42
+      internalID: 658736223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_05
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 229
+        width: 135
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a2b111283ec91488124b74362c3ade
+      internalID: 1387439807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_06
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 229
+        width: 135
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b5d0f4780f98b448bcf9fa52f362de
+      internalID: -1638890622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_07
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 229
+        width: 105
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1e62270980296459ad69fee3b8339a
+      internalID: -384895876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_08
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 229
+        width: 136
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d32fafdc70c2a4d903afc3f9fa3165
+      internalID: -168181628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_110
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 269
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35572f9d6b39d994fb9dfedd94cdbc5a
+      internalID: -498017341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_112
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 269
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28613fbf544999d4fa3fa3faec0a205b
+      internalID: 2071922562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_09
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 105
+        width: 136
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35df9f98c7c74e14db1953863e2d9afc
+      internalID: 2010406953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 105
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be613698b8c623c478cb96631c24d13e
+      internalID: 364770998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_11
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 105
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2749a88a835a4d74cb67083b3d63226c
+      internalID: 1106117037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_12
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 105
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbae2e07dfeddcb469d992eb1fdfee7e
+      internalID: 1973353453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_13
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 105
+        width: 122
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466540ce169ec37498f4f6c9b0c2e99a
+      internalID: -1544163693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_14
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 105
+        width: 90
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664e428ffd42e134d8a6166ba49d119e
+      internalID: 324384314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_15
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 105
+        width: 96
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3f07dc89917964c84f239f739f115c
+      internalID: -943028510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_Light_Slash_16
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 105
+        width: 99
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3729992a19cd249aaa8b538075d6b5
+      internalID: -1039773543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_123
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 40
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59358a9aeef8ee43bbfc4f2b5d55c9c
+      internalID: -617691788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_124
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 37
+        width: 65
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553defb855bd27540afc03ab66a5a4f7
+      internalID: -2134522014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_125
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 41
+        width: 74
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bc4b6248fe0d94ab04d79e0894b3a0
+      internalID: -284172213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_126
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 34
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df37c2b39088a1e4585c86924debd10e
+      internalID: 1439801285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_127
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 34
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b39647c1b372743ab4ac80fdd9f2f6
+      internalID: -799162853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_128
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 58
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac87b12702082ca45bddcf7e0c7e15e4
+      internalID: -978147261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_129
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 52
+        width: 51
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1c62ccc775bd642bf9e2527e0b1cd8
+      internalID: 1136399144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_130
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 56
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54818d5f074a0fa43acc2e5f76630866
+      internalID: -1913932447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_131
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 55
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcd10ded653343499046470c4d5d2f8
+      internalID: 894453341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_4_132
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 55
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27064ba90b646174e87d8272eb0c12ae
+      internalID: -185581774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 15ef521393f610945b0fc96eb18bd776
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Player1_Sheet_4_25: 1944674768
+      Player1_Sheet_4_40: 1722751959
+      Player1_Sheet_4_39: 1249802409
+      Attack_Light_Slash_07: 600267895
+      Player1_Sheet_4_113: 349177923
+      Player1_Sheet_4_95: 772669174
+      Crouching_Attack_Light_Slash_10: 302668534
+      Player1_Sheet_4_132: -185581774
+      Player1_Sheet_4_38: -366366431
+      Player1_Sheet_4_63: -1905182472
+      Attack_Light_Slash_14: 1183459007
+      Jump_Attack_Light_Slash_02: -198658641
+      Jump_Attack_Light_Slash_03: -2108028187
+      Crouching_Attack_Light_Slash_08: -63198580
+      Player1_Sheet_4_22: -2049253004
+      Attack_Light_Slash_13: 363884597
+      Jump_Attack_Light_Slash_07: -384895876
+      Attack_Light_Slash_11: 791775047
+      Player1_Sheet_4_74: -618858562
+      Player1_Sheet_4_24: 1696420855
+      Attack_Light_Slash_16: -216601349
+      Crouching_Attack_Light_Slash_01: 1483223367
+      Player1_Sheet_4_60: 1317846896
+      Player1_Sheet_4_84: 115184604
+      Player1_Sheet_4_70: -689317305
+      Player1_Sheet_4_91: 402759519
+      Crouching_Attack_Light_Slash_14: 990719022
+      Crouching_Attack_Light_Slash_05: -523945594
+      Jump_Attack_Light_Slash_04: 658736223
+      Crouching_Attack_Light_Slash_13: -25127958
+      Player1_Sheet_4_88: 169143935
+      Player1_Sheet_4_92: 1811786138
+      Player1_Sheet_4_31: 1457486250
+      Attack_Light_Slash_10: 1710721788
+      Jump_Attack_Light_Slash_15: -943028510
+      Player1_Sheet_4_126: 1439801285
+      Player1_Sheet_4_85: -1875491948
+      Player1_Sheet_4_89: 1059647265
+      Player1_Sheet_4_125: -284172213
+      Crouching_Attack_Light_Slash_17: 1337486669
+      Player1_Sheet_4_67: 1457174915
+      Attack_Light_Slash_02: 257361300
+      Player1_Sheet_4_83: 838909379
+      Player1_Sheet_4_77: -222740147
+      Player1_Sheet_4_112: 2071922562
+      Player1_Sheet_4_72: 287077300
+      Player1_Sheet_4_111: -1234729440
+      Player1_Sheet_4_29: -1977054161
+      Crouching_Attack_Light_Slash_07: 164135678
+      Player1_Sheet_4_41: -1365485734
+      Player1_Sheet_4_75: 1497006042
+      Player1_Sheet_4_79: 1553290562
+      Player1_Sheet_4_110: -498017341
+      Player1_Sheet_4_33: -940660913
+      Player1_Sheet_4_61: -216309900
+      Player1_Sheet_4_81: -1528267875
+      Attack_Light_Slash_08: 811263504
+      Player1_Sheet_4_42: -1018934824
+      Player1_Sheet_4_65: 1853594958
+      Player1_Sheet_4_78: 1842943794
+      Player1_Sheet_4_123: -617691788
+      Player1_Sheet_4_66: 1523972234
+      Player1_Sheet_4_71: 1464121637
+      Player1_Sheet_4_105: -1011715254
+      Player1_Sheet_4_2: 1556476549
+      Player1_Sheet_4_34: -1579254731
+      Player1_Sheet_4_13: 517586134
+      Player1_Sheet_4_35: -42637928
+      Player1_Sheet_4_106: 1546928646
+      Crouching_Attack_Light_Slash_04: 239212115
+      Crouching_Attack_Light_Slash_12: -1768095091
+      Player1_Sheet_4_37: 1560915794
+      Player1_Sheet_4_23: 297775827
+      Attack_Light_Slash_12: -1553920500
+      Player1_Sheet_4_109: -1589378861
+      Player1_Sheet_4_62: -1378002420
+      Player1_Sheet_4_76: -518444636
+      Attack_Light_Slash_04: 285200163
+      Player1_Sheet_4_26: -974893282
+      Player1_Sheet_4_27: 588090800
+      Attack_Light_Slash_06: 1573408382
+      Player1_Sheet_4_86: 739121366
+      Player1_Sheet_4_93: 1486932924
+      Player1_Sheet_4_0: 306232367
+      Crouching_Attack_Light_Slash_15: -1418162113
+      Player1_Sheet_4_124: -2134522014
+      Jump_Attack_Light_Slash_10: 364770998
+      Player1_Sheet_4_68: -520670720
+      Jump_Attack_Light_Slash_01: -394717965
+      Player1_Sheet_4_69: -1044859870
+      Jump_Attack_Light_Slash_13: -1544163693
+      Player1_Sheet_4_82: 801675747
+      Attack_Light_Slash_03: -672504099
+      Crouching_Attack_Light_Slash_09: 1123448483
+      Attack_Light_Slash_05: 1641348477
+      Player1_Sheet_4_107: 1962813063
+      Player1_Sheet_4_108: -1512986591
+      Player1_Sheet_4_129: 1136399144
+      Jump_Attack_Light_Slash_08: -168181628
+      Jump_Attack_Light_Slash_16: -1039773543
+      Player1_Sheet_4_64: 1895830573
+      Jump_Attack_Light_Slash_05: 1387439807
+      Player1_Sheet_4_87: -463380218
+      Attack_Light_Slash_01: 1648483370
+      Player1_Sheet_4_28: -190203241
+      Jump_Attack_Light_Slash_06: -1638890622
+      Crouching_Attack_Light_Slash_02: -432501095
+      Attack_Light_Slash_17: 150690755
+      Attack_Light_Slash_18: 1678699418
+      Player1_Sheet_4_90: -352710824
+      Player1_Sheet_4_130: -1913932447
+      Attack_Light_Slash_09: 56291790
+      Player1_Sheet_4_73: -1503084258
+      Player1_Sheet_4_94: -144525397
+      Jump_Attack_Light_Slash_12: 1973353453
+      Crouching_Attack_Light_Slash_11: 1331549738
+      Player1_Sheet_4_32: 1224488336
+      Player1_Sheet_4_30: 170996834
+      Player1_Sheet_4_127: -799162853
+      Player1_Sheet_4_114: -160616617
+      Player1_Sheet_4_131: 894453341
+      Jump_Attack_Light_Slash_11: 1106117037
+      Player1_Sheet_4_96: 822277915
+      Player1_Sheet_4_128: -978147261
+      Jump_Attack_Light_Slash_14: 324384314
+      Crouching_Attack_Light_Slash_16: 1414743460
+      Crouching_Attack_Light_Slash_06: -668675831
+      Player1_Sheet_4_1: 922781204
+      Attack_Light_Slash_15: 1144765206
+      Player1_Sheet_4_36: -1945962278
+      Player1_Sheet_4_80: 1685586270
+      Crouching_Attack_Light_Slash_03: 385066998
+      Jump_Attack_Light_Slash_09: 2010406953
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

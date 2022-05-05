@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 0a2c6dce918fdb14ebe164bfda150163
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player1_Backdash_02
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 621
+        width: 62
+        height: 169
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931abcb30e476364c985a3f60f4ad895
+      internalID: 734701897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Forward_01
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 658
+        width: 93
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb9184edd15850459eb298c65ff8cba
+      internalID: 1904280849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Forward_02
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 661
+        width: 100
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ddb72bc0da8e648b03c9135d27658b
+      internalID: 1912726907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Forward_03
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 679
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8799939a379ea439c6368758190db9
+      internalID: -1125124069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Backdash_01
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 617
+        width: 62
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dfae3edb37b884f85a6b0cc934206e
+      internalID: -1895752897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Ledge_Grab01
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 634
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1331c26feb3267469ac7ab37b781a55
+      internalID: 1719944229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2_27
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 654
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81225884fc1e873449325d08938821eb
+      internalID: -1422832470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Neutral_01
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 398
+        width: 75
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9d06b5788fe2942b280391c5c9d0b8
+      internalID: 1238132436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Neutral_02
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 399
+        width: 91
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2439505c61cb1e4fa6f9b2eed9cf3a2
+      internalID: -1804323365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Neutral_03
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 417
+        width: 91
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aff9be8c01f62e43b6e319fab3906d4
+      internalID: -2044649156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Neutral_04
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 434
+        width: 83
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fefb1131e951754b9d338b846bf0c14
+      internalID: -943237462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Down_01
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 446
+        width: 99
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cf13c088fa06f4680bfe043d76dc4a
+      internalID: 249504933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Down_02
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 418
+        width: 89
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cdc83c464060f499dbacb04e704846
+      internalID: 2028760494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Down_03
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 396
+        width: 81
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05637d3ce77ed8144bce1402af22effb
+      internalID: -1274817216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Down_04
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 392
+        width: 71
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b1443e58f94104397ccf61c8d5dbeb
+      internalID: 985375993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Chrouching_01
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 206
+        width: 77
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f7ad2072d25f94789779499a30e36e
+      internalID: 1649678026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Chrouching_02
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 204
+        width: 81
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19d71d281473224396c44df675c69a2
+      internalID: -1266294531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Chrouching_03
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 204
+        width: 90
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d467e3d45dbbc41a699b716b0a831e
+      internalID: 1025951628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Landing_01
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 204
+        width: 84
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92959e9dd956448479f789bc251103c4
+      internalID: 1824524321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Landing_02
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 204
+        width: 87
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6265a599d615a4d8927997e0b17515
+      internalID: 1729016121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Ledge_Climb_01
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 202
+        width: 133
+        height: 60
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb53f4752fa995147813159152393da9
+      internalID: -2075176126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Ledge_Climb_02
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 197
+        width: 111
+        height: 65
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a313e503f1a5c344889cf8bd68fcb04a
+      internalID: -1102703605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Ledge_Climb_03
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 198
+        width: 98
+        height: 89
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86dafd4e28f26f49901c6a9ee0e8cea
+      internalID: 941180478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Ledge_Climb_04
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 208
+        width: 78
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bffcafca53f46742832b8ebe2c26675
+      internalID: -324095149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2_71
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 174
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c98700c8f4dec746b971ed989124e11
+      internalID: 1082679738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Running_(endframe)_05
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 22
+        width: 84
+        height: 136
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a0541ed168be04e80efa578fa2296d
+      internalID: -1303194879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Running_01
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 26
+        width: 114
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597e52a4400eb3444a1c4c1b24c7548e
+      internalID: 1404284275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Running_02
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 27
+        width: 130
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd681fe923ace994d8aa603764c47877
+      internalID: 823022172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Running_03
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 28
+        width: 123
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9ca8f3c77e24d44bcc2afd08422c0f
+      internalID: -1122934511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Running_04
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 25
+        width: 116
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbf1c617f416b048a3657cdbe5e4219
+      internalID: 1922687542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2_81
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 22
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07987558144d814abb569615f532fb8
+      internalID: 32624552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2_82
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 22
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee18423eb8906d45a70e6ee4ce8f38d
+      internalID: 652409042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Jump_Forward_03(Loop)
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 679
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e5b68ccd6e73946a88f266d3606ab6
+      internalID: -825701460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Player1_Sheet_2_6: 1937770817
+      Player1_Sheet_2_1: 449933620
+      Player1_Jump_Down_02: 2028760494
+      Player1_Jump_Forward_02: 1912726907
+      Player1_Backdash_01: -1895752897
+      Player1_Sheet_2_76: 1593430885
+      Player1_Sheet_2_42: -1134640393
+      Player1_Sheet_2_74: 1643178430
+      Player1_Ledge_Climb_03: 941180478
+      Player1_Sheet_2_15: -1340372490
+      Player1_Sheet_2_10: 1803057563
+      Player1_Sheet_2_11: 1977581278
+      Player1_Running_04: 1922687542
+      Player1_Sheet_2_35: -1831211154
+      Player1_Sheet_2_2: -2141948298
+      Player1_Sheet_2_18: -469646846
+      Player1_Sheet_2_37: 347966210
+      Player1_Sheet_2_71: 1082679738
+      Player1_Sheet_2_27: -1422832470
+      Player1_Sheet_2_33: 322922155
+      Player1_Sheet_2_47: -161567602
+      Player1_Jump_Down_03: -1274817216
+      Player1_Sheet_2_44: 932222941
+      Player1_Running_02: 823022172
+      Player1_Sheet_2_20: 88487794
+      Player1_Sheet_2_41: -1475745571
+      Player1_Sheet_2_29: 1508899060
+      Player1_Sheet_2_31: 126224979
+      Player1_Running_01: 1404284275
+      Player1_Sheet_2_28: -2106538833
+      Player1_Sheet_2_58: -697138002
+      Player1_Sheet_2_45: -943954620
+      Player1_Sheet_2_40: 2023884576
+      Player1_Sheet_2_69: -1420324047
+      Player1_Sheet_2_75: -2062361600
+      Player1_Sheet_2_36: -1927139288
+      Player1_Jump_Neutral_03: -2044649156
+      Player1_Sheet_2_12: 1013708186
+      Player1_Running_03: -1122934511
+      Player1_Sheet_2_9: 1725433971
+      Player1_Sheet_2_39: -181479690
+      Player1_Jump_Neutral_01: 1238132436
+      Player1_Sheet_2_8: 1404568108
+      Player1_Jump_Neutral_04: -943237462
+      Player1_Sheet_2_48: -222650354
+      Player1_Jump_Forward_03: -1125124069
+      Player1_Sheet_2_30: -1288484901
+      Player1_Sheet_2_19: -45060078
+      Player1_Sheet_2_38: -46569557
+      Player1_Sheet_2_82: 652409042
+      Player1_Running_(endframe)_05: -1303194879
+      Player1_Jump_Landing_01: 1824524321
+      Player1_Jump_Forward_03(Loop): 658041502
+      Player1_Sheet_2_16: -1025012371
+      Player1_Jump_Forward_01: 1904280849
+      Player1_Ledge_Climb_04: -324095149
+      Player1_Sheet_2_7: 2069879537
+      Player1_Sheet_2_73: 1826473638
+      Player1_Sheet_2_13: -1385139001
+      Player1_Sheet_2_32: -285190710
+      Player1_Ledge_Grab01: 1719944229
+      Player1_Sheet_2_21: -169786847
+      Player1_Sheet_2_34: -2005881572
+      Player1_Sheet_2_57: 405296971
+      Player1_Sheet_2_70: 486173582
+      Player1_Ledge_Climb_01: -2075176126
+      Player1_Sheet_2_3: 1578631105
+      Player1_Sheet_2_5: -1112803118
+      Player1_Sheet_2_46: -893515543
+      Player1_Jump_Neutral_02: -1804323365
+      Player1_Chrouching_01: 1649678026
+      Player1_Jump_Landing_02: 1729016121
+      Player1_Jump_Down_04: 985375993
+      Player1_Sheet_2_17: 762320490
+      Player1_Chrouching_03: 1025951628
+      Player1_Sheet_2_43: -2113360728
+      Player1_Sheet_2_59: 742725139
+      Player1_Chrouching_02: -1266294531
+      Player1_Ledge_Climb_02: -1102703605
+      Player1_Jump_Down_01: 249504933
+      Player1_Backdash_02: 734701897
+      Player1_Sheet_2_4: 874829893
+      Player1_Sheet_2_81: 32624552
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

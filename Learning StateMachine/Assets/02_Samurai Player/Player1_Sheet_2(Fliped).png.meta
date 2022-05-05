@@ -1,0 +1,1982 @@
+fileFormatVersion: 2
+guid: 4410fde9abca3c341a1f490b6cd2383a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_0
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 831
+        width: 167
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c35ed07a03d7be459c92d1fb9cc9286
+      internalID: 1537249075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 810
+        width: 58
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b689e4827408f414bb598f5d0d84cd40
+      internalID: -999678009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 810
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6bce251924f8943af596f9ad603147
+      internalID: 1546858093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 810
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d2dfb79b357f14e88dda5003fbccc6
+      internalID: 1153685673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 808
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f42bbfd72e2fb4bacf24e450d028fd
+      internalID: -1419651466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_5
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 808
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0528e06a230c14b956c050025f8a94
+      internalID: -126040433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_6
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 808
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae0dcb27aa44b64fb18eee62f0c97fa
+      internalID: -1765001882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_7
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 810
+        width: 58
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8082e216f7389b346bdc65cffec9050e
+      internalID: 1287442198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_8
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 808
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f746922f441e4f4d9e7fa58fb31764a
+      internalID: -1350609460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_9
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 808
+        width: 59
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58b58b9cdaf5444b8164f05f7edcae2
+      internalID: -1553214589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_10
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 808
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca59337306dc6244daf0ed3dcce56270
+      internalID: -2116056383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_11
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 808
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16311b3076b44a42af6068fc599f3e5
+      internalID: -1577710831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_12
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 808
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d78ae4ca00bf6a41a5a2e754951b7a3
+      internalID: -387039544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_13
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 810
+        width: 50
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550615c3bfadb27439b969c9b897567e
+      internalID: 714429174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 794
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affe2accce7a2664b886e63a68e3b99a
+      internalID: -39531537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_15
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 796
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166e4b639ee5791419e30046fd2047a0
+      internalID: -1562321986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_16
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 794
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8888f76aed2c57a429818d9a1490ff8f
+      internalID: 1205375613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_17
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 796
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3450fe152b6df784dbfca26745dac45e
+      internalID: -161826776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_18
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 796
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c98e09471caf3a428db2676ca8b39a7
+      internalID: -1828812819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_19
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 796
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73afca2d0011ab04ca01f59a2f84685c
+      internalID: -1512066315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_20
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 796
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d147c51cecfac49bc3e9624aa40835
+      internalID: 1652708040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_21
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 628
+        width: 62
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbac61286a78e34428a90f9ae0c88aff
+      internalID: 908634414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_WallSlide_02
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 577
+        width: 76
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39181286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f892dc50d0613a4d8522dbb6cc6f561
+      internalID: -1520533593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_23
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 661
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c00979c805c3540abfab1162f4d1f9
+      internalID: 1587287386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_24
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 641
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27330840cc660bc4d9b597ccfa53c8d7
+      internalID: -1777474152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_25
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 624
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed81016914eaea54db9815ba844fe1f3
+      internalID: 109737830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_26
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 686
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09581bb1a357f39418e8f1ce9ffaaed6
+      internalID: 126890238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_27
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 668
+        width: 100
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6679c9aaef42495408350fa9dec6596e
+      internalID: 105430077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_28
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 665
+        width: 93
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20a175b87eb1374ebc083c7b99c18fa
+      internalID: 681021180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_29
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 668
+        width: 86
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff8e0d672703424181822888a3ac4b1
+      internalID: 1091476032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_30
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 655
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022347daff3885a4591f3c3230bb3369
+      internalID: 1252048397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_31
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 655
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6eefc325d7a1e45a1fd8c95ee0477c
+      internalID: -854033859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_32
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 657
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d340c8ece3b4c644bc189b613a555ec
+      internalID: 1877457042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_33
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 657
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa558bfaf84b70445aae73253d256b4c
+      internalID: -1213662250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_34
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 643
+        width: 86
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83193787b463f14c8c9cddbcd896882
+      internalID: -685421420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_35
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 630
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1452b530b87904b903f1494ad5662c
+      internalID: -1995545587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_36
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 630
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c493b44eba5b2f94593ccfbe6c200df5
+      internalID: 1709335616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_37
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 632
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071d5e29997a0a14babb94b16342c2de
+      internalID: 1546392336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_38
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 632
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e735389c655914997a6bd620a70763
+      internalID: -1397084010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_39
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 585
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b673d8b9f6aaa78499808334198811e2
+      internalID: -1048199596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_40
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 585
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08696ac2748618248b8e1d6505f9985b
+      internalID: -880897769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_41
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 587
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dac013613b8a4644b02fbec37ac80d4
+      internalID: -606412607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_42
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 585
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a9a7727e8963e4093553caed442b03
+      internalID: -2121368973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_43
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 587
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1862318e7bcf4024aad486f26748e1f7
+      internalID: 1015756174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_44
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 585
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba768e866c7d57a46ba6d30f62f1c7f1
+      internalID: 998604065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_45
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 587
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57560c8e36ef2149ae2d870a4467c93
+      internalID: -446368841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_46
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 585
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea66f9e25bfce604d86b8316e1523354
+      internalID: 1674148764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_47
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 585
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98697acc23f8c244dab401c211ad16a0
+      internalID: -526652369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_48
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 585
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c18808112100e4c82c60b2b723539a
+      internalID: -984489636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_WallSlide_03
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 399
+        width: 71
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38728324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb6ece5d57ffe7488d63b0a80380e14
+      internalID: 861166815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_52
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 425
+        width: 89
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7519390bb989669498f6dbf8ff21366b
+      internalID: -1995805286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_53
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 453
+        width: 99
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca99a9890d9884458abc4f42b9bdaa1
+      internalID: 1892368824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_54
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 441
+        width: 83
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39fbf51529250f418d4b931f6899645
+      internalID: -1028309480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_WallSlide_01
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 405
+        width: 75
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39181286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df12deb463f2ca04bb12ee71c48661c3
+      internalID: 634935028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_58
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 361
+        width: 474
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9f87e62d9208a4d89863827d8193ac
+      internalID: 2047161634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_60
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 220
+        width: 292
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330e9fea3bbfa0842ac00f9196f32823
+      internalID: -446084073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_61
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 215
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b15f94a8895e724da11c5e4ebed8858
+      internalID: -1203475741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_62
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 205
+        width: 98
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4444f5b20df64c4478bdc0d40654085d
+      internalID: 2113223511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_63
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 204
+        width: 111
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8040f21035fe3c542a43370ec288c6d1
+      internalID: 744345749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_64
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 209
+        width: 133
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a744f3254cf1d54db9b331c2ad546b8
+      internalID: -1858955651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_65
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 211
+        width: 87
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02552c734c5850145bad5fc2f432177f
+      internalID: -1183377694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_66
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 211
+        width: 84
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9c83b2d4d65474a99a51ae228d832d
+      internalID: -959977629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_67
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 211
+        width: 90
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d62f880b123e8c4daf84043829be92b
+      internalID: 145302418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_68
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 211
+        width: 81
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b488bc729c0af347bfd5943a86379b4
+      internalID: 1364114566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_69
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 213
+        width: 77
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc74c29318111648a74e0ae40b75aad
+      internalID: -1401251474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_70
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 179
+        width: 243
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f713e3b7b342f84cb5cb8f546357d17
+      internalID: -208717894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_71
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 181
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6c81b67bd442242ae5f9212f2d7320
+      internalID: -1406489066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_72
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 55
+        width: 613
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb94a2b4f56ece479f7167a1c62e663
+      internalID: 803766780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_73
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 147
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a95a6edceaafd842be658409e842826
+      internalID: 2108675463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_74
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 149
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753f49e1cb608b4498c25bb63156b286
+      internalID: -58758679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_75
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 149
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7690f1b56c4d394c8d480cc9c112cb0
+      internalID: 955329292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_76
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 29
+        width: 84
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4519ebc1bc2dfbd4fac154f320d07d90
+      internalID: -1313180546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_77
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 135
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a782f2790099e49a41a549eda81ff0
+      internalID: 1721274179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_78
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 29
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966818307371a1d4e8f1e6bde1281b75
+      internalID: 1954892410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_79
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 29
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952291e4dae5d7647b45d981a9a5d375
+      internalID: -1292558039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_80
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 33
+        width: 116
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03f29d25ebd09e45a49ccd151454a52
+      internalID: 744139534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_81
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 35
+        width: 123
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cc8396debccf3489c1012ea596d4f1
+      internalID: 1409903490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_82
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 33
+        width: 130
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2336296cf77cb2e42a915a1182869c4f
+      internalID: 1482327967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_49
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 587
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f5722c889d7084c8c56d6552ffc8ad
+      internalID: 1856194048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_50
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 406
+        width: 81
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58fd0eb90f839545ab159675f95f589
+      internalID: 632506788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_55
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 422
+        width: 91
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00dd1d6c687cd64b9751cc7aaa5c3c9
+      internalID: -203015482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_WallGrab_01
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 406
+        width: 91
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac1f69ff6cc978459e9b5d64ec63c7c
+      internalID: 956446208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_59
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 220
+        width: 232
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffad8ffdf3521de45bce4feb872dde4a
+      internalID: 1086146947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_Sheet_2(Fliped)_83
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 33
+        width: 114
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c52e6d049e38c4fbc4285fb28e910d
+      internalID: 1724277056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Player1_Sheet_2(Fliped)_65: -1183377694
+      Player1_Sheet_2(Fliped)_69: -1401251474
+      Player1_Sheet_2(Fliped)_7: 1287442198
+      Player1_Sheet_2(Fliped)_50: 632506788
+      Player1_Sheet_2(Fliped)_52: -1995805286
+      Player1_Sheet_2(Fliped)_17: -161826776
+      Player1_Sheet_2(Fliped)_21: 908634414
+      Player1_Sheet_2(Fliped)_37: 1546392336
+      Player1_Sheet_2(Fliped)_8: -1350609460
+      Player1_Sheet_2(Fliped)_73: 2108675463
+      Player1_Sheet_2(Fliped)_80: 744139534
+      Player1_Sheet_2(Fliped)_25: 109737830
+      Player1_Sheet_2(Fliped)_78: 1954892410
+      Player1_Sheet_2(Fliped)_6: -1765001882
+      Player1_WallSlide_02: -1520533593
+      Player1_Sheet_2(Fliped)_49: 1856194048
+      Player1_Sheet_2(Fliped)_10: -2116056383
+      Player1_Sheet_2(Fliped)_33: -1213662250
+      Player1_Sheet_2(Fliped)_46: 1674148764
+      Player1_Sheet_2(Fliped)_35: -1995545587
+      Player1_Sheet_2(Fliped)_82: 1482327967
+      Player1_Sheet_2(Fliped)_39: -1048199596
+      Player1_Sheet_2(Fliped)_20: 1652708040
+      Player1_Sheet_2(Fliped)_53: 1892368824
+      Player1_Sheet_2(Fliped)_83: 1724277056
+      Player1_Sheet_2(Fliped)_55: -203015482
+      Player1_Sheet_2(Fliped)_60: -446084073
+      Player1_Sheet_2(Fliped)_58: 2047161634
+      Player1_Sheet_2(Fliped)_31: -854033859
+      Player1_Sheet_2(Fliped)_66: -959977629
+      Player1_Sheet_2(Fliped)_29: 1091476032
+      Player1_Sheet_2(Fliped)_42: -2121368973
+      Player1_Sheet_2(Fliped)_59: 1086146947
+      Player1_WallSlide_03: 861166815
+      Player1_Sheet_2(Fliped)_72: 803766780
+      Player1_Sheet_2(Fliped)_12: -387039544
+      Player1_Sheet_2(Fliped)_71: -1406489066
+      Player1_Sheet_2(Fliped)_18: -1828812819
+      Player1_Sheet_2(Fliped)_34: -685421420
+      Player1_Sheet_2(Fliped)_48: -984489636
+      Player1_Sheet_2(Fliped)_11: -1577710831
+      Player1_WallGrab_01: 956446208
+      Player1_Sheet_2(Fliped)_62: 2113223511
+      Player1_Sheet_2(Fliped)_38: -1397084010
+      Player1_Sheet_2(Fliped)_47: -526652369
+      Player1_Sheet_2(Fliped)_40: -880897769
+      Player1_Sheet_2(Fliped)_24: -1777474152
+      Player1_Sheet_2(Fliped)_68: 1364114566
+      Player1_Sheet_2(Fliped)_64: -1858955651
+      Player1_Sheet_2(Fliped)_15: -1562321986
+      Player1_Sheet_2(Fliped)_23: 1587287386
+      Player1_Sheet_2(Fliped)_81: 1409903490
+      Player1_Sheet_2(Fliped)_75: 955329292
+      Player1_Sheet_2(Fliped)_4: -1419651466
+      Player1_Sheet_2(Fliped)_9: -1553214589
+      Player1_Sheet_2(Fliped)_16: 1205375613
+      Player1_Sheet_2(Fliped)_76: -1313180546
+      Player1_Sheet_2(Fliped)_3: 1153685673
+      Player1_Sheet_2(Fliped)_13: 714429174
+      Player1_Sheet_2(Fliped)_27: 105430077
+      Player1_Sheet_2(Fliped)_79: -1292558039
+      Player1_Sheet_2(Fliped)_67: 145302418
+      Player1_Sheet_2(Fliped)_0: 1537249075
+      Player1_Sheet_2(Fliped)_5: -126040433
+      Player1_Sheet_2(Fliped)_45: -446368841
+      Player1_WallSlide_01: 634935028
+      Player1_Sheet_2(Fliped)_61: -1203475741
+      Player1_Sheet_2(Fliped)_19: -1512066315
+      Player1_Sheet_2(Fliped)_28: 681021180
+      Player1_Sheet_2(Fliped)_36: 1709335616
+      Player1_Sheet_2(Fliped)_44: 998604065
+      Player1_Sheet_2(Fliped)_74: -58758679
+      Player1_Sheet_2(Fliped)_77: 1721274179
+      Player1_Sheet_2(Fliped)_14: -39531537
+      Player1_Sheet_2(Fliped)_41: -606412607
+      Player1_Sheet_2(Fliped)_26: 126890238
+      Player1_Sheet_2(Fliped)_32: 1877457042
+      Player1_Sheet_2(Fliped)_70: -208717894
+      Player1_Sheet_2(Fliped)_2: 1546858093
+      Player1_Sheet_2(Fliped)_43: 1015756174
+      Player1_Sheet_2(Fliped)_1: -999678009
+      Player1_Sheet_2(Fliped)_30: 1252048397
+      Player1_Sheet_2(Fliped)_54: -1028309480
+      Player1_Sheet_2(Fliped)_63: 744345749
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
