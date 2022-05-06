@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerRunState : PlayerGroundMovementState
+public class PlayerLandState : PlayerGroundedState
 {
-    public PlayerRunState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
+    public PlayerLandState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
     }
 
@@ -27,17 +27,13 @@ public class PlayerRunState : PlayerGroundMovementState
     {
         base.LogicUpdate();
 
-        player.SetVelocityX(playerData.runVelocity * xInput);
-
-        player.CheckIfShouldFlip(xInput);
-
-        //if (xInput == 0)
-        //{
-        //    stateMachine.ChangeState(player.IdleState);
-        //}
-        if (!sprintInput)
+        if(xInput !=0)
         {
             stateMachine.ChangeState(player.WalkState);
+        }
+        else if(isAnimationFinished)
+        {
+            stateMachine.ChangeState(player.IdleState);
         }
     }
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerBackwardsState : PlayerGroundedState
+public class PlayerBackwardsState : PlayerGroundMovementState
 {
     public PlayerBackwardsState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
@@ -31,21 +31,14 @@ public class PlayerBackwardsState : PlayerGroundedState
 
         if (!sprintInput)
         {
-            if (xInput == 0)
-            {
-                stateMachine.ChangeState(player.IdleState);
-            }
-            if (xInput != 0 && xInput == player.FacingDirection)
+            if (xInput == player.FacingDirection)
             {
                 stateMachine.ChangeState(player.WalkState);
             }
         }
         else if(sprintInput)
-        {
-            if(xInput !=0)
-            {
-                stateMachine.ChangeState(player.RunState);
-            }
+        {          
+            stateMachine.ChangeState(player.RunState);   
         }
     }
 

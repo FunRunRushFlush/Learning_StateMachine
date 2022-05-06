@@ -12,8 +12,22 @@ public class PlayerInputHandler : MonoBehaviour
 
 
     public bool SprintInput { get; private set; }
+    public bool AttackInput { get; private set; }
+    public bool DefendInput { get; private set; }
 
 
+    public bool JumpInput { get; private set; }
+    public bool JumpInputStop { get; private set; }
+
+    public float inputHoldTime = 0.2f; //how long the Jump input will be true
+    private float jumpInputStartTime;
+
+
+    private void Update()
+    {
+        CheckJumpInputHoldTime();
+        //CheckDashInputHoldTime();
+    }
 
     public void OnMoveInput(InputAction.CallbackContext context)
     {
@@ -24,23 +38,50 @@ public class PlayerInputHandler : MonoBehaviour
 
         NormMovementInput = new Vector2(NormInputX, NormInputY);
         //Debug.Log(RawMovementInput);
-        Debug.Log(NormMovementInput);
+
     }
+    //Ich hätte [OnJumpInput()] wie beim Sprit Button gemacht aber Bardent meint es könnte Probleme geben, wenn die StateMachine nicht so schnell in JumpState swichten könnte
     public void OnJumpInput(InputAction.CallbackContext context)
     {
         if (context.started)
         {
-            Debug.Log("Jump Input started");
+            JumpInput = true;
+            JumpInputStop = false;
+            jumpInputStartTime = Time.time;
+            Debug.Log("Jump Input");
         }
-        if (context.performed)
-        {
-            Debug.Log("Jump Input performed");
-        }
+
         if (context.canceled)
         {
-            Debug.Log("Jump Input canceled");
+            JumpInputStop = true;
         }
     }
+
+    public void OnAttackInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            AttackInput = true;
+        }
+
+        if (context.canceled)
+        {
+            AttackInput = false;
+        }
+    }
+    public void OnDefendInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            DefendInput = true;
+        }
+
+        if (context.canceled)
+        {
+            DefendInput = false;
+        }
+    }
+    public void UseJumpInput() => JumpInput = false;
     public void OnSprintInput(InputAction.CallbackContext context)
     {
         if (context.started)
@@ -53,4 +94,13 @@ public class PlayerInputHandler : MonoBehaviour
             SprintInput = false;
         }
     }
+
+    private void CheckJumpInputHoldTime()
+    {
+        if (Time.time >= jumpInputStartTime + inputHoldTime)
+        {
+            JumpInput = false;
+        }
+    }
+
 }

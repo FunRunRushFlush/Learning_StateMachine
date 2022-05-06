@@ -5,20 +5,41 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public PlayerStateMachine StateMachine { get; private set; }
-
+   
+    #region All StateMachine States
     #region Grounded_SubStates
     public PlayerIdleState IdleState { get; private set; }
     public PlayerWalkState WalkState { get; private set; }
     public PlayerRunState RunState { get; private set; }
     public PlayerBackwardsState BackwardsState { get; private set; }
+    public PlayerLandState LandState { get; private set; }
+
+    public PlayerCrouchIdleState CrouchIdleState { get; private set; }
+
+    public PlayerCrouchMoveState CrouchMoveState { get; private set; }
 
     #endregion
+    #region Ability_SubStates
+    public PlayerJumpState JumpState { get; private set; }
+    #endregion
+    public PlayerInAirState InAirState { get; private set; }
+
+
+
+    #endregion
+    #region CheckTransform
+    public Transform groundCheck;
+
+    #endregion
+
+
 
 
 
     public PlayerInputHandler InputHandler{ get; private set; }
     public Animator Animator { get; private set; }
     public Rigidbody2D RB { get; private set; }
+    public BoxCollider2D MovementCollider { get; private set; }
 
     public PlayerData playerData;
 
@@ -36,15 +57,22 @@ public class Player : MonoBehaviour
         WalkState = new PlayerWalkState(this, StateMachine, playerData, "walk");
         RunState = new PlayerRunState(this, StateMachine, playerData, "run");
         BackwardsState = new PlayerBackwardsState(this, StateMachine, playerData, "backward");
+        JumpState = new PlayerJumpState(this, StateMachine, playerData, "inAir");
+        InAirState = new PlayerInAirState(this, StateMachine, playerData, "inAir");
+        LandState = new PlayerLandState(this, StateMachine, playerData, "land");
+        CrouchIdleState = new PlayerCrouchIdleState(this, StateMachine, playerData, "crouchIdle");
+        CrouchMoveState = new PlayerCrouchMoveState(this, StateMachine, playerData, "crouchMove");
 
-    }
+}
 
-    private void Start()
+private void Start()
     {
         Animator = GetComponent<Animator>();
         InputHandler = GetComponent<PlayerInputHandler>();
         RB = GetComponent<Rigidbody2D>();
         StateMachine.Initialize(IdleState);
+        MovementCollider = GetComponent<BoxCollider2D>();
+
         FacingDirection = 1;
     }
 
@@ -58,6 +86,12 @@ public class Player : MonoBehaviour
     {
         StateMachine.CurrentState.PhysicsUpdate();
     }
+    public void SetVelocityZero()
+    {
+        workspace.Set(0, 0);
+        RB.velocity = workspace;
+        CurrentVelocity = workspace;
+    }
 
     public void SetVelocityX(float velocity)
     {
@@ -65,6 +99,40 @@ public class Player : MonoBehaviour
         RB.velocity = workspace;
         CurrentVelocity = workspace;
     }
+    public void SetVelocityY(float velocity)
+    {
+        workspace.Set(CurrentVelocity.x, velocity);
+        RB.velocity = workspace;
+        CurrentVelocity = workspace;
+    }
+    public void SetColliderHeight(float height)
+    {
+        Vector2 center = MovementCollider.offset;
+        workspace.Set(MovementCollider.size.x, height);
+
+        if (height > MovementCollider.size.y)
+        {
+            center.y += (Mathf.Abs(height - MovementCollider.size.y)) / 2;
+        }
+        else
+        {
+            center.y -= (Mathf.Abs(height - MovementCollider.size.y)) / 2;
+        }
+
+        MovementCollider.size = workspace;
+        MovementCollider.offset = center;
+    }
+
+    public bool CheckIfGrounded()
+    {
+        return Physics2D.OverlapCircle(groundCheck.position, playerData.groundCheckRadius, playerData.groundLayer);
+
+
+    }
+    private void AnimationTrigger() => StateMachine.CurrentState.AnimationTrigger();
+
+    private void AnimationFinishedTrigger() => StateMachine.CurrentState.AnimationFinishTrigger();
+
     public void CheckIfShouldFlip(int xInput)
     {
         if(xInput != 0 && xInput != FacingDirection)

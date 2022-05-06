@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerWalkState : PlayerGroundedState
+public class PlayerWalkState : PlayerGroundMovementState
 {
     public PlayerWalkState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
@@ -29,15 +29,15 @@ public class PlayerWalkState : PlayerGroundedState
 
         player.SetVelocityX(playerData.walkVelocity * xInput);
 
-        if (xInput == 0)
-        {
-            stateMachine.ChangeState(player.IdleState);
-        }
-        if (xInput != 0 && sprintInput)
+        //if (xInput == 0)
+        //{
+        //    stateMachine.ChangeState(player.IdleState);
+        //}
+        if (/*xInput != 0 &&*/ sprintInput)
         {
             stateMachine.ChangeState(player.RunState);
         }
-        if (xInput != 0 && xInput != player.FacingDirection)
+        if (/*xInput != 0 &&*/ xInput != player.FacingDirection)
         {
             stateMachine.ChangeState(player.BackwardsState);
         }

@@ -2,13 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerGroundedState : PlayerState
+public class PlayerInAirState : PlayerState
 {
-
-
-    private bool JumpInput;
     
-    public PlayerGroundedState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
+    public PlayerInAirState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
     }
 
@@ -34,17 +31,18 @@ public class PlayerGroundedState : PlayerState
         base.LogicUpdate();
 
         xInput = player.InputHandler.NormInputX;
-        yInput = player.InputHandler.NormInputY;
-        sprintInput = player.InputHandler.SprintInput;
-        JumpInput = player.InputHandler.JumpInput;
 
-        if(JumpInput)
+        if(isGrounded && player.CurrentVelocity.y < 0.02f)
         {
-            player.InputHandler.UseJumpInput();
-            stateMachine.ChangeState(player.JumpState);
+            stateMachine.ChangeState(player.LandState);
         }
+        else 
+        {
+            player.SetVelocityX(playerData.walkVelocity * xInput);
 
-
+            player.Animator.SetFloat("yVelocity", player.CurrentVelocity.y);
+            player.Animator.SetFloat("xVelocity", player.CurrentVelocity.x);
+        }
     }
 
     public override void PhysicsUpdate()

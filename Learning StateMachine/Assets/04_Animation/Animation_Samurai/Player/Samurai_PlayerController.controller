@@ -243,10 +243,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -8834104729970028301}
-    m_Position: {x: 410, y: -80, z: 0}
+    m_Position: {x: 410, y: 100, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1206080176944980691}
-    m_Position: {x: 410, y: 40, z: 0}
+    m_Position: {x: 410, y: -30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8480449763211357925}
     m_Position: {x: 410, y: 280, z: 0}
@@ -261,10 +261,10 @@ AnimatorStateMachine:
     m_Position: {x: 410, y: 220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2288079801667987656}
-    m_Position: {x: 410, y: -10, z: 0}
+    m_Position: {x: 410, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 901085635272232392}
-    m_Position: {x: 410, y: 90, z: 0}
+    m_Position: {x: 410, y: 20, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:
@@ -423,13 +423,13 @@ AnimatorController:
   m_Name: Samurai_PlayerController
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: crouchMove
+  - m_Name: crouchIdle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: crouchIdle
+  - m_Name: crouchMove
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -478,6 +478,12 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: run
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: jump
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -633,32 +639,16 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: b4ec5e7f4b5f15545a45ac1746ef1e22, type: 2}
-    m_Threshold: 0.2
+    m_Threshold: 0.20000002
     m_Position: {x: 1, y: 12}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: yVelocity
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 29b4e9928412dca4c965b2b018f1f6ee, type: 2}
-    m_Threshold: 0.4
-    m_Position: {x: -1, y: 12}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: yVelocity
-    m_Mirror: 0
-  - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 51d609fbbec259d45bddd951cbe7d2f1, type: 2}
-    m_Threshold: 0.6
+    m_Threshold: 0.40000004
     m_Position: {x: 1, y: -3}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: yVelocity
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 51d609fbbec259d45bddd951cbe7d2f1, type: 2}
-    m_Threshold: 0.8
-    m_Position: {x: 0, y: -3}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: yVelocity
@@ -666,7 +656,7 @@ BlendTree:
   m_BlendParameter: xVelocity
   m_BlendParameterY: yVelocity
   m_MinThreshold: 0
-  m_MaxThreshold: 0.8
+  m_MaxThreshold: 0.40000004
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 2

@@ -8,9 +8,20 @@ public class PlayerState
     protected PlayerStateMachine stateMachine;
     protected PlayerData playerData;
 
+    protected bool isAnimationFinished;
+    protected bool isGrounded;
+
     protected float startTime;  //referece how long beeing in one State
 
     private string animBoolName;
+
+    protected Vector2 rawInput;    // all sub States have acces to this variable
+    protected Vector2 normInput;    // all sub States have acces to this variable
+    protected int xInput;       // all sub States have acces to this variable
+    protected int yInput;       // all sub States have acces to this variable
+    protected bool sprintInput; // all sub States have acces to this variable
+
+  
 
     public PlayerState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) 
     {
@@ -26,6 +37,7 @@ public class PlayerState
         player.Animator.SetBool(animBoolName, true);
         startTime = Time.time;
         Debug.Log(animBoolName);
+        isAnimationFinished = false;
     }
     public virtual void Exit()
     {
@@ -43,4 +55,8 @@ public class PlayerState
     {
 
     }
+
+    public virtual void AnimationTrigger() { }
+
+    public virtual void AnimationFinishTrigger() => isAnimationFinished = true;
 }
