@@ -9,6 +9,12 @@ public class PlayerInputHandler : MonoBehaviour
     public Vector2 NormMovementInput { get; private set; }
     public int NormInputX { get; private set; }
     public int NormInputY { get; private set; }
+
+
+    public bool SprintInput { get; private set; }
+
+
+
     public void OnMoveInput(InputAction.CallbackContext context)
     {
         RawMovementInput = context.ReadValue<Vector2>();
@@ -33,6 +39,18 @@ public class PlayerInputHandler : MonoBehaviour
         if (context.canceled)
         {
             Debug.Log("Jump Input canceled");
+        }
+    }
+    public void OnSprintInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            SprintInput = true;
+        }
+
+        if (context.canceled)
+        {
+            SprintInput = false;
         }
     }
 }

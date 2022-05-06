@@ -5,8 +5,15 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public PlayerStateMachine StateMachine { get; private set; }
+
+    #region Grounded_SubStates
     public PlayerIdleState IdleState { get; private set; }
     public PlayerWalkState WalkState { get; private set; }
+    public PlayerRunState RunState { get; private set; }
+    public PlayerBackwardsState BackwardsState { get; private set; }
+
+    #endregion
+
 
 
     public PlayerInputHandler InputHandler{ get; private set; }
@@ -27,7 +34,9 @@ public class Player : MonoBehaviour
 
         IdleState = new PlayerIdleState(this, StateMachine, playerData, "idle");
         WalkState = new PlayerWalkState(this, StateMachine, playerData, "walk");
-        
+        RunState = new PlayerRunState(this, StateMachine, playerData, "run");
+        BackwardsState = new PlayerBackwardsState(this, StateMachine, playerData, "backward");
+
     }
 
     private void Start()

@@ -7,4 +7,10 @@ public class PlayerData : ScriptableObject
 {
     [Header("Move State")]
     public float walkVelocity = 10f;
+
+    [Header("Run State")]
+    public float runVelocity = 15f;
+
+    [Header("Backwards State")]
+    public float backwardsVelocity = 5f;
 }

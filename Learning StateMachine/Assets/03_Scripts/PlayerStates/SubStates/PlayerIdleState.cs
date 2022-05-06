@@ -29,10 +29,22 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.LogicUpdate();
 
-        if(xInput !=0)
+        if(xInput !=0 && !sprintInput)
         {
+            if(xInput == player.FacingDirection)
+            {
             stateMachine.ChangeState(player.WalkState);
+            }
+            else if (xInput != player.FacingDirection)
+            {
+            stateMachine.ChangeState(player.BackwardsState);
+            }
         }
+        else if (xInput !=0 && sprintInput)
+        {
+            stateMachine.ChangeState(player.RunState);
+        }
+   
     }
 
     public override void PhysicsUpdate()
