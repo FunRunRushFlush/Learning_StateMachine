@@ -12,7 +12,8 @@ public class PlayerInputHandler : MonoBehaviour
 
 
     public bool SprintInput { get; private set; }
-    public bool AttackInput { get; private set; }
+    public bool AttackLightInput { get; private set; }
+    public bool AttackHardInput { get; private set; }
     public bool DefendInput { get; private set; }
 
 
@@ -57,19 +58,31 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
 
-    public void OnAttackInput(InputAction.CallbackContext context)
+    public void OnAttackLightInput(InputAction.CallbackContext context)
     {
         if (context.started)
         {
-            AttackInput = true;
+            AttackLightInput = true;
         }
 
         if (context.canceled)
         {
-            AttackInput = false;
+            AttackLightInput = false;
         }
     }
-    public void OnDefendInput(InputAction.CallbackContext context)
+    public void OnAttackHardInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            AttackHardInput = true;
+        }
+
+        if (context.canceled)
+        {
+            AttackHardInput = false;
+        }
+    }
+        public void OnDefendInput(InputAction.CallbackContext context)
     {
         if (context.started)
         {

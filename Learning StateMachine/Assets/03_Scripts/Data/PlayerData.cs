@@ -18,6 +18,10 @@ public class PlayerData : ScriptableObject
 
     [Header("Jump State")]
     public float jumpVelocity = 15f;
+    
+    [Header("Attack State")]
+    public float attackVelocity = 0f;
+
 
     [Header("Check Variables")]
     public float groundCheckRadius = 0.3f;

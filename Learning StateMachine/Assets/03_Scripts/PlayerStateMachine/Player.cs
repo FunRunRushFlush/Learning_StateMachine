@@ -13,10 +13,18 @@ public class Player : MonoBehaviour
     public PlayerRunState RunState { get; private set; }
     public PlayerBackwardsState BackwardsState { get; private set; }
     public PlayerLandState LandState { get; private set; }
-
     public PlayerCrouchIdleState CrouchIdleState { get; private set; }
-
     public PlayerCrouchMoveState CrouchMoveState { get; private set; }
+    public PlayerAttackLightState AttackLightState { get; private set; }
+    public PlayerAttackHardState AttackHardState { get; private set; }
+    public PlayerDefendState DefendState { get; private set; }
+
+
+
+
+
+
+
 
     #endregion
     #region Ability_SubStates
@@ -62,6 +70,9 @@ public class Player : MonoBehaviour
         LandState = new PlayerLandState(this, StateMachine, playerData, "land");
         CrouchIdleState = new PlayerCrouchIdleState(this, StateMachine, playerData, "crouchIdle");
         CrouchMoveState = new PlayerCrouchMoveState(this, StateMachine, playerData, "crouchMove");
+        AttackLightState = new PlayerAttackLightState(this, StateMachine, playerData, "attack");
+        AttackHardState = new PlayerAttackHardState(this, StateMachine, playerData, "attack");
+        DefendState = new PlayerDefendState(this, StateMachine, playerData, "defend");
 
 }
 

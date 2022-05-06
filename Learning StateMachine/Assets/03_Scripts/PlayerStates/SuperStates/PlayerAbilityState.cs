@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerAbilityState : PlayerState
 {
     protected bool isAbilityDone;
- 
+    protected int attackModifier;
+
     public PlayerAbilityState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
     }
@@ -34,7 +35,15 @@ public class PlayerAbilityState : PlayerState
     {
         base.LogicUpdate();
 
-        if(isAbilityDone)
+        xInput = player.InputHandler.NormInputX;
+        yInput = player.InputHandler.NormInputY;
+        sprintInput = player.InputHandler.SprintInput;
+
+        attackLightInput = player.InputHandler.AttackLightInput;
+        attackHardInput = player.InputHandler.AttackHardInput;
+        defendInput = player.InputHandler.DefendInput;
+
+        if (isAbilityDone)
         {
             if(isGrounded && player.CurrentVelocity.y < 0.1f)
             {

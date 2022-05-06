@@ -37,14 +37,27 @@ public class PlayerGroundedState : PlayerState
         yInput = player.InputHandler.NormInputY;
         sprintInput = player.InputHandler.SprintInput;
         JumpInput = player.InputHandler.JumpInput;
+        attackLightInput = player.InputHandler.AttackLightInput;
+        attackHardInput = player.InputHandler.AttackHardInput;
+        defendInput = player.InputHandler.DefendInput;
 
-        if(JumpInput)
+        if (JumpInput)
         {
             player.InputHandler.UseJumpInput();
             stateMachine.ChangeState(player.JumpState);
         }
-
-
+        else if (attackLightInput)
+        {
+            stateMachine.ChangeState(player.AttackLightState);
+        }
+        else if(attackHardInput)
+        {
+            stateMachine.ChangeState(player.AttackHardState);
+        }
+        else if(defendInput)
+        {
+            stateMachine.ChangeState(player.DefendState);
+        }
     }
 
     public override void PhysicsUpdate()
