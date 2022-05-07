@@ -29,15 +29,12 @@ public class PlayerWalkState : PlayerGroundMovementState
 
         player.SetVelocityX(playerData.walkVelocity * xInput);
 
-        //if (xInput == 0)
-        //{
-        //    stateMachine.ChangeState(player.IdleState);
-        //}
-        if (/*xInput != 0 &&*/ sprintInput)
+      
+        if (sprintInput)
         {
             stateMachine.ChangeState(player.RunState);
         }
-        if (/*xInput != 0 &&*/ xInput != player.FacingDirection)
+        if ( xInput != player.FacingDirection)
         {
             stateMachine.ChangeState(player.BackwardsState);
         }

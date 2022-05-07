@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     public PlayerLandState LandState { get; private set; }
     public PlayerCrouchIdleState CrouchIdleState { get; private set; }
     public PlayerCrouchMoveState CrouchMoveState { get; private set; }
+    public PlayerBackdashState BackdashState { get; private set; }
     public PlayerAttackLightState AttackLightState { get; private set; }
     public PlayerAttackHardState AttackHardState { get; private set; }
     public PlayerDefendState DefendState { get; private set; }
@@ -65,6 +66,7 @@ public class Player : MonoBehaviour
         WalkState = new PlayerWalkState(this, StateMachine, playerData, "walk");
         RunState = new PlayerRunState(this, StateMachine, playerData, "run");
         BackwardsState = new PlayerBackwardsState(this, StateMachine, playerData, "backward");
+        BackdashState = new PlayerBackdashState(this, StateMachine, playerData, "backdash");
         JumpState = new PlayerJumpState(this, StateMachine, playerData, "inAir");
         InAirState = new PlayerInAirState(this, StateMachine, playerData, "inAir");
         LandState = new PlayerLandState(this, StateMachine, playerData, "land");
@@ -73,10 +75,10 @@ public class Player : MonoBehaviour
         AttackLightState = new PlayerAttackLightState(this, StateMachine, playerData, "attack");
         AttackHardState = new PlayerAttackHardState(this, StateMachine, playerData, "attack");
         DefendState = new PlayerDefendState(this, StateMachine, playerData, "defend");
+    }
+    
 
-}
-
-private void Start()
+    private void Start()
     {
         Animator = GetComponent<Animator>();
         InputHandler = GetComponent<PlayerInputHandler>();
@@ -116,6 +118,13 @@ private void Start()
         RB.velocity = workspace;
         CurrentVelocity = workspace;
     }
+    public void SetVelocityXY(float velocityX,float velocityY)
+    {
+        workspace.Set(velocityX, velocityY);
+        RB.velocity = workspace;
+        CurrentVelocity = workspace;
+    }
+
     public void SetColliderHeight(float height)
     {
         Vector2 center = MovementCollider.offset;

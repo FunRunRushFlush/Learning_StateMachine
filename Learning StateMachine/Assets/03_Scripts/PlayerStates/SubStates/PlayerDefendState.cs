@@ -16,16 +16,26 @@ public class PlayerDefendState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
+
+        //player.SetVelocityX(playerData.attackVelocity);
     }
 
     public override void Exit()
     {
         base.Exit();
+
     }
 
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+
+        player.SetVelocityX(playerData.attackVelocity);
+
+        if (!defendInput)
+        {
+            stateMachine.ChangeState(player.IdleState);
+        }
     }
 
     public override void PhysicsUpdate()

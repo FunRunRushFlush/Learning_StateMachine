@@ -33,6 +33,8 @@ public class PlayerGroundedState : PlayerState
     {
         base.LogicUpdate();
 
+        
+
         xInput = player.InputHandler.NormInputX;
         yInput = player.InputHandler.NormInputY;
         sprintInput = player.InputHandler.SprintInput;
@@ -40,6 +42,7 @@ public class PlayerGroundedState : PlayerState
         attackLightInput = player.InputHandler.AttackLightInput;
         attackHardInput = player.InputHandler.AttackHardInput;
         defendInput = player.InputHandler.DefendInput;
+        backdashInput = player.InputHandler.BackdashInput;
 
         if (JumpInput)
         {
@@ -57,6 +60,10 @@ public class PlayerGroundedState : PlayerState
         else if(defendInput)
         {
             stateMachine.ChangeState(player.DefendState);
+        }
+        else if (backdashInput)
+        {
+            stateMachine.ChangeState(player.BackdashState);
         }
     }
 

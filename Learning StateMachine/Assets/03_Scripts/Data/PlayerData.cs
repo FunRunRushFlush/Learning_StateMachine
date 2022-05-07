@@ -15,6 +15,12 @@ public class PlayerData : ScriptableObject
     public float crouchVelocity = 3f;
     public float crouchColliderHeight = 1.6f;
     public float standColliderHeight = 2.6f;
+    [Header("Backdash State")]
+    public float dashVelocityX = 15f;
+    public float dashVelocityY = 5f;
+
+
+
 
     [Header("Jump State")]
     public float jumpVelocity = 15f;

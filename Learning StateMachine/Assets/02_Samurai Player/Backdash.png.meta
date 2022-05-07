@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0a2c6dce918fdb14ebe164bfda150163
+guid: fccad236524d46d46859b8f4c657aaa7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player1_Backdash_02
+      name: Backdash_04
       rect:
         serializedVersion: 2
         x: 530
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player1_Backdash_01
+      name: Backdash_03
       rect:
         serializedVersion: 2
         x: 437
@@ -263,15 +263,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player1_Jump_Neutral_01
+      name: Backdash_02
       rect:
         serializedVersion: 2
         x: 52
         y: 398
         width: 75
         height: 171
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39766082}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,15 +284,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player1_Jump_Neutral_02
+      name: Backdash_01
       rect:
         serializedVersion: 2
         x: 143
         y: 399
         width: 91
-        height: 129
+        height: 171
       alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.39766082}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -823,8 +823,7 @@ TextureImporter:
       Player1_Sheet_2_1: 449933620
       Player1_Jump_Down_02: 2028760494
       Player1_Jump_Forward_02: 1912726907
-      Player1_Backdash_01: -1895752897
-      Player1_Sheet_2_81: 32624552
+      Player1_Sheet_2_76: 1593430885
       Player1_Sheet_2_42: -1134640393
       Player1_Sheet_2_74: 1643178430
       Player1_Ledge_Climb_03: 941180478
@@ -848,6 +847,7 @@ TextureImporter:
       Player1_Sheet_2_29: 1508899060
       Player1_Sheet_2_31: 126224979
       Player1_Running_01: 1404284275
+      Backdash_03: -1895752897
       Player1_Sheet_2_28: -2106538833
       Player1_Sheet_2_58: -697138002
       Player1_Sheet_2_45: -943954620
@@ -860,21 +860,21 @@ TextureImporter:
       Player1_Running_03: -1122934511
       Player1_Sheet_2_9: 1725433971
       Player1_Sheet_2_39: -181479690
-      Player1_Jump_Neutral_01: 1238132436
-      Player1_Sheet_2_8: 1404568108
       Player1_Jump_Neutral_04: -943237462
+      Player1_Sheet_2_8: 1404568108
+      Player1_Jump_Landing_01: 1824524321
       Player1_Sheet_2_48: -222650354
+      Backdash_04: 734701897
       Player1_Jump_Forward_03: -1125124069
       Player1_Sheet_2_30: -1288484901
       Player1_Sheet_2_19: -45060078
       Player1_Sheet_2_38: -46569557
       Player1_Sheet_2_82: 652409042
       Player1_Running_(endframe)_05: -1303194879
-      Player1_Jump_Landing_01: 1824524321
+      Player1_Ledge_Climb_04: -324095149
       Player1_Jump_Forward_03(Loop): 658041502
       Player1_Sheet_2_16: -1025012371
       Player1_Jump_Forward_01: 1904280849
-      Player1_Ledge_Climb_04: -324095149
       Player1_Sheet_2_7: 2069879537
       Player1_Sheet_2_73: 1826473638
       Player1_Sheet_2_13: -1385139001
@@ -888,9 +888,10 @@ TextureImporter:
       Player1_Sheet_2_3: 1578631105
       Player1_Sheet_2_5: -1112803118
       Player1_Sheet_2_46: -893515543
-      Player1_Jump_Neutral_02: -1804323365
       Player1_Chrouching_01: 1649678026
       Player1_Jump_Landing_02: 1729016121
+      Backdash_01: -1804323365
+      Backdash_02: 1238132436
       Player1_Jump_Down_04: 985375993
       Player1_Sheet_2_17: 762320490
       Player1_Chrouching_03: 1025951628
@@ -899,9 +900,8 @@ TextureImporter:
       Player1_Chrouching_02: -1266294531
       Player1_Ledge_Climb_02: -1102703605
       Player1_Jump_Down_01: 249504933
-      Player1_Backdash_02: 734701897
       Player1_Sheet_2_4: 874829893
-      Player1_Sheet_2_76: 1593430885
+      Player1_Sheet_2_81: 32624552
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

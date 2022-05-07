@@ -32,7 +32,7 @@ public class PlayerAttackHardState : PlayerAbilityState
             player.Animator.SetInteger("attackModifier", attackModifier);
         }
 
-        player.SetVelocityX(playerData.attackVelocity);
+        
 
 
     }
@@ -53,7 +53,7 @@ public class PlayerAttackHardState : PlayerAbilityState
 
 
 
-        
+        player.SetVelocityX(playerData.attackVelocity);
 
         if (isAnimationFinished)
         {

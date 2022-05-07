@@ -978,6 +978,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputHoldTime: 0.2
+  recentInputs: 
+  specialInputs: 0500000000000000
+  backdashInputs: 070000000000000007000000
+  fillerInputs: 09000000090000000900000009000000090000000900000009000000090000000900000009000000
 --- !u!114 &1606514492
 MonoBehaviour:
   m_ObjectHideFlags: 0

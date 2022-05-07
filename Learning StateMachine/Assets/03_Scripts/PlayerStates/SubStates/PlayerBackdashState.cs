@@ -2,21 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerGroundMovementState : PlayerGroundedState
+public class PlayerBackdashState : PlayerGroundedState
 {
-    public PlayerGroundMovementState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
+    public PlayerBackdashState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
+    }
+
+    public override void AnimationFinishTrigger()
+    {
+        base.AnimationFinishTrigger();
     }
 
     public override void DoChecks()
     {
         base.DoChecks();
-
     }
 
     public override void Enter()
     {
         base.Enter();
+
+
+
     }
 
     public override void Exit()
@@ -28,14 +35,11 @@ public class PlayerGroundMovementState : PlayerGroundedState
     {
         base.LogicUpdate();
 
+        player.SetVelocityXY(playerData.dashVelocityX, playerData.dashVelocityY);
 
-        if(xInput==0)
+        if(isAnimationFinished)
         {
             stateMachine.ChangeState(player.IdleState);
-        }
-        if(yInput==-1)
-        { 
-            stateMachine.ChangeState(player.CrouchIdleState);
         }
     }
 

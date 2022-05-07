@@ -20,6 +20,7 @@ public class PlayerState
     protected int xInput;       // all sub States have acces to this variable
     protected int yInput;       // all sub States have acces to this variable
     protected bool sprintInput; // all sub States have acces to this variable
+    protected bool backdashInput;
     protected bool attackLightInput; // all sub States have acces to this variable
     protected bool attackHardInput; // all sub States have acces to this variable
     protected bool defendInput; // all sub States have acces to this variable
