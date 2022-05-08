@@ -26,6 +26,8 @@ public class PlayerState
     protected bool attackHardInput; // all sub States have acces to this variable
     protected bool defendInput;     // all sub States have acces to this variable
     protected bool canBackdash;
+    protected bool specialAttack;
+    protected bool canSpecialAttack;
 
 
     public PlayerState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) 

@@ -42,6 +42,10 @@ public class PlayerAbilityState : PlayerState
         attackLightInput = player.InputHandler.AttackLightInput;
         attackHardInput = player.InputHandler.AttackHardInput;
         defendInput = player.InputHandler.DefendInput;
+        backdashInput = player.InputHandler.BackdashInput;
+        canBackdash = player.InputHandler.CanBackdash;
+        specialAttack = player.InputHandler.SpecialInput;
+        canSpecialAttack = player.InputHandler.CanSpecial;
 
         if (isAbilityDone)
         {

@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     public PlayerAttackLightState AttackLightState { get; private set; }
     public PlayerAttackHardState AttackHardState { get; private set; }
     public PlayerDefendState DefendState { get; private set; }
+    public PlayerSpecialState SpecialState { get; private set; }
 
 
 
@@ -75,7 +76,10 @@ public class Player : MonoBehaviour
         AttackLightState = new PlayerAttackLightState(this, StateMachine, playerData, "attack");
         AttackHardState = new PlayerAttackHardState(this, StateMachine, playerData, "attack");
         DefendState = new PlayerDefendState(this, StateMachine, playerData, "defend");
-    }
+        SpecialState = new PlayerSpecialState(this, StateMachine, playerData, "specialAttack");
+
+
+}
     
 
     private void Start()

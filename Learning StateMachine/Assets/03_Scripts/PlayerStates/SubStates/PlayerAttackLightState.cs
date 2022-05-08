@@ -26,10 +26,15 @@ public class PlayerAttackLightState : PlayerAbilityState
         player.Animator.SetInteger("attackModifier", attackModifier);
         player.Animator.SetBool("lightAttack", lightAttack);
 
-        Debug.Log("Im in AttackState");
-        if (yInput == -1)
+       
+        if (yInput == -1 && isGrounded)
         {
             attackModifier = 2;
+            player.Animator.SetInteger("attackModifier", attackModifier);
+        }
+        else if (!isGrounded)
+        {
+            attackModifier = 1;
             player.Animator.SetInteger("attackModifier", attackModifier);
         }
 

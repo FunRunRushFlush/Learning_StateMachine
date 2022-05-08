@@ -31,8 +31,20 @@ public class PlayerInAirState : PlayerState
         base.LogicUpdate();
 
         xInput = player.InputHandler.NormInputX;
-
-        if(isGrounded && player.CurrentVelocity.y < 0.02f)
+        attackLightInput = player.InputHandler.AttackLightInput;
+        attackHardInput = player.InputHandler.AttackHardInput;
+        defendInput = player.InputHandler.DefendInput;
+        Debug.Log("attackLightInput"+attackLightInput);
+       
+        if(attackLightInput)
+        {
+            stateMachine.ChangeState(player.AttackLightState);
+        }
+        else if(attackHardInput)
+        {
+            stateMachine.ChangeState(player.AttackHardState);
+        }
+        else if(isGrounded && player.CurrentVelocity.y < 0.02f)
         {
             stateMachine.ChangeState(player.LandState);
         }
@@ -41,8 +53,9 @@ public class PlayerInAirState : PlayerState
             player.SetVelocityX(playerData.walkVelocity * xInput);
 
             player.Animator.SetFloat("yVelocity", player.CurrentVelocity.y);
-            player.Animator.SetFloat("xVelocity", player.CurrentVelocity.x);
+            player.Animator.SetFloat("xVelocity", player.CurrentVelocity.x * player.FacingDirection);
         }
+
     }
 
     public override void PhysicsUpdate()

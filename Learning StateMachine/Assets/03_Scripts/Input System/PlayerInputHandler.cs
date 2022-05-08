@@ -23,6 +23,8 @@ public class PlayerInputHandler : MonoBehaviour
     public bool JumpInputStop { get; private set; }
     public bool BackdashInput { get; private set; }
     public bool CanBackdash { get; private set; }
+    public bool SpecialInput { get; private set; }
+    public bool CanSpecial { get; private set; }
 
 
 
@@ -31,7 +33,8 @@ public class PlayerInputHandler : MonoBehaviour
     private float jumpInputStartTime;
     private float backdashStartTime;
     public float backdashCooldown = 10f;
-
+    private float specialStartTime;
+    public float specialCooldown = 10f;
 
     private Vector2 workspace;
 
@@ -50,7 +53,7 @@ public class PlayerInputHandler : MonoBehaviour
 
 
     public List<FightInputs> fillerInputs;
-    public enum FightInputs { Neutral,Up, UpRight, Right, DownRight, Down, DownLeft, Left, UpLeft, Filler }
+    public enum FightInputs { Neutral,Up, UpRight, Right, DownRight, Down, DownLeft, Left, UpLeft, LightAttack, HardAttack, Filler }
 
     private bool backdashCancel;
     private int lastInput;
@@ -72,6 +75,7 @@ public class PlayerInputHandler : MonoBehaviour
         recentInputs.AddRange(fillerInputs);
 
         CanBackdash = true;
+        CanSpecial = true;
 
 
         Player = GetComponent<Player>();
@@ -82,19 +86,15 @@ public class PlayerInputHandler : MonoBehaviour
         FaceingDirection = Player.FacingDirection;
 
         CheckJumpInputHoldTime();
-        CheckBackdashInput();
         CheckSpecialInput();
+        CheckSpecialCooldown();
 
+        CheckBackdashInput();
         CheckBackdashCooldown();
         if (!CanBackdash) 
             { CheckKoreanBackdashCancel();}
 
-
-        
-
-
-        
-        //CheckDashInputHoldTime();
+        Debug.Log(CanSpecial);
 
     }
 
@@ -207,6 +207,7 @@ public class PlayerInputHandler : MonoBehaviour
         if (context.started)
         {
             AttackLightInput = true;
+
         }
 
         if (context.canceled)
@@ -219,6 +220,7 @@ public class PlayerInputHandler : MonoBehaviour
         if (context.started)
         {
             AttackHardInput = true;
+            recentInputs.Add(FightInputs.HardAttack);
         }
 
         if (context.canceled)
@@ -239,6 +241,7 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
     public void UseJumpInput() => JumpInput = false;
+
     public void OnSprintInput(InputAction.CallbackContext context)
     {
         if (context.started)
@@ -259,48 +262,72 @@ public class PlayerInputHandler : MonoBehaviour
             JumpInput = false;
         }
     }
+    public void UseSpecialImput()
+    {
+        Debug.Log("Special Reset Works");
+        SpecialInput = false;
+        CanSpecial = false;
+    }
+    public void CheckSpecialCooldown()
+    {
+
+        if (Time.time >= specialStartTime + specialCooldown)
+        {
+            Debug.Log("Special Cooldown Works");
+            CanSpecial = true;
+        }
+    }
+
     public void CheckSpecialInput()
     {
-        if (FaceingDirection == 1)
+        if (CanSpecial)
         {
-            for (int i = recentInputs.Count - 1, j = specialInputsLeft.Count - 1; j >= 0; i--, j--)
+            if (FaceingDirection == 1)
             {
-
-                FightInputs input = recentInputs[i];
-                FightInputs nextspecialInputsLeft = specialInputsLeft[j];
-
-                if (input != nextspecialInputsLeft)
+                for (int i = recentInputs.Count - 1, j = specialInputsLeft.Count - 1; j >= 0; i--, j--)
                 {
-                    break;
+
+                    FightInputs input = recentInputs[i];
+                    FightInputs nextspecialInputsLeft = specialInputsLeft[j];
+
+                    if (input != nextspecialInputsLeft)
+                    {
+                        break;
+                    }
+                    else if (j == 0)
+                    {
+                        Debug.Log("Special Move Activated");
+                        recentInputs.Clear();
+                        recentInputs.AddRange(fillerInputs);
+                        SpecialInput = true;
+                        specialStartTime = Time.time;
+                    }
                 }
-                else if (j == 0)
+            }
+            else if (FaceingDirection == -1)
+            {
+                for (int i = recentInputs.Count - 1, j = specialInputsRight.Count - 1; j >= 0; i--, j--)
                 {
-                    Debug.Log("Special Move Activated");
-                    recentInputs.Clear();
-                    recentInputs.AddRange(fillerInputs);
+
+                    FightInputs input = recentInputs[i];
+                    FightInputs nextspecialInputsRight = specialInputsRight[j];
+
+                    if (input != nextspecialInputsRight)
+                    {
+                        break;
+                    }
+                    else if (j == 0)
+                    {
+                        Debug.Log("Special Move Activated");
+                        recentInputs.Clear();
+                        recentInputs.AddRange(fillerInputs);
+                        SpecialInput = true;
+                        specialStartTime = Time.time;
+                    }
                 }
             }
         }
-        else if (FaceingDirection == -1)
-        {
-            for (int i = recentInputs.Count - 1, j = specialInputsRight.Count - 1; j >= 0; i--, j--)
-            {
 
-                FightInputs input = recentInputs[i];
-                FightInputs nextspecialInputsRight = specialInputsRight[j];
-
-                if (input != nextspecialInputsRight)
-                {
-                    break;
-                }
-                else if (j == 0)
-                {
-                    Debug.Log("Special Move Activated");
-                    recentInputs.Clear();
-                    recentInputs.AddRange(fillerInputs);
-                }
-            }
-        }
     }
     public void UseBackdashImput()
     {

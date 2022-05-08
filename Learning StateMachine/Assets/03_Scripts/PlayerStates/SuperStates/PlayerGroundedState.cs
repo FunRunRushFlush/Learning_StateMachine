@@ -45,23 +45,37 @@ public class PlayerGroundedState : PlayerState
         defendInput = player.InputHandler.DefendInput;
         backdashInput = player.InputHandler.BackdashInput;
         canBackdash = player.InputHandler.CanBackdash;
+        specialAttack = player.InputHandler.SpecialInput;
+        canSpecialAttack = player.InputHandler.CanSpecial;
 
         if (JumpInput)
         {
             player.InputHandler.UseJumpInput();
             stateMachine.ChangeState(player.JumpState);
         }
-        else if (attackLightInput)
+        else if(specialAttack && canSpecialAttack)
         {
-            stateMachine.ChangeState(player.AttackLightState);
+            stateMachine.ChangeState(player.SpecialState);
         }
-        else if(attackHardInput)
+        else if (!specialAttack)
         {
-            stateMachine.ChangeState(player.AttackHardState);
+            if (attackLightInput)
+            {
+                stateMachine.ChangeState(player.AttackLightState);
+            }
+            else if (attackHardInput)
+            {
+                stateMachine.ChangeState(player.AttackHardState);
+            }
+
         }
         else if(defendInput)
         {
             stateMachine.ChangeState(player.DefendState);
+        }
+        else if(!isGrounded && player.CurrentVelocity.y<0)
+        {
+            stateMachine.ChangeState(player.InAirState);
         }
  
     }

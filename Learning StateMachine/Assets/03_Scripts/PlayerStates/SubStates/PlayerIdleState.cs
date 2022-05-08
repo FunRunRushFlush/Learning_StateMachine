@@ -53,7 +53,6 @@ public class PlayerIdleState : PlayerGroundedState
             }
             else if (backdashInput)
             {
-                Debug.Log("YEAH");
                 stateMachine.ChangeState(player.BackdashState);
             }
         }

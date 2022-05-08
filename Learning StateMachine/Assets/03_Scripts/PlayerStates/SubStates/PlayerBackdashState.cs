@@ -27,7 +27,7 @@ public class PlayerBackdashState : PlayerGroundedState
     public override void Exit()
     {
         base.Exit();
-        player.InputHandler.UseBackdashImput();
+        
     }
 
     public override void LogicUpdate()
@@ -41,7 +41,7 @@ public class PlayerBackdashState : PlayerGroundedState
             if (isAnimationFinished)
             {
                 Debug.Log("Backdash Animation Finished");
-                player.InputHandler.UseBackdashImput();
+                //player.InputHandler.UseBackdashImput();
                 stateMachine.ChangeState(player.IdleState);
             }
         }
