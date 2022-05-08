@@ -31,14 +31,14 @@ public class PlayerRunState : PlayerGroundMovementState
 
         player.CheckIfShouldFlip(xInput);
 
-        //if (xInput == 0)
-        //{
-        //    stateMachine.ChangeState(player.IdleState);
-        //}
-        if (!sprintInput)
+        if (!isExitingStates)
         {
-            stateMachine.ChangeState(player.WalkState);
+            if (!sprintInput)
+            {
+                stateMachine.ChangeState(player.WalkState);
+            }
         }
+      
     }
 
     public override void PhysicsUpdate()

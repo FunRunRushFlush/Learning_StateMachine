@@ -8,6 +8,7 @@ public class PlayerGroundedState : PlayerState
 
     private bool JumpInput;
     
+    
     public PlayerGroundedState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
     }
@@ -43,6 +44,7 @@ public class PlayerGroundedState : PlayerState
         attackHardInput = player.InputHandler.AttackHardInput;
         defendInput = player.InputHandler.DefendInput;
         backdashInput = player.InputHandler.BackdashInput;
+        canBackdash = player.InputHandler.CanBackdash;
 
         if (JumpInput)
         {
@@ -61,10 +63,7 @@ public class PlayerGroundedState : PlayerState
         {
             stateMachine.ChangeState(player.DefendState);
         }
-        else if (backdashInput)
-        {
-            stateMachine.ChangeState(player.BackdashState);
-        }
+ 
     }
 
     public override void PhysicsUpdate()

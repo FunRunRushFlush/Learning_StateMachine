@@ -6,6 +6,8 @@ using System.Linq;
 
 public class PlayerInputHandler : MonoBehaviour
 {
+    public Player Player { get; private set; }
+
     public Vector2 RawMovementInput { get; private set; }
     public Vector2 NormMovementInput { get; private set; }
     public int NormInputX { get; private set; }
@@ -20,27 +22,39 @@ public class PlayerInputHandler : MonoBehaviour
     public bool JumpInput { get; private set; }
     public bool JumpInputStop { get; private set; }
     public bool BackdashInput { get; private set; }
+    public bool CanBackdash { get; private set; }
+
+
 
 
     public float inputHoldTime = 0.2f; //how long the Jump input will be true
     private float jumpInputStartTime;
+    private float backdashStartTime;
+    public float backdashCooldown = 10f;
+
 
     private Vector2 workspace;
+
+    #region FightInput
 
     private Vector2 NeutralVec,UpVec, UpRightVec, RightVec, DownRightVec, DownVec, DownLeftVec, LeftVec, UpLeftVec;
 
     public List<FightInputs> recentInputs = new List<FightInputs>();
 
-    public List<FightInputs> specialInputs;
-    public List<FightInputs> backdashInputs;
+    public List<FightInputs> specialInputsLeft;
+    public List<FightInputs> specialInputsRight;
+    public List<FightInputs> backdashInputsLeft;
+    public List<FightInputs> backdashInputsRight;
+    public List<FightInputs> backdashCancelLeft;
+    public List<FightInputs> backdashCancelRight;
+
+
     public List<FightInputs> fillerInputs;
-    #region InputDirection
     public enum FightInputs { Neutral,Up, UpRight, Right, DownRight, Down, DownLeft, Left, UpLeft, Filler }
 
+    private bool backdashCancel;
     private int lastInput;
-
-
-
+    private int FaceingDirection;
     #endregion
 
     private void Awake()
@@ -56,13 +70,27 @@ public class PlayerInputHandler : MonoBehaviour
         UpLeftVec  = new Vector2(-1, 1);
 
         recentInputs.AddRange(fillerInputs);
+
+        CanBackdash = true;
+
+
+        Player = GetComponent<Player>();
     }
 
     private void Update()
     {
+        FaceingDirection = Player.FacingDirection;
+
         CheckJumpInputHoldTime();
         CheckBackdashInput();
         CheckSpecialInput();
+
+        CheckBackdashCooldown();
+        if (!CanBackdash) 
+            { CheckKoreanBackdashCancel();}
+
+
+        
 
 
         
@@ -231,55 +259,175 @@ public class PlayerInputHandler : MonoBehaviour
             JumpInput = false;
         }
     }
-
     public void CheckSpecialInput()
     {
-        for (int i = recentInputs.Count - 1, j = specialInputs.Count - 1;  j>=0 ; i--, j--)
+        if (FaceingDirection == 1)
         {
-
-            FightInputs input = recentInputs[i];
-
-            FightInputs nextspecialInputs = specialInputs[j];
-
-            if (input != nextspecialInputs)
+            for (int i = recentInputs.Count - 1, j = specialInputsLeft.Count - 1; j >= 0; i--, j--)
             {
 
-                break;
+                FightInputs input = recentInputs[i];
+                FightInputs nextspecialInputsLeft = specialInputsLeft[j];
 
+                if (input != nextspecialInputsLeft)
+                {
+                    break;
+                }
+                else if (j == 0)
+                {
+                    Debug.Log("Special Move Activated");
+                    recentInputs.Clear();
+                    recentInputs.AddRange(fillerInputs);
+                }
             }
-            else if (j == 0)
+        }
+        else if (FaceingDirection == -1)
+        {
+            for (int i = recentInputs.Count - 1, j = specialInputsRight.Count - 1; j >= 0; i--, j--)
             {
-                Debug.Log("Special Move Activated");
-                recentInputs.Clear();
-                recentInputs.AddRange(fillerInputs);
 
+                FightInputs input = recentInputs[i];
+                FightInputs nextspecialInputsRight = specialInputsRight[j];
 
+                if (input != nextspecialInputsRight)
+                {
+                    break;
+                }
+                else if (j == 0)
+                {
+                    Debug.Log("Special Move Activated");
+                    recentInputs.Clear();
+                    recentInputs.AddRange(fillerInputs);
+                }
             }
         }
     }
+    public void UseBackdashImput()
+    {
+        BackdashInput = false;
+        CanBackdash = false;
+    }
+
+    private void CheckKoreanBackdashCancel()
+    {
+        if (FaceingDirection == 1)
+        {
+            for (int i = recentInputs.Count - 1, j = backdashCancelLeft.Count - 1; j >= 0; i--, j--)
+            {
+
+                FightInputs input = recentInputs[i];
+
+                FightInputs nextbackdashCancelLeft = backdashCancelLeft[j];
+
+                if (input != nextbackdashCancelLeft)
+                {
+                    //BackdashInput = false;
+                    break;
+
+                }
+                else if (j == 0)
+                {
+                    backdashCancel = true;
+                    Debug.Log("Backdash Cancel Worked");
+                }
+            }
+        }
+        else if (FaceingDirection == -1)
+        {
+            for (int i = recentInputs.Count - 1, j = backdashCancelRight.Count - 1; j >= 0; i--, j--)
+            {
+
+                FightInputs input = recentInputs[i];
+
+                FightInputs nextbackdashCancelRight = backdashCancelRight[j];
+
+                if (input != nextbackdashCancelRight)
+                {
+                    //BackdashInput = false;
+                    break;
+
+                }
+                else if (j == 0)
+                {
+                    backdashCancel = true;
+                    Debug.Log("Backdash Cancel Worked");
+
+                }
+            }
+        }
+    }
+    public void CheckBackdashCooldown()
+    {
+        if (backdashCancel)
+        {
+            CanBackdash = true;
+        }
+        else if(Time.time >= backdashStartTime + backdashCooldown)
+        {
+            CanBackdash = true;
+        }
+    }
+
     public void CheckBackdashInput()
     {
-        for (int i = recentInputs.Count - 1, j = backdashInputs.Count - 1; j >= 0; i--, j--)
+        if (CanBackdash)
         {
-
-            FightInputs input = recentInputs[i];
-
-            FightInputs nextspecialInputs = backdashInputs[j];
-
-            if (input != nextspecialInputs)
+            if (FaceingDirection == 1)
             {
-                BackdashInput = false;
-                break;
+                for (int i = recentInputs.Count - 1, j = backdashInputsLeft.Count - 1; j >= 0; i--, j--)
+                {
 
+                    FightInputs input = recentInputs[i];
+
+                    FightInputs nextbackdashInputsLeft = backdashInputsLeft[j];
+
+                    if (input != nextbackdashInputsLeft)
+                    {
+                        //BackdashInput = false;
+                        break;
+
+                    }
+                    else if (j == 0)
+                    {
+                        recentInputs.Clear();
+                        recentInputs.AddRange(fillerInputs);
+                        BackdashInput = true;
+                        backdashCancel = false;
+                        backdashStartTime = Time.time;
+                        Debug.Log("Backdash Check works");
+                    }
+                }
             }
-            else if (j == 0)
+            else if (FaceingDirection == -1)
             {
-                
-                
-                recentInputs.AddRange(fillerInputs);
-                BackdashInput = true;
+                for (int i = recentInputs.Count - 1, j = backdashInputsRight.Count - 1; j >= 0; i--, j--)
+                {
 
+                    FightInputs input = recentInputs[i];
+
+                    FightInputs nextbackdashInputsRight = backdashInputsRight[j];
+
+                    if (input != nextbackdashInputsRight)
+                    {
+                        //BackdashInput = false;
+                        break;
+
+                    }
+                    else if (j == 0)
+                    {
+                        Debug.Log("Backdash Check works");
+                        recentInputs.Clear();
+                        recentInputs.AddRange(fillerInputs);
+                        BackdashInput = true;
+                        backdashCancel = false;
+                        backdashStartTime = Time.time;
+
+                    }
+                }
             }
         }
+
+        
     }
+
 }

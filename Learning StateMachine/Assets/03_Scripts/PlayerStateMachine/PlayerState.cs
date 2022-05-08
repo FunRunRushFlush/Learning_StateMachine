@@ -9,6 +9,7 @@ public class PlayerState
     protected PlayerData playerData;
 
     protected bool isAnimationFinished;
+    protected bool isExitingStates;
     protected bool isGrounded;
 
     protected float startTime;  //referece how long beeing in one State
@@ -17,14 +18,14 @@ public class PlayerState
 
     protected Vector2 rawInput;    // all sub States have acces to this variable
     protected Vector2 normInput;    // all sub States have acces to this variable
-    protected int xInput;       // all sub States have acces to this variable
-    protected int yInput;       // all sub States have acces to this variable
-    protected bool sprintInput; // all sub States have acces to this variable
-    protected bool backdashInput;
+    protected int xInput;            // all sub States have acces to this variable
+    protected int yInput;           // all sub States have acces to this variable
+    protected bool sprintInput;     // all sub States have acces to this variable
+    protected bool backdashInput;   // all sub States have acces to this variable
     protected bool attackLightInput; // all sub States have acces to this variable
     protected bool attackHardInput; // all sub States have acces to this variable
-    protected bool defendInput; // all sub States have acces to this variable
-
+    protected bool defendInput;     // all sub States have acces to this variable
+    protected bool canBackdash;
 
 
     public PlayerState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) 
@@ -40,16 +41,18 @@ public class PlayerState
         DoChecks();
         player.Animator.SetBool(animBoolName, true);
         startTime = Time.time;
-        Debug.Log(animBoolName);
+        //Debug.Log(animBoolName);
         isAnimationFinished = false;
+        isExitingStates = false;
     }
     public virtual void Exit()
     {
         player.Animator.SetBool(animBoolName, false);
+        isExitingStates = true;
     }
     public virtual void LogicUpdate()
     {
-
+        //Debug.Log(animBoolName);
     }
     public virtual void PhysicsUpdate()
     {

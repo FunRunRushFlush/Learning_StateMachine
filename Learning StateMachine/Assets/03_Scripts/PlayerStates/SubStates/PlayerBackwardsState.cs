@@ -29,17 +29,22 @@ public class PlayerBackwardsState : PlayerGroundMovementState
 
         player.SetVelocityX(playerData.backwardsVelocity * xInput);
 
-        if (!sprintInput)
+        if (!isExitingStates)
         {
-            if (xInput == player.FacingDirection)
+            if (!sprintInput)
             {
-                stateMachine.ChangeState(player.WalkState);
+                if (xInput == player.FacingDirection)
+                {
+                    stateMachine.ChangeState(player.WalkState);
+                }
             }
+            else if (sprintInput)
+            {
+                stateMachine.ChangeState(player.RunState);
+            }
+
         }
-        else if(sprintInput)
-        {          
-            stateMachine.ChangeState(player.RunState);   
-        }
+
     }
 
     public override void PhysicsUpdate()

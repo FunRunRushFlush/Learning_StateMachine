@@ -28,26 +28,36 @@ public class PlayerIdleState : PlayerGroundedState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+        player.SetVelocityX(0f);
 
-        if(xInput !=0 && !sprintInput)
+        if (!isExitingStates)
         {
-            if(xInput == player.FacingDirection)
+            if (xInput != 0 && !sprintInput)
             {
-            stateMachine.ChangeState(player.WalkState);
+                if (xInput == player.FacingDirection)
+                {
+                    stateMachine.ChangeState(player.WalkState);
+                }
+                else if (xInput != player.FacingDirection)
+                {
+                    stateMachine.ChangeState(player.BackwardsState);
+                }
             }
-            else if (xInput != player.FacingDirection)
+            else if (xInput != 0 && sprintInput)
             {
-            stateMachine.ChangeState(player.BackwardsState);
+                stateMachine.ChangeState(player.RunState);
+            }
+            else if (yInput == -1)
+            {
+                stateMachine.ChangeState(player.CrouchIdleState);
+            }
+            else if (backdashInput)
+            {
+                Debug.Log("YEAH");
+                stateMachine.ChangeState(player.BackdashState);
             }
         }
-        else if (xInput !=0 && sprintInput)
-        {
-            stateMachine.ChangeState(player.RunState);
-        }
-        else if(yInput ==-1)
-        {
-            stateMachine.ChangeState(player.CrouchIdleState);
-        }
+
 
     }
 

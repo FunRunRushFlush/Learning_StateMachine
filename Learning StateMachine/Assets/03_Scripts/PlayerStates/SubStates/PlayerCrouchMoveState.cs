@@ -31,10 +31,14 @@ public class PlayerCrouchMoveState : PlayerGroundedState
 
         player.SetVelocityX(playerData.crouchVelocity * xInput);
 
-        if (yInput ==-1 && xInput==0)
-        { stateMachine.ChangeState(player.CrouchMoveState); }
-        else if(yInput!=-1)
-        { stateMachine.ChangeState(player.CrouchIdleState); }
+        if (!isExitingStates)
+        {
+            if (yInput == -1 && xInput == 0)
+            { stateMachine.ChangeState(player.CrouchMoveState); }
+            else if (yInput != -1)
+            { stateMachine.ChangeState(player.CrouchIdleState); }
+        }
+
     }
 
     public override void PhysicsUpdate()

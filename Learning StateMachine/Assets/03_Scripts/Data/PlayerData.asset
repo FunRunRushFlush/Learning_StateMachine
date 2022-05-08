@@ -18,8 +18,11 @@ MonoBehaviour:
   crouchVelocity: 3
   crouchColliderHeight: 1.7
   standColliderHeight: 2.6
+  dashVelocityX: 15
+  dashVelocityY: 0
   jumpVelocity: 15
-  groundCheckRadius: 0.3
+  attackVelocity: 0
+  groundCheckRadius: 0.2
   groundLayer:
     serializedVersion: 2
     m_Bits: 384

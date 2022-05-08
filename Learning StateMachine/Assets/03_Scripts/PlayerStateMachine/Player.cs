@@ -149,6 +149,9 @@ public class Player : MonoBehaviour
 
 
     }
+
+
+
     private void AnimationTrigger() => StateMachine.CurrentState.AnimationTrigger();
 
     private void AnimationFinishedTrigger() => StateMachine.CurrentState.AnimationFinishTrigger();

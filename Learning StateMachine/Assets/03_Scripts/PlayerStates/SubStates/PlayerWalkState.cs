@@ -29,15 +29,18 @@ public class PlayerWalkState : PlayerGroundMovementState
 
         player.SetVelocityX(playerData.walkVelocity * xInput);
 
-      
-        if (sprintInput)
+        if (!isExitingStates)
         {
-            stateMachine.ChangeState(player.RunState);
+            if (sprintInput)
+            {
+                stateMachine.ChangeState(player.RunState);
+            }
+            if (xInput != player.FacingDirection)
+            {
+                stateMachine.ChangeState(player.BackwardsState);
+            }
         }
-        if ( xInput != player.FacingDirection)
-        {
-            stateMachine.ChangeState(player.BackwardsState);
-        }
+     
     }
 
     public override void PhysicsUpdate()

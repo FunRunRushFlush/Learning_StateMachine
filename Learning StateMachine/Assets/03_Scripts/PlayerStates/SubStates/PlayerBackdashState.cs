@@ -8,10 +8,7 @@ public class PlayerBackdashState : PlayerGroundedState
     {
     }
 
-    public override void AnimationFinishTrigger()
-    {
-        base.AnimationFinishTrigger();
-    }
+
 
     public override void DoChecks()
     {
@@ -21,6 +18,7 @@ public class PlayerBackdashState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
+        player.InputHandler.UseBackdashImput();
 
 
 
@@ -29,18 +27,25 @@ public class PlayerBackdashState : PlayerGroundedState
     public override void Exit()
     {
         base.Exit();
+        player.InputHandler.UseBackdashImput();
     }
 
     public override void LogicUpdate()
     {
         base.LogicUpdate();
 
-        player.SetVelocityXY(playerData.dashVelocityX, playerData.dashVelocityY);
+        player.SetVelocityXY(playerData.dashVelocityX * player.FacingDirection * -1, playerData.dashVelocityY);
 
-        if(isAnimationFinished)
+        if (!isExitingStates)
         {
-            stateMachine.ChangeState(player.IdleState);
+            if (isAnimationFinished)
+            {
+                Debug.Log("Backdash Animation Finished");
+                player.InputHandler.UseBackdashImput();
+                stateMachine.ChangeState(player.IdleState);
+            }
         }
+
     }
 
     public override void PhysicsUpdate()
