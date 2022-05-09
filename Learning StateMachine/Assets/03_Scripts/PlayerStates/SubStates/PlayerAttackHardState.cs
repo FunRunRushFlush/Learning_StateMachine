@@ -59,9 +59,13 @@ public class PlayerAttackHardState : PlayerAbilityState
 
         player.SetVelocityX(playerData.attackVelocity);
 
-        if (isAnimationFinished)
+        if (isAnimationFinished && isGrounded)
         {
             stateMachine.ChangeState(player.IdleState);
+        }
+        if (isAnimationFinished && !isGrounded)
+        {
+            stateMachine.ChangeState(player.InAirState);
         }
     }
 
