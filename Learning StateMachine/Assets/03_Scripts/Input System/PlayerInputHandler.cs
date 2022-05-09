@@ -260,7 +260,7 @@ public class PlayerInputHandler : MonoBehaviour
     }
     private void CheckListLength()
     {
-        if (recentInputs.Count > 20)
+        if (recentInputs.Count > 27)
         {
             recentInputs.RemoveAt(0);
 

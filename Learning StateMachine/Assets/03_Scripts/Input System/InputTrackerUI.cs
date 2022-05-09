@@ -25,6 +25,7 @@ public class InputTrackerUI : MonoBehaviour
     private void Start()
     {
         newInputInList = InputHandler.NewInputInList;
+
     }
 
     public void Update()
@@ -38,7 +39,7 @@ public class InputTrackerUI : MonoBehaviour
         if(newInputInList!=workspaceA)
         {
             newInputInList= InputHandler.NewInputInList;
-            workspaceB = (int)InputHandler.recentInputs[19];
+            workspaceB = (int)InputHandler.recentInputs[26];
             Debug.Log(workspaceB);
             MoveInputFrame();
             image[0].sprite = sprites[workspaceB];
@@ -48,7 +49,7 @@ public class InputTrackerUI : MonoBehaviour
 
     private void MoveInputFrame()
     {
-        for(int f = 16, g = 15; g >= 0; f--, g--)
+        for(int f = 25, g = 24; g >= 0; f--, g--)
         {
             image[f].sprite = image[g].sprite;
 
