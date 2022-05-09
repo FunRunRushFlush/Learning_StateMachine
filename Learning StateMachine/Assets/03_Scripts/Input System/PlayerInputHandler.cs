@@ -26,7 +26,7 @@ public class PlayerInputHandler : MonoBehaviour
     public bool SpecialInput { get; private set; }
     public bool CanSpecial { get; private set; }
 
-
+    public int NewInputInList { get; private set; }
 
 
     public float inputHoldTime = 0.2f; //how long the Jump input will be true
@@ -53,7 +53,7 @@ public class PlayerInputHandler : MonoBehaviour
 
 
     public List<FightInputs> fillerInputs;
-    public enum FightInputs { Neutral,Up, UpRight, Right, DownRight, Down, DownLeft, Left, UpLeft, LightAttack, HardAttack, Filler }
+    public enum FightInputs { Neutral,Up, UpRight, Right, DownRight, Down, DownLeft, Left, UpLeft, LightAttack, HardAttack, Block }
 
     private bool backdashCancel;
     private int lastInput;
@@ -77,6 +77,7 @@ public class PlayerInputHandler : MonoBehaviour
         CanBackdash = true;
         CanSpecial = true;
 
+        NewInputInList = 0;
 
         Player = GetComponent<Player>();
     }
@@ -85,6 +86,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         FaceingDirection = Player.FacingDirection;
 
+        CheckListLength();
         CheckJumpInputHoldTime();
         CheckSpecialInput();
         CheckSpecialCooldown();
@@ -185,7 +187,7 @@ public class PlayerInputHandler : MonoBehaviour
 
 
     }
-    //Ich hätte [OnJumpInput()] wie beim Sprit Button gemacht aber Bardent meint es könnte Probleme geben, wenn die StateMachine nicht so schnell in JumpState swichten könnte
+    //Ich hätte [OnJumpInput()] wie beim Sprint Button gemacht aber Bardent meint es könnte Probleme geben, wenn die StateMachine nicht so schnell in JumpState swichten könnte
     public void OnJumpInput(InputAction.CallbackContext context)
     {
         if (context.started)
@@ -207,6 +209,7 @@ public class PlayerInputHandler : MonoBehaviour
         if (context.started)
         {
             AttackLightInput = true;
+            recentInputs.Add(FightInputs.LightAttack);
 
         }
 
@@ -233,6 +236,7 @@ public class PlayerInputHandler : MonoBehaviour
         if (context.started)
         {
             DefendInput = true;
+            recentInputs.Add(FightInputs.Block);
         }
 
         if (context.canceled)
@@ -252,6 +256,15 @@ public class PlayerInputHandler : MonoBehaviour
         if (context.canceled)
         {
             SprintInput = false;
+        }
+    }
+    private void CheckListLength()
+    {
+        if (recentInputs.Count > 20)
+        {
+            recentInputs.RemoveAt(0);
+
+            NewInputInList++;
         }
     }
 
@@ -297,8 +310,8 @@ public class PlayerInputHandler : MonoBehaviour
                     else if (j == 0)
                     {
                         Debug.Log("Special Move Activated");
-                        recentInputs.Clear();
-                        recentInputs.AddRange(fillerInputs);
+                        //recentInputs.Clear();
+                        //recentInputs.AddRange(fillerInputs);
                         SpecialInput = true;
                         specialStartTime = Time.time;
                     }
@@ -319,8 +332,8 @@ public class PlayerInputHandler : MonoBehaviour
                     else if (j == 0)
                     {
                         Debug.Log("Special Move Activated");
-                        recentInputs.Clear();
-                        recentInputs.AddRange(fillerInputs);
+                        //recentInputs.Clear();
+                        //recentInputs.AddRange(fillerInputs);
                         SpecialInput = true;
                         specialStartTime = Time.time;
                     }
@@ -416,8 +429,8 @@ public class PlayerInputHandler : MonoBehaviour
                     }
                     else if (j == 0)
                     {
-                        recentInputs.Clear();
-                        recentInputs.AddRange(fillerInputs);
+                        //recentInputs.Clear();
+                        //recentInputs.AddRange(fillerInputs);
                         BackdashInput = true;
                         backdashCancel = false;
                         backdashStartTime = Time.time;
@@ -443,8 +456,8 @@ public class PlayerInputHandler : MonoBehaviour
                     else if (j == 0)
                     {
                         Debug.Log("Backdash Check works");
-                        recentInputs.Clear();
-                        recentInputs.AddRange(fillerInputs);
+                        //recentInputs.Clear();
+                        //recentInputs.AddRange(fillerInputs);
                         BackdashInput = true;
                         backdashCancel = false;
                         backdashStartTime = Time.time;

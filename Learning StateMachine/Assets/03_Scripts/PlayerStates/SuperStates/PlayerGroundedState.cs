@@ -67,13 +67,12 @@ public class PlayerGroundedState : PlayerState
             {
                 stateMachine.ChangeState(player.AttackHardState);
             }
-
+            else if (defendInput)
+            {
+                stateMachine.ChangeState(player.DefendState);
+            }
         }
-        else if(defendInput)
-        {
-            stateMachine.ChangeState(player.DefendState);
-        }
-        else if(!isGrounded && player.CurrentVelocity.y<0)
+        else if (!isGrounded && player.CurrentVelocity.y<0)
         {
             stateMachine.ChangeState(player.InAirState);
         }
