@@ -815,7 +815,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InputHandler: {fileID: 1606514491}
-  frame1: {fileID: 0}
   uiList: 
   image:
   - {fileID: 752855728}
@@ -2643,14 +2642,18 @@ MonoBehaviour:
   inputHoldTime: 0.2
   backdashCooldown: 0.75
   specialCooldown: 1
-  recentInputs: 
+  specialInputTimeframe: 0.5
+  backdashTimeframe: 0.35
+  recentInputs: 00000000
+  recentInputsTiming:
+  - 0
   specialInputsLeft: 08000000010000000200000003000000040000000a000000
-  specialInputsRight: 01000000000000000500000000000000
+  specialInputsRight: 02000000010000000800000007000000060000000a000000
   backdashInputsLeft: 070000000000000007000000
   backdashInputsRight: 030000000000000003000000
   backdashCancelLeft: 06000000
   backdashCancelRight: 04000000
-  fillerInputs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  fillerInputs: 
 --- !u!114 &1606514492
 MonoBehaviour:
   m_ObjectHideFlags: 0

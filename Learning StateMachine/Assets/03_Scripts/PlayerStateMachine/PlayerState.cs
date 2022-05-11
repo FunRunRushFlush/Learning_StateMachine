@@ -21,6 +21,7 @@ public class PlayerState
     protected int xInput;            // all sub States have acces to this variable
     protected int yInput;           // all sub States have acces to this variable
     protected bool sprintInput;     // all sub States have acces to this variable
+    protected bool sprintJump;
     protected bool backdashInput;   // all sub States have acces to this variable
     protected bool attackLightInput; // all sub States have acces to this variable
     protected bool attackHardInput; // all sub States have acces to this variable
@@ -54,7 +55,7 @@ public class PlayerState
     }
     public virtual void LogicUpdate()
     {
-        //Debug.Log(animBoolName);
+        //Debug.Log("PlayerState - sprintJump " + sprintJump);
     }
     public virtual void PhysicsUpdate()
     {

@@ -18,17 +18,20 @@ public class PlayerJumpState : PlayerAbilityState
         base.Enter();
         player.InputHandler.UseJumpInput();
         player.SetVelocityY(playerData.jumpVelocity);
+      
         isAbilityDone = true;
     }
 
     public override void Exit()
     {
         base.Exit();
+  
     }
 
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+
     }
 
     public override void PhysicsUpdate()

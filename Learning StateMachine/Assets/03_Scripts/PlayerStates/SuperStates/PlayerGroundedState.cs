@@ -50,8 +50,19 @@ public class PlayerGroundedState : PlayerState
 
         if (JumpInput)
         {
-            player.InputHandler.UseJumpInput();
-            stateMachine.ChangeState(player.JumpState);
+            if (sprintInput)
+            {
+                sprintJump = true;
+                Debug.Log("SprintJump tree" + sprintJump);
+                player.InputHandler.UseJumpInput();
+                stateMachine.ChangeState(player.JumpState);
+            }
+            else if(!sprintInput)
+            {
+                sprintJump = false;
+                player.InputHandler.UseJumpInput();
+                stateMachine.ChangeState(player.JumpState);
+            }
         }
         else if(specialAttack && canSpecialAttack)
         {

@@ -35,6 +35,8 @@ public class PlayerInputHandler : MonoBehaviour
     public float backdashCooldown = 10f;
     private float specialStartTime;
     public float specialCooldown = 10f;
+    public float specialInputTimeframe = 0.5f;
+    public float backdashTimeframe = 0.25f;
 
     private Vector2 workspace;
 
@@ -43,6 +45,8 @@ public class PlayerInputHandler : MonoBehaviour
     private Vector2 NeutralVec,UpVec, UpRightVec, RightVec, DownRightVec, DownVec, DownLeftVec, LeftVec, UpLeftVec;
 
     public List<FightInputs> recentInputs = new List<FightInputs>();
+
+    public List<float> recentInputsTiming = new List<float>();
 
     public List<FightInputs> specialInputsLeft;
     public List<FightInputs> specialInputsRight;
@@ -57,6 +61,9 @@ public class PlayerInputHandler : MonoBehaviour
 
     private bool backdashCancel;
     private int lastInput;
+    private float TimeWorkspaceA;
+    private float TimeWorkspaceB;
+
     private int FaceingDirection;
     #endregion
 
@@ -96,7 +103,7 @@ public class PlayerInputHandler : MonoBehaviour
         if (!CanBackdash) 
             { CheckKoreanBackdashCancel();}
 
-        Debug.Log(CanSpecial);
+        
 
     }
 
@@ -117,6 +124,8 @@ public class PlayerInputHandler : MonoBehaviour
             if (lastInput != (int)FightInputs.Neutral)
             {
                 recentInputs.Add(FightInputs.Neutral);
+                recentInputsTiming.Add(Time.time);
+
             }
         }
         else if (workspace == UpVec)
@@ -125,6 +134,7 @@ public class PlayerInputHandler : MonoBehaviour
             if (lastInput != (int)FightInputs.Up)
             {
                 recentInputs.Add(FightInputs.Up);
+                recentInputsTiming.Add(Time.time);
             }
         }
         else if(workspace == UpRightVec)
@@ -133,6 +143,7 @@ public class PlayerInputHandler : MonoBehaviour
             if (lastInput != (int)FightInputs.UpRight)
             {
                 recentInputs.Add(FightInputs.UpRight);
+                recentInputsTiming.Add(Time.time);
             }
         }
         else if (workspace == RightVec)
@@ -141,6 +152,7 @@ public class PlayerInputHandler : MonoBehaviour
             if (lastInput != (int)FightInputs.Right)
             {
                 recentInputs.Add(FightInputs.Right);
+                recentInputsTiming.Add(Time.time);
             }
         }
         else if (workspace == DownRightVec)
@@ -149,6 +161,7 @@ public class PlayerInputHandler : MonoBehaviour
             if (lastInput != (int)FightInputs.DownRight)
             {
                 recentInputs.Add(FightInputs.DownRight);
+                recentInputsTiming.Add(Time.time);
             }
         }
         else if (workspace == DownVec)
@@ -157,6 +170,7 @@ public class PlayerInputHandler : MonoBehaviour
             if (lastInput != (int)FightInputs.Down)
             {
                 recentInputs.Add(FightInputs.Down);
+                recentInputsTiming.Add(Time.time);
             }
         }
         else if (workspace == DownLeftVec)
@@ -165,6 +179,7 @@ public class PlayerInputHandler : MonoBehaviour
             if (lastInput != (int)FightInputs.DownLeft)
             {
                 recentInputs.Add(FightInputs.DownLeft);
+                recentInputsTiming.Add(Time.time);
             }
         }
         else if (workspace == LeftVec)
@@ -173,6 +188,7 @@ public class PlayerInputHandler : MonoBehaviour
             if (lastInput != (int)FightInputs.Left)
             {
                 recentInputs.Add(FightInputs.Left);
+                recentInputsTiming.Add(Time.time);
             }
         }
         else if (workspace == UpLeftVec)
@@ -181,6 +197,7 @@ public class PlayerInputHandler : MonoBehaviour
             if (lastInput != (int)FightInputs.UpLeft)
             {
                 recentInputs.Add(FightInputs.UpLeft);
+                recentInputsTiming.Add(Time.time);
             }
         }
 
@@ -210,6 +227,7 @@ public class PlayerInputHandler : MonoBehaviour
         {
             AttackLightInput = true;
             recentInputs.Add(FightInputs.LightAttack);
+            recentInputsTiming.Add(Time.time);
 
         }
 
@@ -224,6 +242,7 @@ public class PlayerInputHandler : MonoBehaviour
         {
             AttackHardInput = true;
             recentInputs.Add(FightInputs.HardAttack);
+            recentInputsTiming.Add(Time.time);
         }
 
         if (context.canceled)
@@ -237,6 +256,7 @@ public class PlayerInputHandler : MonoBehaviour
         {
             DefendInput = true;
             recentInputs.Add(FightInputs.Block);
+            recentInputsTiming.Add(Time.time);
         }
 
         if (context.canceled)
@@ -263,6 +283,7 @@ public class PlayerInputHandler : MonoBehaviour
         if (recentInputs.Count > 27)
         {
             recentInputs.RemoveAt(0);
+            recentInputsTiming.RemoveAt(0); 
 
             NewInputInList++;
         }
@@ -285,8 +306,8 @@ public class PlayerInputHandler : MonoBehaviour
     {
 
         if (Time.time >= specialStartTime + specialCooldown)
-        {
-            Debug.Log("Special Cooldown Works");
+        { 
+            //Debug.Log("Special Cooldown Works");
             CanSpecial = true;
         }
     }
@@ -309,11 +330,23 @@ public class PlayerInputHandler : MonoBehaviour
                     }
                     else if (j == 0)
                     {
+                        TimeWorkspaceA = recentInputsTiming[recentInputsTiming.Count - 1];
+                        TimeWorkspaceB = recentInputsTiming[recentInputsTiming.Count - specialInputsLeft.Count];
+
+                        if((TimeWorkspaceA-TimeWorkspaceB) <= specialInputTimeframe)
+                        {
                         Debug.Log("Special Move Activated");
                         //recentInputs.Clear();
                         //recentInputs.AddRange(fillerInputs);
                         SpecialInput = true;
                         specialStartTime = Time.time;
+                        }
+                        else
+                        {
+                            Debug.Log("Special Move Timing Verpasst!!!");
+                        }
+
+                        
                     }
                 }
             }
@@ -429,12 +462,22 @@ public class PlayerInputHandler : MonoBehaviour
                     }
                     else if (j == 0)
                     {
-                        //recentInputs.Clear();
-                        //recentInputs.AddRange(fillerInputs);
-                        BackdashInput = true;
-                        backdashCancel = false;
-                        backdashStartTime = Time.time;
-                        Debug.Log("Backdash Check works");
+                        TimeWorkspaceA = recentInputsTiming[recentInputsTiming.Count - 1];
+                        TimeWorkspaceB = recentInputsTiming[recentInputsTiming.Count - backdashInputsLeft.Count];
+
+                        if ((TimeWorkspaceA - TimeWorkspaceB) <= backdashTimeframe)
+                        {
+                            //recentInputs.Clear();
+                            //recentInputs.AddRange(fillerInputs);
+                            BackdashInput = true;
+                            backdashCancel = false;
+                            backdashStartTime = Time.time;
+                            Debug.Log("Backdash Check works");
+                        }
+                        else
+                        {
+                            Debug.Log("Backdash Check Timing Verpasst!!!");
+                        }
                     }
                 }
             }

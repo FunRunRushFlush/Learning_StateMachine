@@ -51,6 +51,7 @@ public class PlayerAbilityState : PlayerState
         {
             if(isGrounded && player.CurrentVelocity.y < 0.1f)
             {
+                sprintJump = false;
                 stateMachine.ChangeState(player.IdleState);
             }
             else 

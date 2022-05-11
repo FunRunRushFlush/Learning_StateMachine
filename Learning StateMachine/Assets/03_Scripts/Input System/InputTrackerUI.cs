@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class InputTrackerUI : MonoBehaviour
 {
     public PlayerInputHandler InputHandler;
-    public Frame1 frame1;
+
     
 
     public List<PlayerInputHandler.FightInputs> uiList = new List<PlayerInputHandler.FightInputs>();
@@ -40,16 +40,16 @@ public class InputTrackerUI : MonoBehaviour
         {
             newInputInList= InputHandler.NewInputInList;
             workspaceB = (int)InputHandler.recentInputs[26];
-            Debug.Log(workspaceB);
+            //Debug.Log(workspaceB);
             MoveInputFrame();
-            image[0].sprite = sprites[workspaceB];
+            image[25].sprite = sprites[workspaceB];
 
         }
     }
 
     private void MoveInputFrame()
     {
-        for(int f = 25, g = 24; g >= 0; f--, g--)
+        for(int f = 0, g = 1; g <= 25; f++, g++)
         {
             image[f].sprite = image[g].sprite;
 
