@@ -1890,7 +1890,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player1_Sheet_2(Fliped)_65: -1183377694
       Player1_Sheet_2(Fliped)_69: -1401251474
       Player1_Sheet_2(Fliped)_7: 1287442198
       Player1_Sheet_2(Fliped)_50: 632506788
@@ -1900,7 +1899,6 @@ TextureImporter:
       Player1_Sheet_2(Fliped)_37: 1546392336
       Player1_Sheet_2(Fliped)_8: -1350609460
       Player1_Sheet_2(Fliped)_73: 2108675463
-      Player1_Sheet_2(Fliped)_80: 744139534
       Player1_Sheet_2(Fliped)_25: 109737830
       Player1_Sheet_2(Fliped)_78: 1954892410
       Player1_Sheet_2(Fliped)_6: -1765001882
@@ -1931,13 +1929,13 @@ TextureImporter:
       Player1_Sheet_2(Fliped)_34: -685421420
       Player1_Sheet_2(Fliped)_48: -984489636
       Player1_Sheet_2(Fliped)_11: -1577710831
-      Player1_WallGrab_01: 956446208
       Player1_Sheet_2(Fliped)_62: 2113223511
       Player1_Sheet_2(Fliped)_38: -1397084010
       Player1_Sheet_2(Fliped)_47: -526652369
       Player1_Sheet_2(Fliped)_40: -880897769
       Player1_Sheet_2(Fliped)_24: -1777474152
       Player1_Sheet_2(Fliped)_68: 1364114566
+      Player1_Sheet_2(Fliped)_54: -1028309480
       Player1_Sheet_2(Fliped)_64: -1858955651
       Player1_Sheet_2(Fliped)_15: -1562321986
       Player1_Sheet_2(Fliped)_23: 1587287386
@@ -1962,18 +1960,20 @@ TextureImporter:
       Player1_Sheet_2(Fliped)_36: 1709335616
       Player1_Sheet_2(Fliped)_44: 998604065
       Player1_Sheet_2(Fliped)_74: -58758679
+      Player1_WallGrab_01: 956446208
       Player1_Sheet_2(Fliped)_77: 1721274179
       Player1_Sheet_2(Fliped)_14: -39531537
-      Player1_Sheet_2(Fliped)_41: -606412607
       Player1_Sheet_2(Fliped)_26: 126890238
+      Player1_Sheet_2(Fliped)_41: -606412607
+      Player1_Sheet_2(Fliped)_80: 744139534
       Player1_Sheet_2(Fliped)_32: 1877457042
       Player1_Sheet_2(Fliped)_70: -208717894
       Player1_Sheet_2(Fliped)_2: 1546858093
-      Player1_Sheet_2(Fliped)_43: 1015756174
-      Player1_Sheet_2(Fliped)_1: -999678009
       Player1_Sheet_2(Fliped)_30: 1252048397
-      Player1_Sheet_2(Fliped)_54: -1028309480
+      Player1_Sheet_2(Fliped)_65: -1183377694
       Player1_Sheet_2(Fliped)_63: 744345749
+      Player1_Sheet_2(Fliped)_1: -999678009
+      Player1_Sheet_2(Fliped)_43: 1015756174
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

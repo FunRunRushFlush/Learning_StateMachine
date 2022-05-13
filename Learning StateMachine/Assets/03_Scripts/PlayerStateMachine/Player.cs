@@ -16,23 +16,23 @@ public class Player : MonoBehaviour
     public PlayerCrouchIdleState CrouchIdleState { get; private set; }
     public PlayerCrouchMoveState CrouchMoveState { get; private set; }
     public PlayerBackdashState BackdashState { get; private set; }
+
+
+
+    #endregion
+
+
+    #region Ability_SubStates
     public PlayerAttackLightState AttackLightState { get; private set; }
     public PlayerAttackHardState AttackHardState { get; private set; }
     public PlayerDefendState DefendState { get; private set; }
     public PlayerSpecialState SpecialState { get; private set; }
-
-
-
-
-
-
-
-
-    #endregion
-    #region Ability_SubStates
     public PlayerJumpState JumpState { get; private set; }
     #endregion
+
     public PlayerInAirState InAirState { get; private set; }
+
+
 
 
 
@@ -46,12 +46,13 @@ public class Player : MonoBehaviour
 
 
 
+    public PlayerData playerData;
     public PlayerInputHandler InputHandler{ get; private set; }
     public Animator Animator { get; private set; }
     public Rigidbody2D RB { get; private set; }
     public BoxCollider2D MovementCollider { get; private set; }
 
-    public PlayerData playerData;
+    public PlayerInventory Inventory { get; private set; }
 
 
     public Vector2 CurrentVelocity { get; private set; }

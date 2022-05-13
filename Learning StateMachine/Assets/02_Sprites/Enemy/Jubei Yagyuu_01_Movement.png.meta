@@ -1,0 +1,1765 @@
+fileFormatVersion: 2
+guid: 5d9b38e3f59f49a449852deefc2a7512
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1336
+        width: 58
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37b45cd57853de47b719c5a08a70d21
+      internalID: 1502345167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1336
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760feced31dd34647ac11e3cf4320327
+      internalID: 2000138668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1336
+        width: 90
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a15c3f56f9c93945824823fcd2b601b
+      internalID: -844804027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_4
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1336
+        width: 90
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1a05e9b5a721246b4bff2fa0068992
+      internalID: 475600307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_5
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1336
+        width: 76
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16155c373494a843b67c0a1adc424ca
+      internalID: 1872873264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_6
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1336
+        width: 77
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979a37ebaea21ce4a977f324c1c00421
+      internalID: -1253029415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_7
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1336
+        width: 89
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104dce2c5512f824da49a4817358af0b
+      internalID: -963902234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_8
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1336
+        width: 96
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8078ee65194b2e3488e62cb55a9c0293
+      internalID: -1690452244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1189
+        width: 67
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9137c7995cfb6ec4ea6110553a069ded
+      internalID: -1928918667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_10
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1189
+        width: 82
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200b42b7405c6464aaca4e8284c82ab0
+      internalID: -1197864844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1189
+        width: 84
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fa3188183d8e44899027a1af1798d7
+      internalID: 489267422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_12
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1189
+        width: 86
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc7e16bf4a885a41a5ce4871d8cacc8
+      internalID: -774362305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_13
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1189
+        width: 75
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff590f8b9dd8964094f754e19dc4c49
+      internalID: 1265897110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_14
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1189
+        width: 67
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fa5c737aeb2b544a6d45dd29166ca8
+      internalID: -1790317538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_15
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1189
+        width: 67
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9bfeba0d1086d4c9b8bcb6e7e315dd
+      internalID: -828669131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_16
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1189
+        width: 67
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c074efbf57fb4ea48a55812195ef394b
+      internalID: -382490624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_17
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1189
+        width: 67
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2406419483c2909408164a63f24cb932
+      internalID: -1318604515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Idle_01
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1031
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3605ff8a25caf439b44b689ab31284
+      internalID: 965012702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Idle_02
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1031
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c213163ea4b14b42bf23ca712d52212
+      internalID: -976589830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Idle_03
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1031
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa064cb8cefb7a4bbe888877cc58d57
+      internalID: 374127849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Idle_04
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1031
+        width: 90
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cd9b87e980c7f408dd379b605a1262
+      internalID: 52510534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Idle_05
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1031
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c23b484bd919e4b93f9969055fc4dc
+      internalID: -1739736051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Idle_06
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1031
+        width: 87
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f2bd16e50a45446ac5238a73b15511
+      internalID: 1891721600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Idle_07
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1031
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb9e346f15d59f4aa3d53917cecca7f
+      internalID: -1953051900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Idle_08
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1031
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c763efae38ad02843b2f0d6fa6b0dd77
+      internalID: -1603223398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Idle_09
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1031
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3c46d2314f2634582d0dbbb94f3f68
+      internalID: -1377663169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1031
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a69544cf3a06ea4b89c5e69a45d5e80
+      internalID: 544860244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_32
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 864
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0ed2c012a90a344874f0f594169ddd
+      internalID: 676516894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_33
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 864
+        width: 100
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a5d08bf2e08d14aa1f3d0c554222ba
+      internalID: -48237533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_34
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 864
+        width: 106
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336f9ad040f6e8e4abe89bb014912a99
+      internalID: 120970152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 864
+        width: 105
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ae80b042ab6fc47b45b101744819b4
+      internalID: 901952492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_36
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 864
+        width: 106
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bfe779703eb894d95bd3a7e03a853d
+      internalID: -1899745825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_37
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 864
+        width: 106
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5f699721abe4341bde29dbe6071b16
+      internalID: -1020405578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Walk_01
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 703
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaae6ab36c9c8b947939cc745eb4ecb9
+      internalID: 1030887618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Walk_02
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 703
+        width: 96
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f26dba70587d04085e4b87fd785bcc
+      internalID: -263789944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Walk_03
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 703
+        width: 96
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719906539062c7d48ba23d41c4020b70
+      internalID: -335197994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Walk_04
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 703
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3fa8945c03a7340964778d4fb35548
+      internalID: -1919022208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Walk_05
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 703
+        width: 94
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee51973689aa3d4db97e6a3009108bb
+      internalID: -690928957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Walk_06
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 703
+        width: 92
+        height: 120
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05a1a2f24fbc8047920903b7b2d701f
+      internalID: -1660973476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Walk_07
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 703
+        width: 91
+        height: 120
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f17e797e95a9be49a88e4d5f55ac1b6
+      internalID: -195314076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_Walk_08
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 703
+        width: 84
+        height: 120
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e3725d492cb4f499576f207807fbb9
+      internalID: 438221234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_48
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 532
+        width: 86
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d61d168c85a6dd47aa58c8b38f4be35
+      internalID: -2017673628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_49
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 532
+        width: 87
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a770a7cf336f6844949f0cd356b99d1
+      internalID: 1210353574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_50
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 532
+        width: 96
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11aff375816b6c246a725a9d83d28902
+      internalID: 89217475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_51
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 532
+        width: 96
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4adde788b25bd544a4b48d8332d513f
+      internalID: 1105446992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 532
+        width: 97
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f08d9cf10a6a149b993fd6b200d94b
+      internalID: 87607626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_53
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 532
+        width: 91
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cd5cc1ea5ea754eb50bea3aed3720e
+      internalID: -338212323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_54
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 532
+        width: 90
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185539b0a7211d041ad73ab33d5a2f12
+      internalID: -2060609807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_55
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 532
+        width: 89
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa1f7f73429c73468666002364cc317
+      internalID: 1631733369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_58
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 378
+        width: 86
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1573c33a3321945489db5f566265437f
+      internalID: 887481552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_59
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 387
+        width: 85
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3d17b63e7566b49afec1d814c68885
+      internalID: -2037594922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_60
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 389
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc9b1dd99f0eb3419794732329b20ad
+      internalID: -543193265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_61
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 389
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239f0c41e8e181e4c81866651187ddc3
+      internalID: -897205175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_62
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 387
+        width: 89
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7121518e4c7cc544792b14847d3c9f63
+      internalID: 2023948531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_63
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 380
+        width: 83
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cd0043719a0c54bacf60968349cd59
+      internalID: 1990073134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_66
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 213
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d51854f07c29040a0fa0b96b8dfc04
+      internalID: -595263521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_67
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 213
+        width: 96
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe70e9fffc3ce14faa7a6f04528557d
+      internalID: 767334565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_68
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 213
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78841c8a265d4da42b5f040f00a7642a
+      internalID: 1933066347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_69
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 213
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19ce4726ef58bd409383f9f0ff948cb
+      internalID: -1443101737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_70
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 213
+        width: 101
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfec90926ea5234eb4c6f3f1fd53b48
+      internalID: -470671289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_71
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 212
+        width: 87
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc72921d0662f664e8e324a11489ca59
+      internalID: -118929740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_72
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 208
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387cc34a79abe2647824902077a96100
+      internalID: 627213564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_73
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 218
+        width: 93
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c9d0807c557ac47b9bdcdb06106897
+      internalID: 2078450790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_74
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 219
+        width: 90
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf0ca4285eebd54db33e9c8e71c9a91
+      internalID: 1035502783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_89
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 37
+        width: 104
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3220b90c43a357e4f99ab478c8259765
+      internalID: -2105795164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_90
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 38
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a783912575966848aba5305f59c1928
+      internalID: -338104329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_91
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 47
+        width: 115
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0517c3e98e39f141b2373e2256c20fb
+      internalID: -981633976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_92
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 38
+        width: 73
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9548939de6095d74c9c048efa2e83147
+      internalID: 481407869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_93
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 37
+        width: 86
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0029214c295b344823058047dde84f
+      internalID: 1491094498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_94
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 37
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59972f0c0e4fd2b4284c652aea252030
+      internalID: 914342941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_95
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 28
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7258aedec3d8686408d2c888a158160f
+      internalID: 1658651205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_96
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 28
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfbe99faea2ba44fa0a69de5cdfc6b6
+      internalID: 1119258755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Movement_97
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 40
+        width: 93
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef4569cca6c962409aea12c2665e470
+      internalID: 764163030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jubei Yagyuu_Idle_08: -1603223398
+      Jubei Yagyuu_01_Movement_59: -2037594922
+      Jubei Yagyuu_01_Movement_29: 287757013
+      Jubei Yagyuu_01_Movement_57: 1695131056
+      Jubei Yagyuu_01_Movement_1: 1502345167
+      Jubei Yagyuu_Idle_04: 52510534
+      Jubei Yagyuu_01_Movement_97: 764163030
+      Jubei Yagyuu_01_Movement_64: -1344672713
+      Jubei Yagyuu_01_Movement_15: -828669131
+      Jubei Yagyuu_01_Movement_17: -1318604515
+      Jubei Yagyuu_01_Movement_56: 224478766
+      Jubei Yagyuu_01_Movement_68: 1933066347
+      Jubei Yagyuu_01_Movement_61: -897205175
+      Jubei Yagyuu_01_Movement_84: -1503226848
+      Jubei Yagyuu_01_Movement_34: 120970152
+      Jubei Yagyuu_01_Movement_93: 1491094498
+      Jubei Yagyuu_01_Movement_81: -1929881253
+      Jubei Yagyuu_Walk_05: -690928957
+      Jubei Yagyuu_01_Movement_49: 1210353574
+      Jubei Yagyuu_01_Movement_0: -1580577682
+      Jubei Yagyuu_01_Movement_77: 952630124
+      Jubei Yagyuu_01_Movement_60: -543193265
+      Jubei Yagyuu_01_Movement_70: -470671289
+      Jubei Yagyuu_01_Movement_33: -48237533
+      Jubei Yagyuu_Walk_01: 1030887618
+      Jubei Yagyuu_01_Movement_2: 2000138668
+      Jubei Yagyuu_01_Movement_78: -2112903526
+      Jubei Yagyuu_Idle_06: 1891721600
+      Jubei Yagyuu_01_Movement_89: -2105795164
+      Jubei Yagyuu_01_Movement_91: -981633976
+      Jubei Yagyuu_Idle_03: 374127849
+      Jubei Yagyuu_01_Movement_54: -2060609807
+      Jubei Yagyuu_01_Movement_3: -844804027
+      Jubei Yagyuu_01_Movement_9: -1928918667
+      Jubei Yagyuu_Idle_05: -1739736051
+      Jubei Yagyuu_01_Movement_4: 475600307
+      Jubei Yagyuu_01_Movement_75: 355798799
+      Jubei Yagyuu_01_Movement_65: 1202013962
+      Jubei Yagyuu_01_Movement_36: -1899745825
+      Jubei Yagyuu_01_Movement_76: -1409887282
+      Jubei Yagyuu_Idle_10: 544860244
+      Jubei Yagyuu_01_Movement_50: 89217475
+      Jubei Yagyuu_01_Movement_82: -534895255
+      Jubei Yagyuu_01_Movement_13: 1265897110
+      Jubei Yagyuu_01_Movement_85: 143345341
+      Jubei Yagyuu_01_Movement_38: -1284005958
+      Jubei Yagyuu_01_Movement_90: -338104329
+      Jubei Yagyuu_01_Movement_5: 1872873264
+      Jubei Yagyuu_01_Movement_58: 887481552
+      Jubei Yagyuu_01_Movement_18: 1795862968
+      Jubei Yagyuu_01_Movement_35: 901952492
+      Jubei Yagyuu_01_Movement_30: -231194848
+      Jubei Yagyuu_01_Movement_52: 87607626
+      Jubei Yagyuu_01_Movement_51: 1105446992
+      Jubei Yagyuu_01_Movement_95: 1658651205
+      Jubei Yagyuu_01_Movement_8: -1690452244
+      Jubei Yagyuu_01_Movement_47: -1285587970
+      Jubei Yagyuu_01_Movement_80: 1025520234
+      Jubei Yagyuu_Walk_08: 438221234
+      Jubei Yagyuu_01_Movement_48: -2017673628
+      Jubei Yagyuu_01_Movement_73: 2078450790
+      Jubei Yagyuu_01_Movement_11: 489267422
+      Jubei Yagyuu_Walk_02: -263789944
+      Jubei Yagyuu_Walk_07: -195314076
+      Jubei Yagyuu_01_Movement_12: -774362305
+      Jubei Yagyuu_01_Movement_7: -963902234
+      Jubei Yagyuu_Idle_09: -1377663169
+      Jubei Yagyuu_01_Movement_55: 1631733369
+      Jubei Yagyuu_01_Movement_79: 1457468661
+      Jubei Yagyuu_01_Movement_87: 1470362271
+      Jubei Yagyuu_Walk_06: -1660973476
+      Jubei Yagyuu_01_Movement_94: 914342941
+      Jubei Yagyuu_Idle_01: 965012702
+      Jubei Yagyuu_01_Movement_74: 1035502783
+      Jubei Yagyuu_01_Movement_6: -1253029415
+      Jubei Yagyuu_01_Movement_92: 481407869
+      Jubei Yagyuu_01_Movement_31: -1896695666
+      Jubei Yagyuu_Idle_07: -1953051900
+      Jubei Yagyuu_01_Movement_83: 1715356750
+      Jubei Yagyuu_Walk_03: -335197994
+      Jubei Yagyuu_Idle_02: -976589830
+      Jubei Yagyuu_01_Movement_16: -382490624
+      Jubei Yagyuu_01_Movement_88: 520993269
+      Jubei Yagyuu_01_Movement_63: 1990073134
+      Jubei Yagyuu_01_Movement_66: -595263521
+      Jubei Yagyuu_01_Movement_96: 1119258755
+      Jubei Yagyuu_Walk_04: -1919022208
+      Jubei Yagyuu_01_Movement_62: 2023948531
+      Jubei Yagyuu_01_Movement_86: 1024772591
+      Jubei Yagyuu_01_Movement_67: 767334565
+      Jubei Yagyuu_01_Movement_14: -1790317538
+      Jubei Yagyuu_01_Movement_37: -1020405578
+      Jubei Yagyuu_01_Movement_32: 676516894
+      Jubei Yagyuu_01_Movement_53: -338212323
+      Jubei Yagyuu_01_Movement_10: -1197864844
+      Jubei Yagyuu_01_Movement_72: 627213564
+      Jubei Yagyuu_01_Movement_71: -118929740
+      Jubei Yagyuu_01_Movement_69: -1443101737
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
