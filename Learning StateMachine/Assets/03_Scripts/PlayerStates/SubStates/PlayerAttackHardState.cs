@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerAttackHardState : PlayerAbilityState
 {
-    private bool hardAttack;
+    public bool hardAttack;
     public PlayerAttackHardState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
     }

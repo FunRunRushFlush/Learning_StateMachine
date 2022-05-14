@@ -7,6 +7,7 @@ public class PlayerState
     protected Player player;
     protected PlayerStateMachine stateMachine;
     protected PlayerData playerData;
+    protected Sword sword;
 
     protected bool isAnimationFinished;
     protected bool isExitingStates;

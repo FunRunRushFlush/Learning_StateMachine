@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
 
 
     public PlayerData playerData;
+    public Sword sword;
     public PlayerInputHandler InputHandler{ get; private set; }
     public Animator Animator { get; private set; }
     public Rigidbody2D RB { get; private set; }
@@ -128,6 +129,20 @@ public class Player : MonoBehaviour
         workspace.Set(velocityX, velocityY);
         RB.velocity = workspace;
         CurrentVelocity = workspace;
+    }
+    public void SetVelocity(float velocity, Vector2 angle, int direction)
+    {
+        angle.Normalize();
+        workspace.Set(angle.x * velocity * direction, angle.y * velocity);
+        SetFinalVelocity();
+        Debug.Log("Angle WallJump");
+    }
+    private void SetFinalVelocity()
+    {
+
+            RB.velocity = workspace;
+            CurrentVelocity = workspace;
+
     }
 
     public void SetColliderHeight(float height)
