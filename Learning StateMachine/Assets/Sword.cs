@@ -41,6 +41,7 @@ public class Sword : MonoBehaviour
     public void Awake()
     {
         animator = GetComponent<Animator>();
+        gameObject.SetActive(false);
         //if (weaponData.GetType() == typeof(SO_AggressiveWeaponData))
         //{
         //    aggressiveWeaponData = (SO_AggressiveWeaponData)weaponData;
@@ -52,13 +53,19 @@ public class Sword : MonoBehaviour
     }
     public virtual void EnterSword()
     {
+        gameObject.SetActive(true);
+
         yInput = player.InputHandler.NormInputY;
         xInput = player.InputHandler.NormInputX;
         isGrounded = player.CheckIfGrounded();
 
         lightAttack = player.AttackLightState.lightAttack;
         hardAttack = player.AttackHardState.hardAttack;
-        attackModifier = player.AttackLightState.attackModifier;
+        
+        if(lightAttack)
+            attackModifier = player.AttackLightState.attackModifier;
+        else
+            attackModifier = player.AttackHardState.attackModifier;
 
         animator.SetBool("lightAttack", lightAttack);
         animator.SetBool("hardAttack", hardAttack);
@@ -67,13 +74,19 @@ public class Sword : MonoBehaviour
         Debug.Log(isGrounded);
 
         if (yInput == -1 && isGrounded)
-        {
-            attackModifier = 2;
+        { 
+            if(lightAttack)
+                attackModifier = 2;
+            else if(hardAttack)
+                attackModifier = 5;
             animator.SetInteger("attackModifier", attackModifier);
         }
         else if (!isGrounded)
         {
-            attackModifier = 1;
+            if (lightAttack)
+                attackModifier = 1;
+            else if (hardAttack)
+                attackModifier = 4;
             animator.SetInteger("attackModifier", attackModifier);
         }
 
@@ -87,7 +100,7 @@ public class Sword : MonoBehaviour
         animator.SetBool("hardAttack", hardAttack);
         animator.SetBool("lightAttack", lightAttack);
         animator.SetInteger("attackModifier", attackModifier);
-
+        gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -165,13 +178,14 @@ public class Sword : MonoBehaviour
         CheckMeleeAttack();
     }
     public void AnimationFinished_Sword() {
-                hardAttack = false;
-        lightAttack = false;
-        attackModifier = 0;
-        animator.SetBool("hardAttack", hardAttack);
-        animator.SetBool("lightAttack", lightAttack);
-        animator.SetInteger("attackModifier", attackModifier);
-        
-        player.AttackLightState.AnimationFinishTrigger(); }
+
+        if (hardAttack)
+        {
+            player.AttackHardState.AnimationFinishTrigger();
+            Debug.Log("Animation Finished Trigger HardAttack");
+        }
+        else if (lightAttack)
+            player.AttackLightState.AnimationFinishTrigger();
+    }
 }
 

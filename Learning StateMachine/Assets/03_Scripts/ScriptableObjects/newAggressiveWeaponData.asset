@@ -13,18 +13,33 @@ MonoBehaviour:
   m_Name: newAggressiveWeaponData
   m_EditorClassIdentifier: 
   attackDetails:
-  - attackName: Test1
+  - attackName: Light_Attack
     movementSpeed: 5
     damageAmount: 5
     knockbackStrength: 10
-    knockbackAngle: {x: 1, y: 10}
-  - attackName: Test2
+    knockbackAngle: {x: 1, y: 0.5}
+  - attackName: Light_Attack_inAir
     movementSpeed: 10
-    damageAmount: 10
+    damageAmount: 5
     knockbackStrength: 10
-    knockbackAngle: {x: 1, y: 1}
-  - attackName: Test3
+    knockbackAngle: {x: 1, y: 0.25}
+  - attackName: Light_Attack_Crouch
     movementSpeed: 15
-    damageAmount: 15
+    damageAmount: 5
+    knockbackStrength: 10
+    knockbackAngle: {x: 1, y: 5}
+  - attackName: Hard_Attack
+    movementSpeed: 15
+    damageAmount: 8
+    knockbackStrength: 20
+    knockbackAngle: {x: 1, y: -1}
+  - attackName: Hard_Attack_inAir
+    movementSpeed: 15
+    damageAmount: 8
+    knockbackStrength: 20
+    knockbackAngle: {x: 0, y: -3}
+  - attackName: Hard_Attack_Crouch
+    movementSpeed: 15
+    damageAmount: 8
     knockbackStrength: 20
     knockbackAngle: {x: 1, y: 5}

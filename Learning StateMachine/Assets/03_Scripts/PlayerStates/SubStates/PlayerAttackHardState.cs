@@ -19,23 +19,25 @@ public class PlayerAttackHardState : PlayerAbilityState
         base.Enter();
 
         hardAttack = true;
-        attackModifier = 0;
-        yInput = player.InputHandler.NormInputY;
+        attackModifier = 3;
 
-        player.Animator.SetInteger("attackModifier", attackModifier);
-        player.Animator.SetBool("hardAttack", hardAttack);
+        player.sword.EnterSword();
+        //yInput = player.InputHandler.NormInputY;
+
+        //player.Animator.SetInteger("attackModifier", attackModifier);
+        //player.Animator.SetBool("hardAttack", hardAttack);
 
         
-        if (yInput == -1 && isGrounded)
-        {
-            attackModifier = 2;
-            player.Animator.SetInteger("attackModifier", attackModifier);
-        }
-        else if (!isGrounded)
-        {
-            attackModifier = 1;
-            player.Animator.SetInteger("attackModifier", attackModifier);
-        }
+        //if (yInput == -1 && isGrounded)
+        //{
+        //    attackModifier = 2;
+        //    player.Animator.SetInteger("attackModifier", attackModifier);
+        //}
+        //else if (!isGrounded)
+        //{
+        //    attackModifier = 1;
+        //    player.Animator.SetInteger("attackModifier", attackModifier);
+        //}
 
 
 
@@ -49,6 +51,7 @@ public class PlayerAttackHardState : PlayerAbilityState
         attackModifier = 0;
         player.Animator.SetInteger("attackModifier", attackModifier);
         player.Animator.SetBool("hardAttack", hardAttack);
+        player.sword.ExitSword();
     }
 
     public override void LogicUpdate()

@@ -57,7 +57,7 @@ public class PlayerAttackLightState : PlayerAbilityState
 
         lightAttack = false;
         attackModifier = 0;
-        //player.Animator.SetInteger("attackModifier", attackModifier);
+        player.Animator.SetInteger("attackModifier", attackModifier);
         player.Animator.SetBool("lightAttack", lightAttack);
         player.sword.ExitSword();
     }
