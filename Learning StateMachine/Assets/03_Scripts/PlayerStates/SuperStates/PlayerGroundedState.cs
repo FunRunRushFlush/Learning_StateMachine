@@ -53,7 +53,7 @@ public class PlayerGroundedState : PlayerState
             if (sprintInput)
             {
                 sprintJump = true;
-                Debug.Log("SprintJump tree" + sprintJump);
+                //Debug.Log("SprintJump true" + sprintJump);
                 player.InputHandler.UseJumpInput();
                 stateMachine.ChangeState(player.JumpState);
             }

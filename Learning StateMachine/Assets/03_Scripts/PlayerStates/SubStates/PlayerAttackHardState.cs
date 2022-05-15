@@ -59,8 +59,11 @@ public class PlayerAttackHardState : PlayerAbilityState
         base.LogicUpdate();
 
 
-
+        if (isGrounded)
+        {
         player.SetVelocityX(playerData.attackVelocity);
+
+        }
 
         if (isAnimationFinished && isGrounded)
         {

@@ -212,7 +212,7 @@ public class PlayerInputHandler : MonoBehaviour
             JumpInput = true;
             JumpInputStop = false;
             jumpInputStartTime = Time.time;
-            Debug.Log("Jump Input");
+            //Debug.Log("Jump Input");
         }
 
         if (context.canceled)

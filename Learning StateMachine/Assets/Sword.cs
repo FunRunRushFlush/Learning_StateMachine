@@ -91,7 +91,16 @@ public class Sword : MonoBehaviour
         }
 
     }
+    private void Update()
+    {
+        yInput = player.InputHandler.NormInputY;
+        xInput = player.InputHandler.NormInputX;
 
+        if (!isGrounded)
+        {
+            player.SetVelocityX(playerData.walkVelocity * xInput);
+        }
+    }
     public virtual void ExitSword()
     {
         hardAttack = false;

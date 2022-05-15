@@ -41,5 +41,5 @@ MonoBehaviour:
   - attackName: Hard_Attack_Crouch
     movementSpeed: 15
     damageAmount: 8
-    knockbackStrength: 20
+    knockbackStrength: 15
     knockbackAngle: {x: 1, y: 5}

@@ -39,7 +39,7 @@ public class PlayerInAirState : PlayerState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        Debug.Log("sprint Jump inAir "+sprintJump);
+        //Debug.Log("sprint Jump inAir "+sprintJump);
 
 
         xInput = player.InputHandler.NormInputX;
