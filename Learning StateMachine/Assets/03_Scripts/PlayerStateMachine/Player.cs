@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour ,IDamageable, IKnockbackable
 {
+
     public PlayerStateMachine StateMachine { get; private set; }
    
     #region All StateMachine States
@@ -59,7 +60,15 @@ public class Player : MonoBehaviour
     public Vector2 CurrentVelocity { get; private set; }
     public int FacingDirection { get; private set; }
     private Vector2 workspace;
+    //------------------------------Dmg
+    #region HP
+    public float maxHealth = 1000f;
+    public float currentHealth;
 
+    public float maxKnockbackTime = 0.2f;
+    private float knockbackStartTime;
+    #endregion
+    //---------------------------------------
 
     private void Awake()
     {
@@ -92,6 +101,7 @@ public class Player : MonoBehaviour
         StateMachine.Initialize(IdleState);
         MovementCollider = GetComponent<BoxCollider2D>();
 
+        currentHealth = maxHealth;
         FacingDirection = 1;
     }
 
@@ -187,5 +197,29 @@ public class Player : MonoBehaviour
     {
         FacingDirection *= -1;
         transform.Rotate(0f, 180.0f, 0f);
+    }
+
+    public void Knockback(Vector2 angle, float strength, int direction)
+    {
+        angle.Normalize();
+        workspace.Set(angle.x * strength * direction, angle.y * strength);
+        RB.velocity = workspace;
+        //isKnockbackActive = true;
+        knockbackStartTime = Time.time;
+    }
+
+    public void Damage(float amount)
+    {
+        currentHealth -= amount;
+
+        //Instantiate(hitParticles, transform.position, Quaternion.Euler(0.0f, 0.0f, Random.Range(0.0f, 360.0f)));
+        Debug.Log(amount + " Damage done");
+
+        if (currentHealth <= 0)
+        {
+
+            Destroy(gameObject);
+            Debug.Log("Health is Zero --> Dead");
+        }
     }
 }

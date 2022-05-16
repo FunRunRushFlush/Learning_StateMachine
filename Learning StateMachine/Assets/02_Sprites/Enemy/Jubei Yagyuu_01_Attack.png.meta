@@ -1,0 +1,4736 @@
+fileFormatVersion: 2
+guid: 1fd767a3efb92e546b99e6dea09d5321
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2985
+        width: 763
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045c866fa73643d4c810b88e81c41785
+      internalID: -1327024002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2961
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d560d3c6357dd74da815b3e516f03ba
+      internalID: -1346470030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2959
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6cc4ff5caf0da46bae348d937473c7
+      internalID: 347074125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2822
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2d37d677f99c14f857691de3b2e61e
+      internalID: 323194472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2822
+        width: 138
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99018200bed87b54eac5a4f10b1323ee
+      internalID: -1161242968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2822
+        width: 139
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3900d644af26f9b4daca21b1f66d6e79
+      internalID: -145120293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 2822
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e169479654d0c424f99d32ddc382de7c
+      internalID: -363687260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2822
+        width: 161
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0109fad0aa3d5dc4e947bf49fe1ab01d
+      internalID: -1837198509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 2822
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055b269580ad1d34993edd094f29c1de
+      internalID: -1243569575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2695
+        width: 151
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5406a7044f0f7447baa4d5b80957bae
+      internalID: 165752827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2695
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d889ddafbc92b346b185070b49dfa10
+      internalID: -1560006654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2695
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73370db8f28c30e40b860527b4412142
+      internalID: -1155560161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2695
+        width: 138
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ec03d82a741f94a8e2f1d32a966fe0
+      internalID: -1391742648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2743
+        width: 105
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23830f3a2e5000645bc63b711b4d0c64
+      internalID: 1068336616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 2725
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26e99645287b364fb1fe745e8ef8a98
+      internalID: -53848425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 2737
+        width: 60
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9654eb92ecf31479d2cd0a9ba3f627
+      internalID: -937356668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2663
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f48e0c08eeec94692411256ad03a48
+      internalID: -1087982940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2661
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0304ea030dab9074eb5650e38af5d2a4
+      internalID: 1234583982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2521
+        width: 103
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9482c71267c5f42bf7883b2108b68b
+      internalID: 182305206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2521
+        width: 67
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace2c0c62c82f0649bf4d23c05717815
+      internalID: -1549231819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2521
+        width: 115
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcce49fc74eec0649a1905eff8fff841
+      internalID: 729316418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2521
+        width: 115
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd4300ba45d9874899399b23aaef357
+      internalID: 1467842345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 2521
+        width: 117
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a005df2eb97ef3b479e0c9da997d9d79
+      internalID: -1322338125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2521
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cbee99934952444a18732ab3ff1a64
+      internalID: 135495502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2385
+        width: 118
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9734bfd8d64364cb5f5653e63cc8ba
+      internalID: -1490736019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2385
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9455d10bd18c6f4489df88213a2a8937
+      internalID: 3562227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2385
+        width: 94
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a10a5f077b53744921794659e0cdd9
+      internalID: 825366612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 2385
+        width: 67
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e9c61943c737e4aa1f2da67106a532
+      internalID: 2040829538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 2468
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80505fc465838f34fa75377c8cde81df
+      internalID: 206950333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2385
+        width: 115
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e963374d338cc45ad9262c16cb5a8a
+      internalID: -1271886048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2461
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b77ee01f55edfc468211bf01d73823a
+      internalID: -2000181323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2405
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9fedb50dc01614a86e8a7bb5deabb4
+      internalID: -1034112999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 2397
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863f1f1eeb4dcd04882c17dc4321369b
+      internalID: -75846070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_33
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 2434
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003e3ec90fbad284eac64295aba79604
+      internalID: 874044348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_34
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2395
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7701e5d4cc11a9f4f918165fcfb472ee
+      internalID: -583656120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_35
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2360
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37c3c0201ed04c49b622b90bb302a4c
+      internalID: -963112217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_36
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 2358
+        width: 55
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c899afd16c67b458aa8363bb0778ff
+      internalID: 1021065570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2358
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0bd5d7489a17e49882894225a8166e
+      internalID: 1511407708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_38
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2360
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c4a0ed3309e6a49894627b66ece6d6
+      internalID: 1140311971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2360
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329c81de3b815f64fb29464eac93ce9b
+      internalID: 1440449365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_40
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2205
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7567793cd9ac0847a81a226685f980b
+      internalID: -116829481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_41
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2205
+        width: 87
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b1774bd393dd84182f137815df7271
+      internalID: -1264495585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_42
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2205
+        width: 112
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517146b6eb8532f459a9d279bd9dec2b
+      internalID: -816886235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_43
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2205
+        width: 112
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688e82bea22ad604c8a97a65fbf86898
+      internalID: 1962738311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_44
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2205
+        width: 87
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5563dd19b5decad4fb347507ee2d0359
+      internalID: -2082959113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_45
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2173
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbc042ded0fbc848944669f047bd5d8
+      internalID: -213757652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_46
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2173
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8892ea49cf8a4634d9d102ac41b7329f
+      internalID: -46998703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_47
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2067
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a188ce86fc31444afdf3e81c43abf2
+      internalID: -2121736732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_48
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2068
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149a4ea5bba8e9845a5b6d11d6f0be9d
+      internalID: -2130875790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_49
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 2072
+        width: 189
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bdb5ae9b44f4045b49ca8244f906bd
+      internalID: -1132752756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_50
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2072
+        width: 189
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e04e6bebc6646e4bbf5288aea18b1eb
+      internalID: -643915337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_51
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2072
+        width: 191
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061a6653ad2793f479f912da3aa9867f
+      internalID: 729064706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_52
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 2072
+        width: 191
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d581afef04d3c1c4fa0718d8459681ad
+      internalID: -795913514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_53
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1984
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0664abc429b21504f9b60617758a6b9a
+      internalID: 1470452102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1984
+        width: 79
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e216344106a32904d98ca2a5ecf5fae1
+      internalID: 1805212809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_55
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1984
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf922ce860c83b4a8862bceb970082f
+      internalID: -1603391758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_56
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1955
+        width: 763
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef752614253990e4faa674cc0395e38b
+      internalID: -638912833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1957
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c96e1f20d710524c9250b0be54f456b
+      internalID: -691397165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_58
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1930
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f956bdee00775a74cbc888cc00118958
+      internalID: 2051958351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_59
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1928
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d201914e6c73b4a99573faf53af153
+      internalID: -373731445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1796
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4358cac0ea59cfc4eaf20a37198dc34c
+      internalID: 197597357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_61
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1796
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d36f95db1979940bee77f39be4c0af
+      internalID: 1472401463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_62
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1797
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b894e1421f8801e4ebfe5bd0489c5f12
+      internalID: 1182322556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_63
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1796
+        width: 186
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23413cab1f23f524dadc809dc399812c
+      internalID: -865690922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_64
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1796
+        width: 191
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72380e3e50b86284a9ef434f6e7b01a1
+      internalID: 1787248682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_65
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1796
+        width: 191
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4d6fb1c0f717e40bd9b66179a4a6db
+      internalID: -1703631253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_66
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1796
+        width: 192
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a75300d852bb8c47962ac61f902af23
+      internalID: -865852778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_67
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1756
+        width: 133
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c59666ec85ff648a2f12d1f5b97feb
+      internalID: -662707282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1759
+        width: 92
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9e6b49177dec842b23c5c1b423fa22
+      internalID: 1319564901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_69
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1762
+        width: 68
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1041e90190bb234e922fd5deee78cae
+      internalID: -2141206325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_70
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1727
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a34b9a7284b4aa46aeb4665f3316c16
+      internalID: -617280729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_71
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1725
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8e1ed76755a4c4fb139daa23d24baf
+      internalID: -482355505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_72
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1618
+        width: 87
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d84e1da23ed5b2459f4fc35d9bd8433
+      internalID: -1748355465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_73
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1618
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccf6f9d9ab04094f94beeb4120552a9
+      internalID: 1865768690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_74
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1618
+        width: 105
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca84ca37931db741ab3cb3bc0182ef3
+      internalID: -259162725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_75
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1618
+        width: 171
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bef6e484edf18498996f579eef6259
+      internalID: 1591428063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_76
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1618
+        width: 175
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b22b0a516eaa6f4eb6e2f937733e095
+      internalID: 1717762075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_77
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1617
+        width: 175
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574a3735e5dbddc4a85d52a92d40551a
+      internalID: -653032697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_78
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1617
+        width: 174
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ffdcf5dd4a7524085621ea3814ed7c
+      internalID: -1398466204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_79
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1585
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27b5a06435229d469df4f4abaad32c9
+      internalID: -340206350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_80
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1583
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99ba9d02a8fff54a9ceb4fb662f2f72
+      internalID: -1840156400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_81
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1585
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6646b9a24b987134db6099195ec58f70
+      internalID: 1040893894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_82
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1585
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0fb67a57673304a8ae8072eeed7102
+      internalID: -547144511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_83
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1415
+        width: 103
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14887621b003f274aa02516654adf873
+      internalID: 937200401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_84
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1416
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b907ab61fdb8d5a4c8106de40045db25
+      internalID: 1078502044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_85
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1415
+        width: 119
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbeab259a56208439801acfb2b80812
+      internalID: -1491443738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_86
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1415
+        width: 122
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d9c0ea88415a64d8ce090c73f20a73
+      internalID: -176330121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_87
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1415
+        width: 137
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e712abe214e3a6f4fafb69023b5c1873
+      internalID: -1806125961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_88
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1450
+        width: 114
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c09414d5418d345b13b323aefdc6df
+      internalID: -1651018772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_89
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1415
+        width: 64
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ced6047dd7c9ef42b7e1a0b117f73ed
+      internalID: -210991977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_90
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1479
+        width: 51
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb67ae45654c744ca9f012dadfec3af
+      internalID: -1250579643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_91
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1483
+        width: 57
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67339b1c794b464a9c18f664c9745ae
+      internalID: -868805427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_92
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1419
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1695d4ab90d0529449af3b39fc0fcc9b
+      internalID: -1847599793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_93
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1423
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c5c77a6aa67ab46beeda142500dbb1
+      internalID: 213476904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_94
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1270
+        width: 108
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1723d92d5c16883459f539d70d712a76
+      internalID: -466347783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_95
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1270
+        width: 108
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd8e0058e9292f4bbc33f72995fc925
+      internalID: -1395726298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_96
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1300
+        width: 64
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcfa1a9e8385e548a14afdf79d98ca3
+      internalID: 1635069801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_97
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1270
+        width: 160
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfc444de77eeae479eeb885856a8965
+      internalID: 1580970203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_98
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1270
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10a868c2ff7fb642a292672564d7a02
+      internalID: -92792858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_99
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1270
+        width: 119
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf443baff4067b4a9b6ec8f05c00980
+      internalID: -1809525756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_102
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1206
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6745e6823739e8347a029eba310e1adb
+      internalID: -1295763291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_RunAttack_01
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1130
+        width: 115
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef41a351b7e765b498d88ce3cef9d40c
+      internalID: -1650650916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_RunAttack_02
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1131
+        width: 115
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073ad914ec73de54080b46d4cf0033d0
+      internalID: 1556330066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_RunAttack_03
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1131
+        width: 117
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248c7fa10968f074b936e5ee3af996a6
+      internalID: -821119706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_RunAttack_04
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1131
+        width: 93
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5913978, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55759a7ae480dd4d91cf47381d0e879
+      internalID: 841822650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_RunAttack_05
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1131
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4417bbba8c44c41928091929fbcb90
+      internalID: -534620257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_RunAttack_06
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1131
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d276a7644b99145927287ad3fd94cd
+      internalID: 1223848806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_RunAttack_07
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1131
+        width: 94
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5531915, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed1fa6f936e873408a523d2b3dcf8e8
+      internalID: -44275889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_110
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1208
+        width: 54
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e775726f313fc743817164182b7f858
+      internalID: 1827211246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_111
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1140
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd4f2c061c9e794bbed8c2740989d94
+      internalID: -1593939854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_112
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1175
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4198487b5b3f64eb0ec739c70c315d
+      internalID: 575366842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_113
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1168
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5eb5395b699f046aa988368c5a2d40
+      internalID: 1917332916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_114
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1141
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8c3eed9d4a71a48be5d5c0349ab85e
+      internalID: -1392143474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_115
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1096
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4b1ccf079126e4dba0663a32fb4f23
+      internalID: 83265308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_116
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1096
+        width: 70
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6703c743a7cb32d4e9871b95c2a2cf6a
+      internalID: -966605554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_117
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1084
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d025f602e3d4e449890d47952bd5580
+      internalID: -1983577756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_118
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1084
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd06c293a7aa8984f8853965418a6573
+      internalID: -838637092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_119
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1082
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fde84a5109e7f419a53df2e85e569d
+      internalID: -579068750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_120
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1082
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31abbd69b68c2a24f8896232267dd7c0
+      internalID: -2141490843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_121
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1084
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ce495c4947e8144b79831d86c61f4a
+      internalID: -1838182879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_122
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1082
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7745d42001c7ba844b242809346f2439
+      internalID: -523435988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_123
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1084
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0044c37c00ff4174ab2ff4b7bb2cef60
+      internalID: -2010170423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_124
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1084
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d590bc3e411ea7540bc91a562ff3d32a
+      internalID: 574620503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_125
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1035
+        width: 763
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d153b24a5cc9adc419926ebcdff0920c
+      internalID: -585034364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_126
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1037
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195130360984f404f857f36152286f42
+      internalID: 1020656523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_127
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1017
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ed8d364b5305b48b52f6c8e220f0e7
+      internalID: -1461246534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_128
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1015
+        width: 52
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a072c57e676a4c4dbd7d375120130e5
+      internalID: 1590675251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_129
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1015
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8372146ca95628d47bec079893a4a839
+      internalID: 1153608112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_130
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 856
+        width: 103
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db853716f385f654dbad3769129e2fbf
+      internalID: -2080177002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_131
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 856
+        width: 67
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7986853ef2f6ce4fa80e247caf1f157
+      internalID: -1270800030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_132
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 856
+        width: 114
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7358bc497721e94b9b4e5f4402065bf
+      internalID: -1936417114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_133
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 856
+        width: 117
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29d3d44cbc008a478253513b7069dc3
+      internalID: -1086377281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_134
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 856
+        width: 85
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d75a44de8c8310448b2148b9cdd7405
+      internalID: 585166547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_135
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 856
+        width: 127
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac24d749e41bfb4db69ff8d77b1e7e6
+      internalID: -1930348739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_136
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 687
+        width: 84
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31822153c8ba69040811aeef39398ff7
+      internalID: 103111072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_137
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 687
+        width: 113
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3397d2fc97e5ef041bc9b7940e4f2f97
+      internalID: 1643985051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_138
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 687
+        width: 81
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47359f3a8dc389548895b3ed0730d64c
+      internalID: 1589790148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_139
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 687
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2ca01b8b8b89d4f8014dd5e20f2398
+      internalID: 864576216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_140
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 687
+        width: 103
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775993e0ece207947937d14a19324c0b
+      internalID: -441837041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_141
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 785
+        width: 85
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded28ea096b349f44a5da112d1112e11
+      internalID: -408712215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_142
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 690
+        width: 56
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddccb3fe0da48b449791450407a638f
+      internalID: 707228754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_143
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 742
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1729590fdae1e0a41a58cde3fcbc61e1
+      internalID: 784786290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_144
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 775
+        width: 62
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ab1d720b32e6240a77d9e5e3f8ad7f
+      internalID: -1321134390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_145
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 650
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496f89cc24b71ec4a91c6b13bea9f3bf
+      internalID: 196877679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_146
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 648
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390c271a49a20404ba79ac01ed694c18
+      internalID: 2025856994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_147
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 631
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831a9b58adceed34e97d9988a1ea0915
+      internalID: -1169250386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_148
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 631
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e4986323d50b044b7e8e20bc4446b6
+      internalID: 1017966674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_149
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 631
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420adbe30ffdc674f91cad503f42c2d6
+      internalID: 293248700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_150
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 631
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e5dfaf50799ce48961550bdc7fc0ec
+      internalID: -1081127049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_151
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 631
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4be3aa5d884fa4aa2b6a1c901d4bd2
+      internalID: 875621380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_152
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 631
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338d787d311b3b3478e8216101203c66
+      internalID: 1390646663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_153
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 629
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6f77b335ac588418414668a201f60b
+      internalID: 1749694779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_154
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 631
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cfb0bc44d87754ba800993bd4f8cac
+      internalID: -711082411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_155
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 631
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1df3e2f0d89edd438d993bb951cac52
+      internalID: -41071463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_156
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 631
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0761ac8e8839bac47a77e98b33e9f430
+      internalID: 150943680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_157
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 629
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5147f22f190f74346bf21f9e0e8e77aa
+      internalID: -1262255650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_158
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 631
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86c871edb52f204888698c4aac140fb
+      internalID: -2132343211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_159
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 631
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d1f6207d4b55e409d345fb9c98d460
+      internalID: -880701672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_160
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 629
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10a0bd14283bf149a436f124c6151a9
+      internalID: -1148293030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_161
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 631
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3de08b61f88824893b8680cbdd73d4
+      internalID: -1150279155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_162
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 631
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe9fbe6344cfc44ca309d9a9d424432
+      internalID: 1105698285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_163
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 631
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b117b88bc3dd39047841fc2d2441fdfb
+      internalID: -1612512830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_164
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 629
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c64d4118fb349d488bb818f60285ea8
+      internalID: 361790860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_165
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 631
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884dd8407bd212c4192ee5d7bfd3f3b2
+      internalID: 515301665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_166
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 631
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685d37f03037821409fd13a9dd815e43
+      internalID: -1482132872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_167
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 631
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490910ab348f82f409d50a69ac4d7bbd
+      internalID: -277576251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_168
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 629
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cf4e62e4b423c41b28cc4cd0e25ab5
+      internalID: 1211902131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_169
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 631
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb2186106f6caa4a80e09539a17c0a5
+      internalID: -571640986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_170
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 631
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e45b435b9adae47b944a5abd2a0954
+      internalID: 168758989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_171
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 631
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2428bd6f6a3b4d4592839eddca6b2aa
+      internalID: -141836360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_172
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 631
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d01db61ab29ad44fa1dceb8831cd9b3
+      internalID: -1952432181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_173
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 525
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1392593ea18d334a8a44dd478b810f1
+      internalID: 154919792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_174
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 525
+        width: 176
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce784040c11956e44b174f2f886538b6
+      internalID: -498404532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_175
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 525
+        width: 181
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e668d87f1cc2e45479e8a8957d707471
+      internalID: 2025993115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_176
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 525
+        width: 181
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60af2273ca3c44748ae7d9d8ff93fda0
+      internalID: -1447455659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_177
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 525
+        width: 182
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d184b6e251d1c444a99cedea447a72b
+      internalID: 609447608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_178
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 525
+        width: 105
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b298ec5609f054e951f1ca12e1a66b
+      internalID: 917227042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_179
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 495
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e293b0b874b7d242a4dfe06edafa127
+      internalID: -153299444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_180
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 493
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c30263cd7bef847abb0bd315e89c1f
+      internalID: -309197386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_181
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 495
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5685a14fb8aa740866f30e2db1934a
+      internalID: -1446915598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_182
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 495
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ba538118361a34db42ba845848e9dd
+      internalID: 212083139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_183
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 367
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de80917e8edf05247b1c720349f4d0f5
+      internalID: 2022029446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_184
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cbf382ecba49047ad5b5cd4bd8b992
+      internalID: -1402203760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_185
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 367
+        width: 131
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff806e1f7d4f764ca4311574557faf4
+      internalID: 1296207474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_186
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 367
+        width: 95
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea94c15801d724247b736c54d8280508
+      internalID: 2105391464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_187
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 367
+        width: 140
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b242aeaedf77b2843a542d85370c748a
+      internalID: -1634457338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_188
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 243
+        width: 137
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f06b2d6d0b85b4429fcf2aeb60f8b86
+      internalID: -1334448528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_189
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 243
+        width: 113
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11e0a9ad906c39478cdbc78d988009a
+      internalID: -347322518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_190
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 243
+        width: 131
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5c7e7332436cb498315211cea9c595
+      internalID: 531709770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_191
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 244
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401694b8039824c43b51de7ea9354bc6
+      internalID: 321538497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_192
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 269
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52206a333378974eb29115c01b9e0af
+      internalID: 440111132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_193
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 309
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4ae6e6a68ef284a9e174bd73ab3961
+      internalID: 1976888260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_194
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 312
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09d82bde09461349bc4583698aac435
+      internalID: -788374503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_195
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 309
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abadf555843422d4ca2f6f12b7ce584e
+      internalID: -1356248643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_196
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 273
+        width: 111
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc14c12f44853145989a017cfbe778b
+      internalID: -831426488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_197
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 273
+        width: 87
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fe9b10229dbd644b100b59d1f1fdb1
+      internalID: -451431866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_DashAttack_01
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 100
+        width: 71
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6df21f9950a661459ba0538ff2b527c
+      internalID: 1232893374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_DashAttack_02
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 99
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e666909887e48bb408f8842a00603f15
+      internalID: -1474859362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_DashAttack_03
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 102
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733b63f3857bede459ae228752a87a78
+      internalID: 1685501535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_DashAttack_04
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 115
+        width: 125
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9ea0efb781a954ab041e46039c9a8f
+      internalID: -753569072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_DashAttack_05
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 116
+        width: 166
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2723231307aa4645ba554587b34cb04
+      internalID: -1822222660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_DashAttack_06
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 115
+        width: 164
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300f05a81f199aa4283e1d46649e820e
+      internalID: 2100264810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_DashAttack_07
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 115
+        width: 124
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1639be8344d7f5e42895bd09e05040fd
+      internalID: 220652709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_207
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 12
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d580d857d69877140860e787925404f2
+      internalID: -999599651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_208
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 69
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1175e92251d3d034d83518205c5bb0f1
+      internalID: 1517717668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_209
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 58
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076e205d430cdf844a2e8cd0d7407340
+      internalID: -618018387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_210
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 22
+        width: 124
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c4e466410f19e4a983b0fa5fdf53dd
+      internalID: -208959281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_211
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 12
+        width: 77
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e18392c25b391418f0113a3c4b21c5
+      internalID: -1529320177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jubei Yagyuu_01_Attack_212
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 37
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bb570202c762d488c331299e991db5
+      internalID: -1297567248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jubei Yagyuu_01_Attack_33: 874044348
+      Jubei Yagyuu_01_Attack_45: -213757652
+      Jubei Yagyuu_DashAttack_02: -1474859362
+      Jubei Yagyuu_01_Attack_164: 361790860
+      Jubei Yagyuu_01_Attack_35: -963112217
+      Jubei Yagyuu_01_Attack_117: -1983577756
+      Jubei Yagyuu_01_Attack_176: -1447455659
+      Jubei Yagyuu_01_Attack_170: 168758989
+      Jubei Yagyuu_01_Attack_15: -937356668
+      Jubei Yagyuu_01_Attack_67: -662707282
+      Jubei Yagyuu_01_Attack_26: 825366612
+      Jubei Yagyuu_01_Attack_141: -408712215
+      Jubei Yagyuu_01_Attack_111: -1593939854
+      Jubei Yagyuu_01_Attack_43: 1962738311
+      Jubei Yagyuu_01_Attack_72: -1748355465
+      Jubei Yagyuu_01_Attack_77: -653032697
+      Jubei Yagyuu_01_Attack_28: 206950333
+      Jubei Yagyuu_01_Attack_101: 1300230378
+      Jubei Yagyuu_01_Attack_138: 1589790148
+      Jubei Yagyuu_01_Attack_194: -788374503
+      Jubei Yagyuu_01_Attack_207: -999599651
+      Jubei Yagyuu_01_Attack_6: -363687260
+      Jubei Yagyuu_01_Attack_18: 182305206
+      Jubei Yagyuu_01_Attack_74: -259162725
+      Jubei Yagyuu_01_Attack_132: -1936417114
+      Jubei Yagyuu_01_Attack_39: 1440449365
+      Jubei Yagyuu_01_Attack_150: -1081127049
+      Jubei Yagyuu_01_Attack_128: 1590675251
+      Jubei Yagyuu_01_Attack_56: -638912833
+      Jubei Yagyuu_01_Attack_171: -141836360
+      Jubei Yagyuu_01_Attack_189: -347322518
+      Jubei Yagyuu_01_Attack_86: -176330121
+      Jubei Yagyuu_01_Attack_113: 1917332916
+      Jubei Yagyuu_01_Attack_119: -579068750
+      Jubei Yagyuu_01_Attack_136: 103111072
+      Jubei Yagyuu_01_Attack_9: 165752827
+      Jubei Yagyuu_01_Attack_44: -2082959113
+      Jubei Yagyuu_01_Attack_121: -1838182879
+      Jubei Yagyuu_01_Attack_41: -1264495585
+      Jubei Yagyuu_01_Attack_42: -816886235
+      Jubei Yagyuu_01_Attack_134: 585166547
+      Jubei Yagyuu_01_Attack_51: 729064706
+      Jubei Yagyuu_01_Attack_75: 1591428063
+      Jubei Yagyuu_01_Attack_5: -145120293
+      Jubei Yagyuu_01_Attack_157: -1262255650
+      Jubei Yagyuu_01_Attack_209: -618018387
+      Jubei Yagyuu_01_Attack_97: 1580970203
+      Jubei Yagyuu_01_Attack_193: 1976888260
+      Jubei Yagyuu_01_Attack_63: -865690922
+      Jubei Yagyuu_01_Attack_13: 1068336616
+      Jubei Yagyuu_01_Attack_130: -2080177002
+      Jubei Yagyuu_01_Attack_160: -1148293030
+      Jubei Yagyuu_RunAttack_01: -1650650916
+      Jubei Yagyuu_01_Attack_178: 917227042
+      Jubei Yagyuu_DashAttack_06: 2100264810
+      Jubei Yagyuu_01_Attack_64: 1787248682
+      Jubei Yagyuu_01_Attack_52: -795913514
+      Jubei Yagyuu_RunAttack_07: -44275889
+      Jubei Yagyuu_01_Attack_71: -482355505
+      Jubei Yagyuu_01_Attack_114: -1392143474
+      Jubei Yagyuu_01_Attack_151: 875621380
+      Jubei Yagyuu_01_Attack_87: -1806125961
+      Jubei Yagyuu_01_Attack_93: 213476904
+      Jubei Yagyuu_01_Attack_91: -868805427
+      Jubei Yagyuu_01_Attack_99: -1809525756
+      Jubei Yagyuu_01_Attack_12: -1391742648
+      Jubei Yagyuu_01_Attack_66: -865852778
+      Jubei Yagyuu_01_Attack_115: 83265308
+      Jubei Yagyuu_01_Attack_58: 2051958351
+      Jubei Yagyuu_01_Attack_124: 574620503
+      Jubei Yagyuu_01_Attack_143: 784786290
+      Jubei Yagyuu_01_Attack_20: 729316418
+      Jubei Yagyuu_01_Attack_137: 1643985051
+      Jubei Yagyuu_01_Attack_155: -41071463
+      Jubei Yagyuu_01_Attack_172: -1952432181
+      Jubei Yagyuu_01_Attack_187: -1634457338
+      Jubei Yagyuu_01_Attack_19: -1549231819
+      Jubei Yagyuu_01_Attack_140: -441837041
+      Jubei Yagyuu_01_Attack_199: -1627544312
+      Jubei Yagyuu_01_Attack_65: -1703631253
+      Jubei Yagyuu_01_Attack_182: 212083139
+      Jubei Yagyuu_01_Attack_112: 575366842
+      Jubei Yagyuu_01_Attack_165: 515301665
+      Jubei Yagyuu_01_Attack_0: -1327024002
+      Jubei Yagyuu_01_Attack_69: -2141206325
+      Jubei Yagyuu_01_Attack_161: -1150279155
+      Jubei Yagyuu_01_Attack_180: -309197386
+      Jubei Yagyuu_01_Attack_166: -1482132872
+      Jubei Yagyuu_01_Attack_10: -1560006654
+      Jubei Yagyuu_01_Attack_154: -711082411
+      Jubei Yagyuu_01_Attack_23: 135495502
+      Jubei Yagyuu_01_Attack_49: -1132752756
+      Jubei Yagyuu_01_Attack_68: 1319564901
+      Jubei Yagyuu_01_Attack_185: 1296207474
+      Jubei Yagyuu_01_Attack_146: 2025856994
+      Jubei Yagyuu_01_Attack_11: -1155560161
+      Jubei Yagyuu_01_Attack_96: 1635069801
+      Jubei Yagyuu_01_Attack_110: 1827211246
+      Jubei Yagyuu_01_Attack_159: -880701672
+      Jubei Yagyuu_DashAttack_07: 220652709
+      Jubei Yagyuu_01_Attack_173: 154919792
+      Jubei Yagyuu_01_Attack_76: 1717762075
+      Jubei Yagyuu_01_Attack_29: -1271886048
+      Jubei Yagyuu_01_Attack_54: 1805212809
+      Jubei Yagyuu_01_Attack_156: 150943680
+      Jubei Yagyuu_01_Attack_188: -1334448528
+      Jubei Yagyuu_01_Attack_179: -153299444
+      Jubei Yagyuu_01_Attack_198: 2077459152
+      Jubei Yagyuu_01_Attack_88: -1651018772
+      Jubei Yagyuu_01_Attack_122: -523435988
+      Jubei Yagyuu_01_Attack_125: -585034364
+      Jubei Yagyuu_01_Attack_163: -1612512830
+      Jubei Yagyuu_01_Attack_184: -1402203760
+      Jubei Yagyuu_DashAttack_01: 1232893374
+      Jubei Yagyuu_01_Attack_149: 293248700
+      Jubei Yagyuu_01_Attack_22: -1322338125
+      Jubei Yagyuu_01_Attack_55: -1603391758
+      Jubei Yagyuu_01_Attack_38: 1140311971
+      Jubei Yagyuu_01_Attack_40: -116829481
+      Jubei Yagyuu_01_Attack_167: -277576251
+      Jubei Yagyuu_DashAttack_03: 1685501535
+      Jubei Yagyuu_01_Attack_158: -2132343211
+      Jubei Yagyuu_RunAttack_03: -821119706
+      Jubei Yagyuu_01_Attack_152: 1390646663
+      Jubei Yagyuu_01_Attack_82: -547144511
+      Jubei Yagyuu_01_Attack_123: -2010170423
+      Jubei Yagyuu_DashAttack_05: -1822222660
+      Jubei Yagyuu_01_Attack_7: -1837198509
+      Jubei Yagyuu_01_Attack_17: 1234583982
+      Jubei Yagyuu_01_Attack_208: 1517717668
+      Jubei Yagyuu_01_Attack_212: -1297567248
+      Jubei Yagyuu_01_Attack_34: -583656120
+      Jubei Yagyuu_01_Attack_181: -1446915598
+      Jubei Yagyuu_01_Attack_197: -451431866
+      Jubei Yagyuu_01_Attack_32: -75846070
+      Jubei Yagyuu_01_Attack_192: 440111132
+      Jubei Yagyuu_01_Attack_21: 1467842345
+      Jubei Yagyuu_01_Attack_1: -1346470030
+      Jubei Yagyuu_01_Attack_53: 1470452102
+      Jubei Yagyuu_01_Attack_89: -210991977
+      Jubei Yagyuu_01_Attack_177: 609447608
+      Jubei Yagyuu_01_Attack_100: 214161946
+      Jubei Yagyuu_01_Attack_36: 1021065570
+      Jubei Yagyuu_01_Attack_168: 1211902131
+      Jubei Yagyuu_01_Attack_131: -1270800030
+      Jubei Yagyuu_01_Attack_120: -2141490843
+      Jubei Yagyuu_RunAttack_02: 1556330066
+      Jubei Yagyuu_01_Attack_116: -966605554
+      Jubei Yagyuu_01_Attack_135: -1930348739
+      Jubei Yagyuu_RunAttack_04: 841822650
+      Jubei Yagyuu_01_Attack_148: 1017966674
+      Jubei Yagyuu_01_Attack_118: -838637092
+      Jubei Yagyuu_01_Attack_183: 2022029446
+      Jubei Yagyuu_01_Attack_190: 531709770
+      Jubei Yagyuu_01_Attack_84: 1078502044
+      Jubei Yagyuu_01_Attack_102: -1295763291
+      Jubei Yagyuu_01_Attack_37: 1511407708
+      Jubei Yagyuu_01_Attack_174: -498404532
+      Jubei Yagyuu_01_Attack_27: 2040829538
+      Jubei Yagyuu_01_Attack_126: 1020656523
+      Jubei Yagyuu_01_Attack_127: -1461246534
+      Jubei Yagyuu_DashAttack_04: -753569072
+      Jubei Yagyuu_01_Attack_60: 197597357
+      Jubei Yagyuu_01_Attack_24: -1490736019
+      Jubei Yagyuu_01_Attack_129: 1153608112
+      Jubei Yagyuu_01_Attack_83: 937200401
+      Jubei Yagyuu_01_Attack_142: 707228754
+      Jubei Yagyuu_01_Attack_2: 347074125
+      Jubei Yagyuu_01_Attack_147: -1169250386
+      Jubei Yagyuu_01_Attack_175: 2025993115
+      Jubei Yagyuu_01_Attack_153: 1749694779
+      Jubei Yagyuu_01_Attack_25: 3562227
+      Jubei Yagyuu_01_Attack_144: -1321134390
+      Jubei Yagyuu_01_Attack_47: -2121736732
+      Jubei Yagyuu_01_Attack_139: 864576216
+      Jubei Yagyuu_01_Attack_78: -1398466204
+      Jubei Yagyuu_01_Attack_79: -340206350
+      Jubei Yagyuu_01_Attack_57: -691397165
+      Jubei Yagyuu_01_Attack_145: 196877679
+      Jubei Yagyuu_01_Attack_48: -2130875790
+      Jubei Yagyuu_01_Attack_4: -1161242968
+      Jubei Yagyuu_01_Attack_70: -617280729
+      Jubei Yagyuu_01_Attack_3: 323194472
+      Jubei Yagyuu_01_Attack_14: -53848425
+      Jubei Yagyuu_01_Attack_98: -92792858
+      Jubei Yagyuu_01_Attack_162: 1105698285
+      Jubei Yagyuu_01_Attack_191: 321538497
+      Jubei Yagyuu_01_Attack_16: -1087982940
+      Jubei Yagyuu_01_Attack_46: -46998703
+      Jubei Yagyuu_01_Attack_211: -1529320177
+      Jubei Yagyuu_RunAttack_05: -534620257
+      Jubei Yagyuu_01_Attack_85: -1491443738
+      Jubei Yagyuu_01_Attack_94: -466347783
+      Jubei Yagyuu_01_Attack_186: 2105391464
+      Jubei Yagyuu_01_Attack_80: -1840156400
+      Jubei Yagyuu_01_Attack_62: 1182322556
+      Jubei Yagyuu_01_Attack_210: -208959281
+      Jubei Yagyuu_01_Attack_73: 1865768690
+      Jubei Yagyuu_RunAttack_06: 1223848806
+      Jubei Yagyuu_01_Attack_8: -1243569575
+      Jubei Yagyuu_01_Attack_169: -571640986
+      Jubei Yagyuu_01_Attack_95: -1395726298
+      Jubei Yagyuu_01_Attack_196: -831426488
+      Jubei Yagyuu_01_Attack_133: -1086377281
+      Jubei Yagyuu_01_Attack_30: -2000181323
+      Jubei Yagyuu_01_Attack_92: -1847599793
+      Jubei Yagyuu_01_Attack_195: -1356248643
+      Jubei Yagyuu_01_Attack_81: 1040893894
+      Jubei Yagyuu_01_Attack_59: -373731445
+      Jubei Yagyuu_01_Attack_61: 1472401463
+      Jubei Yagyuu_01_Attack_90: -1250579643
+      Jubei Yagyuu_01_Attack_31: -1034112999
+      Jubei Yagyuu_01_Attack_50: -643915337
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

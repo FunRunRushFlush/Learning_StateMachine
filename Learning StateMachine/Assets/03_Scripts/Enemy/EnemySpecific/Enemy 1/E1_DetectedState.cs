@@ -24,14 +24,20 @@ public class E1_DetectedState : EnemyDetectedState
     {
         base.LogicUpdate();
 
-        Debug.Log("isPlayerInMaxAggroRange "+ isPlayerInMaxAggroRange);
-        if (performLongRangeAction)
+        if(performCloseRangeAction)
+        {
+            stateMachine.ChangeState(enemy.meleeAttackState);
+        }
+        else if (performLongRangeAction)
         {
             
             stateMachine.ChangeState(enemy.runState);
         }
-
-
+        else if(!isPlayerInMaxAggroRange)
+        {
+            stateMachine.ChangeState(enemy.lookForPlayerState);
+        }
+        
     }
 
     public override void PhysicsUpdate()

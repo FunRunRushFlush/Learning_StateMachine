@@ -5,25 +5,30 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "newEnemyData", menuName = "Data/Enemy Data/BaseData")]
 public class EnemyData : ScriptableObject
 {
-    [Header("Grounded State")]
+    [Header("Idle State")]
     public float minIdleTime;
     public float maxIdleTime;
 
+    [Header("Detecting player State")]
     public float minAggroDistance = 5f;
     public float maxAggroDistance = 15f;
     public LayerMask playerLayer;
 
-    [Header("Grounded_SubMovementState")]
+    [Header("LookingForPlayer State")]
+    public int amountOfTurns = 2;
+    public float timeBetweenTurns = 0.5f;
+
+    [Header("Grounded_MovementState")]
     public float walkVelocity = 10f;
     public float runVelocity = 15f;
     public float backwardsVelocity = 5f;
     public float runTime = 3f;
     public float longRangeActionTime = 1f;
 
-    [Header("Crouching State")]
-    public float crouchVelocity = 3f;
-    public float crouchColliderHeight = 1.6f;
-    public float standColliderHeight = 2.6f;
+    [Header("Attack State")]
+    public float closeRangeActionDistance = 1f;
+    public float attackRadius = 0.5f;
+    public float attackDamage = 10f;
     [Header("Backdash State")]
     public float dashVelocityX = 15f;
     public float dashVelocityY = 5f;

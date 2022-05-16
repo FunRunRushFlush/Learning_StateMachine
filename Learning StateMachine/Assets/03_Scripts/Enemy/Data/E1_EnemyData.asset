@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 287bff7a248a735418ce5ee483464a5c, type: 3}
-  m_Name: newEnemyData
+  m_Name: E1_EnemyData
   m_EditorClassIdentifier: 
   minIdleTime: 1
   maxIdleTime: 2
@@ -19,14 +19,16 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
+  amountOfTurns: 2
+  timeBetweenTurns: 0.5
   walkVelocity: 5
   runVelocity: 15
   backwardsVelocity: 5
   runTime: 1
   longRangeActionTime: 1
-  crouchVelocity: 3
-  crouchColliderHeight: 1.6
-  standColliderHeight: 2.6
+  closeRangeActionDistance: 5
+  attackRadius: 0.5
+  attackDamage: 10
   dashVelocityX: 15
   dashVelocityY: 5
   jumpVelocity: 15

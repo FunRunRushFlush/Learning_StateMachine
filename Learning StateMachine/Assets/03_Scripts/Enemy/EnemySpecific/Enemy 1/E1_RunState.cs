@@ -28,20 +28,29 @@ public class E1_RunState : EnemyRunState
     {
         base.LogicUpdate();
         entity.SetVelocity(enemyData.runVelocity);
-
-        if (isDetectingWall || !isDetectingLedge)
+        if (performCloseRangeAction)
         {
-            enemy.idleState.SetFlipAfterIdle(true);
-            stateMachine.ChangeState(enemy.idleState);
+            stateMachine.ChangeState(enemy.meleeAttackState);
+        }
+        else if (isDetectingWall || !isDetectingLedge)
+        {
+
+            stateMachine.ChangeState(enemy.lookForPlayerState);
         }
         else if (isRunTimeOver)
         {
-            if(isPlayerInMinAggroRange)
+            if (isPlayerInMinAggroRange)
             {
                 stateMachine.ChangeState(enemy.detectedState);
             }
+            else
+            {
+                stateMachine.ChangeState(enemy.lookForPlayerState);
+            }
+
 
         }
+
     }
 
     public override void PhysicsUpdate()

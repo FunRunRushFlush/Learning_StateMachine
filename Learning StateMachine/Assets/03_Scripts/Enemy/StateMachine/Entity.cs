@@ -9,7 +9,8 @@ public class Entity : MonoBehaviour
     public Rigidbody2D rb { get; private set; }
     public Animator animator { get; private set; }
     public GameObject aliveGo { get; private set; }
-
+    public AnimationToStateMachine atsm { get; private set; }
+    public TriggerToStateMachine ttsm { get; private set; }
     public int facingDirection { get; private set; }
 
     private Vector2 workspace;
@@ -30,7 +31,8 @@ public class Entity : MonoBehaviour
         aliveGo = transform.Find("Alive").gameObject;
         rb = aliveGo.GetComponent<Rigidbody2D>();
         animator = aliveGo.GetComponent<Animator>();
-       
+        atsm = aliveGo.GetComponent<AnimationToStateMachine>();
+        ttsm = aliveGo.GetComponent<TriggerToStateMachine>();
 
 
     }
@@ -57,8 +59,8 @@ public class Entity : MonoBehaviour
     }
 
     public virtual bool CheckLedge()
-    { 
-        return Physics2D.Raycast(ledgeCheck.position, Vector2.down, enemyData.ledgeCheckDistance, enemyData.groundLayer); 
+    {
+        return Physics2D.Raycast(ledgeCheck.position, Vector2.down, enemyData.ledgeCheckDistance, enemyData.groundLayer);
     }
     public virtual bool CheckPlayerInMinAggroRange()
     {
@@ -68,6 +70,11 @@ public class Entity : MonoBehaviour
     {
         return Physics2D.Raycast(playerCheck.position, Vector2.right, enemyData.maxAggroDistance * facingDirection, enemyData.playerLayer);
     }
+    public virtual bool CheckPlayerInCloseRangeAction()
+    {
+        return Physics2D.Raycast(playerCheck.position, Vector2.right, enemyData.closeRangeActionDistance * facingDirection, enemyData.playerLayer);
+    }
+
     public virtual void Flip()
     {
         facingDirection *= -1;
