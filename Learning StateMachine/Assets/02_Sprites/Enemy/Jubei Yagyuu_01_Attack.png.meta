@@ -179,13 +179,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_3
+      name: Jubei Yagyuu_LightAttack_01
       rect:
         serializedVersion: 2
         x: 27
         y: 2822
         width: 88
-        height: 116
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,15 +200,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_4
+      name: Jubei Yagyuu_LightAttack_02
       rect:
         serializedVersion: 2
         x: 133
         y: 2822
         width: 138
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.4347826, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,15 +221,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_5
+      name: Jubei Yagyuu_LightAttack_03
       rect:
         serializedVersion: 2
         x: 298
         y: 2822
         width: 139
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.43165466, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,15 +242,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_6
+      name: Jubei Yagyuu_LightAttack_04
       rect:
         serializedVersion: 2
         x: 457
         y: 2822
         width: 105
-        height: 104
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.552381, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,15 +263,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_7
+      name: Jubei Yagyuu_LightAttack_05
       rect:
         serializedVersion: 2
         x: 591
         y: 2822
         width: 161
-        height: 104
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3726708, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,15 +284,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_8
+      name: Jubei Yagyuu_LightAttack_06
       rect:
         serializedVersion: 2
         x: 780
         y: 2822
         width: 105
-        height: 104
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.552381, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,15 +305,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_9
+      name: Jubei Yagyuu_LightAttack_07
       rect:
         serializedVersion: 2
         x: 31
         y: 2695
         width: 151
-        height: 104
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.397351, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,15 +326,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_10
+      name: Jubei Yagyuu_LightAttack_08
       rect:
         serializedVersion: 2
         x: 205
-        y: 2695
+        y: 2696
         width: 105
-        height: 104
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,15 +347,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_11
+      name: Jubei Yagyuu_LightAttack_09
       rect:
         serializedVersion: 2
         x: 336
         y: 2695
         width: 105
-        height: 104
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -368,15 +368,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_12
+      name: Jubei Yagyuu_LightAttack_10
       rect:
         serializedVersion: 2
         x: 470
         y: 2695
         width: 138
-        height: 104
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.4347826, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1376,14 +1376,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_60
+      name: Jubei Yagyuu_StichAttack_01
       rect:
         serializedVersion: 2
         x: 8
         y: 1796
         width: 88
-        height: 116
-      alignment: 0
+        height: 120
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -1397,13 +1397,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_61
+      name: Jubei Yagyuu_StichAttack_02
       rect:
         serializedVersion: 2
         x: 120
         y: 1796
         width: 106
-        height: 102
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1418,15 +1418,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_62
+      name: Jubei Yagyuu_StichAttack_03
       rect:
         serializedVersion: 2
         x: 247
         y: 1797
         width: 105
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.45714286, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1439,15 +1439,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_63
+      name: Jubei Yagyuu_StichAttack_04
       rect:
         serializedVersion: 2
         x: 362
         y: 1796
         width: 186
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.32258064, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1460,15 +1460,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_64
+      name: Jubei Yagyuu_StichAttack_05
       rect:
         serializedVersion: 2
-        x: 562
+        x: 561
         y: 1796
         width: 191
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.34031415, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1481,15 +1481,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_65
+      name: Jubei Yagyuu_StichAttack_06
       rect:
         serializedVersion: 2
         x: 763
         y: 1796
         width: 191
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.34031415, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1502,15 +1502,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jubei Yagyuu_01_Attack_66
+      name: Jubei Yagyuu_StichAttack_07
       rect:
         serializedVersion: 2
         x: 975
         y: 1796
         width: 192
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 120
+      alignment: 9
+      pivot: {x: 0.33854166, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4519,6 +4519,7 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_45: -213757652
       Jubei Yagyuu_DashAttack_02: -1474859362
       Jubei Yagyuu_01_Attack_164: 361790860
+      Jubei Yagyuu_LightAttack_04: -363687260
       Jubei Yagyuu_01_Attack_35: -963112217
       Jubei Yagyuu_01_Attack_117: -1983577756
       Jubei Yagyuu_01_Attack_176: -1447455659
@@ -4536,13 +4537,14 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_138: 1589790148
       Jubei Yagyuu_01_Attack_194: -788374503
       Jubei Yagyuu_01_Attack_207: -999599651
-      Jubei Yagyuu_01_Attack_6: -363687260
       Jubei Yagyuu_01_Attack_18: 182305206
       Jubei Yagyuu_01_Attack_74: -259162725
       Jubei Yagyuu_01_Attack_132: -1936417114
       Jubei Yagyuu_01_Attack_39: 1440449365
       Jubei Yagyuu_01_Attack_150: -1081127049
       Jubei Yagyuu_01_Attack_128: 1590675251
+      Jubei Yagyuu_StichAttack_03: 1182322556
+      Jubei Yagyuu_StichAttack_01: 197597357
       Jubei Yagyuu_01_Attack_56: -638912833
       Jubei Yagyuu_01_Attack_171: -141836360
       Jubei Yagyuu_01_Attack_189: -347322518
@@ -4550,51 +4552,49 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_113: 1917332916
       Jubei Yagyuu_01_Attack_119: -579068750
       Jubei Yagyuu_01_Attack_136: 103111072
-      Jubei Yagyuu_01_Attack_9: 165752827
       Jubei Yagyuu_01_Attack_44: -2082959113
       Jubei Yagyuu_01_Attack_121: -1838182879
       Jubei Yagyuu_01_Attack_41: -1264495585
       Jubei Yagyuu_01_Attack_42: -816886235
       Jubei Yagyuu_01_Attack_134: 585166547
-      Jubei Yagyuu_01_Attack_51: 729064706
       Jubei Yagyuu_01_Attack_75: 1591428063
-      Jubei Yagyuu_01_Attack_5: -145120293
-      Jubei Yagyuu_01_Attack_157: -1262255650
+      Jubei Yagyuu_01_Attack_51: 729064706
       Jubei Yagyuu_01_Attack_209: -618018387
+      Jubei Yagyuu_01_Attack_157: -1262255650
       Jubei Yagyuu_01_Attack_97: 1580970203
       Jubei Yagyuu_01_Attack_193: 1976888260
-      Jubei Yagyuu_01_Attack_63: -865690922
+      Jubei Yagyuu_LightAttack_02: -1161242968
       Jubei Yagyuu_01_Attack_13: 1068336616
       Jubei Yagyuu_01_Attack_130: -2080177002
       Jubei Yagyuu_01_Attack_160: -1148293030
       Jubei Yagyuu_RunAttack_01: -1650650916
       Jubei Yagyuu_01_Attack_178: 917227042
       Jubei Yagyuu_DashAttack_06: 2100264810
-      Jubei Yagyuu_01_Attack_64: 1787248682
       Jubei Yagyuu_01_Attack_52: -795913514
+      Jubei Yagyuu_LightAttack_01: 323194472
       Jubei Yagyuu_RunAttack_07: -44275889
       Jubei Yagyuu_01_Attack_71: -482355505
       Jubei Yagyuu_01_Attack_114: -1392143474
       Jubei Yagyuu_01_Attack_151: 875621380
       Jubei Yagyuu_01_Attack_87: -1806125961
+      Jubei Yagyuu_LightAttack_07: 165752827
       Jubei Yagyuu_01_Attack_93: 213476904
       Jubei Yagyuu_01_Attack_91: -868805427
       Jubei Yagyuu_01_Attack_99: -1809525756
-      Jubei Yagyuu_01_Attack_12: -1391742648
-      Jubei Yagyuu_01_Attack_66: -865852778
-      Jubei Yagyuu_01_Attack_115: 83265308
       Jubei Yagyuu_01_Attack_58: 2051958351
+      Jubei Yagyuu_01_Attack_115: 83265308
+      Jubei Yagyuu_01_Attack_154: -711082411
       Jubei Yagyuu_01_Attack_124: 574620503
-      Jubei Yagyuu_01_Attack_143: 784786290
+      Jubei Yagyuu_01_Attack_166: -1482132872
       Jubei Yagyuu_01_Attack_20: 729316418
-      Jubei Yagyuu_01_Attack_137: 1643985051
+      Jubei Yagyuu_01_Attack_143: 784786290
       Jubei Yagyuu_01_Attack_155: -41071463
       Jubei Yagyuu_01_Attack_172: -1952432181
-      Jubei Yagyuu_01_Attack_187: -1634457338
+      Jubei Yagyuu_01_Attack_137: 1643985051
       Jubei Yagyuu_01_Attack_19: -1549231819
       Jubei Yagyuu_01_Attack_140: -441837041
+      Jubei Yagyuu_01_Attack_187: -1634457338
       Jubei Yagyuu_01_Attack_199: -1627544312
-      Jubei Yagyuu_01_Attack_65: -1703631253
       Jubei Yagyuu_01_Attack_182: 212083139
       Jubei Yagyuu_01_Attack_112: 575366842
       Jubei Yagyuu_01_Attack_165: 515301665
@@ -4602,22 +4602,20 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_69: -2141206325
       Jubei Yagyuu_01_Attack_161: -1150279155
       Jubei Yagyuu_01_Attack_180: -309197386
-      Jubei Yagyuu_01_Attack_166: -1482132872
-      Jubei Yagyuu_01_Attack_10: -1560006654
-      Jubei Yagyuu_01_Attack_154: -711082411
       Jubei Yagyuu_01_Attack_23: 135495502
       Jubei Yagyuu_01_Attack_49: -1132752756
       Jubei Yagyuu_01_Attack_68: 1319564901
       Jubei Yagyuu_01_Attack_185: 1296207474
       Jubei Yagyuu_01_Attack_146: 2025856994
-      Jubei Yagyuu_01_Attack_11: -1155560161
       Jubei Yagyuu_01_Attack_96: 1635069801
       Jubei Yagyuu_01_Attack_110: 1827211246
       Jubei Yagyuu_01_Attack_159: -880701672
       Jubei Yagyuu_DashAttack_07: 220652709
       Jubei Yagyuu_01_Attack_173: 154919792
+      Jubei Yagyuu_LightAttack_03: -145120293
       Jubei Yagyuu_01_Attack_76: 1717762075
       Jubei Yagyuu_01_Attack_29: -1271886048
+      Jubei Yagyuu_StichAttack_07: -865852778
       Jubei Yagyuu_01_Attack_54: 1805212809
       Jubei Yagyuu_01_Attack_156: 150943680
       Jubei Yagyuu_01_Attack_188: -1334448528
@@ -4626,6 +4624,7 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_88: -1651018772
       Jubei Yagyuu_01_Attack_122: -523435988
       Jubei Yagyuu_01_Attack_125: -585034364
+      Jubei Yagyuu_StichAttack_06: -1703631253
       Jubei Yagyuu_01_Attack_163: -1612512830
       Jubei Yagyuu_01_Attack_184: -1402203760
       Jubei Yagyuu_DashAttack_01: 1232893374
@@ -4640,11 +4639,12 @@ TextureImporter:
       Jubei Yagyuu_RunAttack_03: -821119706
       Jubei Yagyuu_01_Attack_152: 1390646663
       Jubei Yagyuu_01_Attack_82: -547144511
-      Jubei Yagyuu_01_Attack_123: -2010170423
       Jubei Yagyuu_DashAttack_05: -1822222660
-      Jubei Yagyuu_01_Attack_7: -1837198509
+      Jubei Yagyuu_01_Attack_123: -2010170423
       Jubei Yagyuu_01_Attack_17: 1234583982
       Jubei Yagyuu_01_Attack_208: 1517717668
+      Jubei Yagyuu_LightAttack_06: -1243569575
+      Jubei Yagyuu_LightAttack_08: -1560006654
       Jubei Yagyuu_01_Attack_212: -1297567248
       Jubei Yagyuu_01_Attack_34: -583656120
       Jubei Yagyuu_01_Attack_181: -1446915598
@@ -4660,6 +4660,7 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_36: 1021065570
       Jubei Yagyuu_01_Attack_168: 1211902131
       Jubei Yagyuu_01_Attack_131: -1270800030
+      Jubei Yagyuu_LightAttack_05: -1837198509
       Jubei Yagyuu_01_Attack_120: -2141490843
       Jubei Yagyuu_RunAttack_02: 1556330066
       Jubei Yagyuu_01_Attack_116: -966605554
@@ -4669,6 +4670,7 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_118: -838637092
       Jubei Yagyuu_01_Attack_183: 2022029446
       Jubei Yagyuu_01_Attack_190: 531709770
+      Jubei Yagyuu_LightAttack_09: -1155560161
       Jubei Yagyuu_01_Attack_84: 1078502044
       Jubei Yagyuu_01_Attack_102: -1295763291
       Jubei Yagyuu_01_Attack_37: 1511407708
@@ -4677,13 +4679,12 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_126: 1020656523
       Jubei Yagyuu_01_Attack_127: -1461246534
       Jubei Yagyuu_DashAttack_04: -753569072
-      Jubei Yagyuu_01_Attack_60: 197597357
       Jubei Yagyuu_01_Attack_24: -1490736019
-      Jubei Yagyuu_01_Attack_129: 1153608112
       Jubei Yagyuu_01_Attack_83: 937200401
       Jubei Yagyuu_01_Attack_142: 707228754
-      Jubei Yagyuu_01_Attack_2: 347074125
+      Jubei Yagyuu_01_Attack_129: 1153608112
       Jubei Yagyuu_01_Attack_147: -1169250386
+      Jubei Yagyuu_01_Attack_2: 347074125
       Jubei Yagyuu_01_Attack_175: 2025993115
       Jubei Yagyuu_01_Attack_153: 1749694779
       Jubei Yagyuu_01_Attack_25: 3562227
@@ -4695,12 +4696,12 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_57: -691397165
       Jubei Yagyuu_01_Attack_145: 196877679
       Jubei Yagyuu_01_Attack_48: -2130875790
-      Jubei Yagyuu_01_Attack_4: -1161242968
+      Jubei Yagyuu_01_Attack_162: 1105698285
       Jubei Yagyuu_01_Attack_70: -617280729
-      Jubei Yagyuu_01_Attack_3: 323194472
+      Jubei Yagyuu_StichAttack_02: 1472401463
       Jubei Yagyuu_01_Attack_14: -53848425
       Jubei Yagyuu_01_Attack_98: -92792858
-      Jubei Yagyuu_01_Attack_162: 1105698285
+      Jubei Yagyuu_LightAttack_10: -1391742648
       Jubei Yagyuu_01_Attack_191: 321538497
       Jubei Yagyuu_01_Attack_16: -1087982940
       Jubei Yagyuu_01_Attack_46: -46998703
@@ -4710,11 +4711,11 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_94: -466347783
       Jubei Yagyuu_01_Attack_186: 2105391464
       Jubei Yagyuu_01_Attack_80: -1840156400
-      Jubei Yagyuu_01_Attack_62: 1182322556
+      Jubei Yagyuu_StichAttack_05: 1787248682
       Jubei Yagyuu_01_Attack_210: -208959281
       Jubei Yagyuu_01_Attack_73: 1865768690
       Jubei Yagyuu_RunAttack_06: 1223848806
-      Jubei Yagyuu_01_Attack_8: -1243569575
+      Jubei Yagyuu_StichAttack_04: -865690922
       Jubei Yagyuu_01_Attack_169: -571640986
       Jubei Yagyuu_01_Attack_95: -1395726298
       Jubei Yagyuu_01_Attack_196: -831426488
@@ -4724,7 +4725,6 @@ TextureImporter:
       Jubei Yagyuu_01_Attack_195: -1356248643
       Jubei Yagyuu_01_Attack_81: 1040893894
       Jubei Yagyuu_01_Attack_59: -373731445
-      Jubei Yagyuu_01_Attack_61: 1472401463
       Jubei Yagyuu_01_Attack_90: -1250579643
       Jubei Yagyuu_01_Attack_31: -1034112999
       Jubei Yagyuu_01_Attack_50: -643915337

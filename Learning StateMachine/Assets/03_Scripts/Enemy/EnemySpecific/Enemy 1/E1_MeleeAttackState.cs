@@ -26,6 +26,7 @@ public class E1_MeleeAttackState : EnemyMeleeAttackState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+
         if (isAnimationFinished)
         {
             if (isPlayerInMaxAggroRange)
@@ -36,6 +37,10 @@ public class E1_MeleeAttackState : EnemyMeleeAttackState
             {
                 stateMachine.ChangeState(enemy.lookForPlayerState);
             }
+        }
+        else if(!isAnimationFinished)
+        {
+            entity.SetVelocity(enemyData.runVelocity);
         }
     }
 

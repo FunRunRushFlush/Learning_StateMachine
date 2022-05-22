@@ -30,6 +30,7 @@ public class E1_RunState : EnemyRunState
         entity.SetVelocity(enemyData.runVelocity);
         if (performCloseRangeAction)
         {
+            attackModifier = 0;
             stateMachine.ChangeState(enemy.meleeAttackState);
         }
         else if (isDetectingWall || !isDetectingLedge)
